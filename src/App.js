@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './components/common/Navbar';
 import WhatWeDo from './components/fox-vision/WhatWeDo';
 
 function App() {
   return (
-    <div >
-      <WhatWeDo/>
+    <div>
+     <Navbar/>
+     <WhatWeDo/>
     </div>
   );
 }
