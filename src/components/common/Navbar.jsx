@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import Logo from "../../asstes/images/webp/navbar/nav-logo.png"
 const Navbar = () => {
   const [navBar, setNavBar] = useState(false);
 
@@ -16,9 +16,9 @@ const Navbar = () => {
   }, [navBar]);
 
   return (
-    <nav className="max-w-[1240px] mx-auto px-3 rounded-[150px] py-[11px] shadow-nav-shadow bg-white">
+    <nav className="max-w-[1240px] mx-auto px-[50px] h-[74px] rounded-[150px] py-[11px] flex items-center justify-between mt-[19px] shadow-[0px_0px_13px_0px_#00000024] bg-white">
     
-      <div className="mx-auto">
+        <img src={Logo} alt="logo"  className="w-[207px] h-[27.92px]"/>
         <ul
           className={`flex items-center  gap-5 z-10 relative  sm:gap-6 duration-300 max-md:fixed max-md:w-full max-md:!min-h-screen max-md:justify-center  max-md:flex-col max-md:top-0 max-md:left-[-105%] max-md:p-[30px] max-md:!bg-white ${
             navBar && "!left-0"
@@ -27,7 +27,7 @@ const Navbar = () => {
             <li><a href="">kulvider</a></li>
           
         </ul>
-      </div>
+    
       <button onClick={showNav} className="md:hidden relative z-50">
         {navBar ? (
           <div className="flex md:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer">
