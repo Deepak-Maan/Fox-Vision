@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav ul li a:hover {
+    -webkit-text-stroke-width: 0.5px;
+  }
