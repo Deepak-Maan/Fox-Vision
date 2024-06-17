@@ -3,6 +3,7 @@ import footerLogo from '../../asstes/images/svg/footerLogo.svg';
 import { footerIcons } from './Helper';
 import footerVector1 from '../../asstes/images/webp/footer/footerVector1.png';
 import footerVector2 from '../../asstes/images/webp/footer/footerVector2.png';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -13,7 +14,9 @@ const Footer = () => {
             <div className='container xl:max-w-[1140px] px-3 mx-auto pt-[210px]'>
                 <div className='flex flex-row flex-wrap pb-[48px] sm:pb-[64px] md:pb-[80px] lg:pb-[111px] justify-between'>
                     <div className='lg:w-4/12 w-full'>
-                        <img src={footerLogo} alt="logo" className='sm:w-[252px] h-[33px] w-[230px]' />
+                        <Link href="">
+                            <img src={footerLogo} alt="logo" className='sm:w-[252px] h-[33px] w-[230px]' />
+                        </Link>
                         <p className='font-poppins text-white opacity-70 max-w-[311px] leading-normal mt-2 sm:mt-4 mb-4 sm:mb-[30px]'>Libero morbi pharetra sollicitudin enim praesent nulla velit sitonec leodui.</p>
                         <div className="flex gap-[16px] items-center">
                             {footerIcons.map((icon, index) => {

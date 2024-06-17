@@ -3,8 +3,8 @@ import work from "../../asstes/images/webp/how-we-work/howWeWork.png";
 import { WorkArrow } from "../common/Icons";
 import { howWeWorkCardlist, howWeWorksCard } from "../common/Helper";
 import WorksCard from "../common/WorksCard";
-import {CommonHeading} from "./CommonHeading"
-import CommonBtn from "./CommonBtn";
+import {CommonHeading} from "../common/CommonHeading"
+import CommonBtn from "../common/CommonBtn";
 
 const HowWeWorks = () => {
     return (

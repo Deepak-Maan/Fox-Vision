@@ -1,5 +1,5 @@
 import React from 'react'
-import CommonButton from './CommonBtn'
+import CommonButton from '../common/CommonBtn'
 
 const ProjectStarten = () => {
     return (
