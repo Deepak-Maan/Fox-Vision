@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Logo from "../../asstes/images/webp/hero/nav-logo.png"
 import { Link } from "react-router-dom";
 import { Calling, Email } from "./Icons";
-import CommonButton from "./CommonBtn";
+import CommonBtn from "./CommonBtn";
 const Navbar = () => {
   const [navBar, setNavBar] = useState(false);
 
@@ -67,7 +67,7 @@ Portfolio
            <a href="tel:+1234567890" className="hover:translate-y-[-6px] md:hidden transition-all duration-300 ease-linear"><Calling/></a>
            <a href="mailto:example@example.com" className="hover:translate-y-[-6px] md:hidden transition-all duration-300 ease-linear"><Email/></a>
            </span>
-    <CommonButton  btnName="Kontakt"className="w-[124px]  md:hidden"/>
+    <CommonBtn  btnName="Kontakt"className="w-[124px]  md:hidden"/>
         </li>
 
           
@@ -75,7 +75,7 @@ Portfolio
         <div className="flex items-center gap-2 md:gap-4 relative z-20">
             <a href="tel:+1234567890" className="hover:translate-y-[-6px] hidden md:block transition-all duration-300 ease-linear"><Calling/></a>
             <a href="mailto:example@example.com" className="hover:translate-y-[-6px] hidden md:block  transition-all duration-300 ease-linear"><Email/></a>
-    <CommonButton  btnName="Kontakt"className="w-[124px] hidden md:block "/>
+    <CommonBtn  btnName="Kontakt"className="w-[124px] hidden md:block "/>
         </div>
     
       <button onClick={showNav} className="lg:hidden relative z-50">

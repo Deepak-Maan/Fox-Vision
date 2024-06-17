@@ -54,7 +54,7 @@ const WhatWeDo = () => {
                 </div>
             </div>
             <div className=' sm:pt-20 md:pt-40 lg:pt-52 flex-row flex-wrap lg:flex-nowrap -mx-3 flex items-center relative pb-8 sm:pb-12 md:pb-16 lg:pb-[102px]'>
-            <span className=' absolute left-0 1xl:left-[-8%] top-[10%] sm:top-[26%] lg:top-[33%] z-[-1]'>
+            <span className=' absolute left-0 1xl:left-[-9%] top-[10%] sm:top-[26%] lg:top-[29%] z-[-1]'>
                         <BlueElipseBg />
                     </span>
                 <div className='w-7/2 px-3 relative mx-auto'>
@@ -80,9 +80,9 @@ const WhatWeDo = () => {
                     </div>
                 </div>
             </div>
-            <span className=' pb-[30px]'>
+            <div className='!mb-[30px]'>
                 <Logo/>
-            </span>
+            </div>
         </div>
         </div>
     )

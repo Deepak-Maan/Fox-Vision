@@ -1,13 +1,25 @@
 
 import './App.css';
-import Navbar from './components/common/Navbar';
-import WhatWeDo from './components/fox-vision/WhatWeDo';
+import Home from "./pages/Home"
+import AboutUs from "./pages/AboutUs"
+import ContactUs from "./pages/ContactUs"
+import Portfolio from "./pages/Portfolio"
+import Offer from "./pages/Offer"
+import Footer from '../src/components/common/Footer'
+import { Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
     <div>
-     <Navbar/>
-     <WhatWeDo/>
+    <Routes>
+    <Route path="/" element={<Home />}></Route>
+    <Route path="/about" element={<AboutUs />}></Route>
+    <Route path="/contact" element={<ContactUs />}></Route>
+    <Route path="/portfolio" element={<Portfolio />}></Route>
+    <Route path="/offer" element={<Offer />}></Route>
+  </Routes>
+    <Footer />
     </div>
   );
 }

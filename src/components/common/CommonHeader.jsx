@@ -8,7 +8,7 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph }) => {
       <div className="max-w-[1164px] mx-auto px-3">
         <Navbar/>
         <div className="sm:px-12 mt-16 pb-[59px] md:px-8 lg:px-0 flex flex-col items-center">
-          <h1 className='leading-[107%] font-montserrat text-center text-white text-5xl md:text-6xxl lg:text-8xxl'>
+          <h1 className='leading-[107%] font-montserrat text-center text-white text-3xl sm:text-5xl md:text-6xxl lg:text-8xxl'>
             {heroHeading ? (
               heroHeading.map((part, index) => (
                 <span key={index} className={part.isBold ? 'font-bold' : 'font-normal'}>
