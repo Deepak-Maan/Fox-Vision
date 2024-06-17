@@ -1,4 +1,4 @@
- const CommonButton = ({ btnName, className }) => {
+export const CommonBtn = ({ btnName, className }) => {
     return (
         <div>
             <button
@@ -10,4 +10,4 @@
   );
 };
 
-export default CommonButton;
+export default CommonBtn;

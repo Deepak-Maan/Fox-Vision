@@ -1,4 +1,4 @@
-import { Facebook, Instagram } from "./Icons";
+import { Facebook, Instagram, PlatformIntegration, SoftwareDevelopment, WebsiteSolution } from "./Icons";
 
 //------------------FOOTER---------------
 export const footerIcons = [
@@ -13,3 +13,24 @@ export const footerIcons = [
         label: "instagram",
     },
 ]
+//----------------- HOW WE WORK ------------------------
+export const howWeWorksCard = [
+    {
+        worksvg: <PlatformIntegration />,
+        title: "App Platform Intergration",
+        description:
+            "Visual graphic design is the art of using visual elements, such as images, typography, color, and layout, to convey a message, tell a story, or evoke emotions.",
+    },
+    {
+        worksvg: <SoftwareDevelopment />,
+        title: "Software Tools Development",
+        description:
+            "Visual graphic design is the art of using visual elements, such as images, typography, color, and layout, to convey a message, tell a story, or evoke emotions.",
+    },
+    {
+        worksvg: <WebsiteSolution />,
+        title: "Teach Website Solution",
+        description:
+            "Visual graphic design is the art of using visual elements, such as images, typography, color, and layout, to convey a message, tell a story, or evoke emotions.",
+    },
+];
