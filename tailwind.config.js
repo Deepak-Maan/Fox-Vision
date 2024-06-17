@@ -27,6 +27,9 @@ module.exports = {
         md: "121%",
         lg: "183%",
       },
+      screens:{
+        '1xl': '1350px'
+      }
     },
   },
   plugins: [],
