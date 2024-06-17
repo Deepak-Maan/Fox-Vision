@@ -5,11 +5,11 @@ import { Arrow, Logo } from './Icon';
 const CommonWhatWeDo = ({CommonWhatWeDosubheading ,CommonWhatWeDoimg , CommonWhatWeDoheading , CommonWhatWeDotext1 ,CommonWhatWeDotext2 , CommonWhatWeDotext3}) => {
   return (
 <>
-<p className='font-poppins font-bold text-xl leading-lg text-darkblue text-center lg:text-start'>{CommonWhatWeDosubheading}</p>
-            <div className='flex-row flex flex-wrap -mx-3 mt-3 relative'>
+<p className='font-poppins font-bold sm:text-xl text-sm leading-lg text-darkblue text-center lg:text-start'>{CommonWhatWeDosubheading}</p>
+            <div className='flex-row flex flex-wrap -mx-3 md:mt-3 relative'>
                 <span className='absolute left-0 lg:left-[38%] top-[-18%] lg:top-[1%]'><Arrow/></span>
                 <div className='w-full lg:w-1/2 px-3'>
-                    <h2 className='font-semibold font-montserrat text-5xl lg:text-6xxl leading-md text-darkblue text-center lg:text-start'>{CommonWhatWeDoheading}</h2>
+                    <h2 className='font-semibold font-montserrat text-4xl md:text-6xxl leading-md text-darkblue text-center lg:text-start'>{CommonWhatWeDoheading}</h2>
                     <img src={CommonWhatWeDoimg} alt="displayAvatar" className='max-w-[590.5px] mx-auto w-full xl:w-auto max-h-[378.96px] mt-4 sm:mt-6 lg:mt-12 lg:-mx-3' />
                 </div>
                 <div className='w-full lg:w-1/2 px-3 flex flex-col lg:items-end mt-5 lg:mt-0'>
