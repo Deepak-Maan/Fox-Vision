@@ -4,6 +4,7 @@ import HowWeWorks from '../components/fox-vision/HowWeWorks'
 import ProjectStarten from '../components/fox-vision/ProjectStarten'
 import DesignMastery from '../components/about/DesignMastery'
 import CustomerFocus from '../components/about/CustomerFocus'
+import ContactWithFoxvision from '../components/contact-us/ContactWithFoxvision'
 const AboutUs = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const AboutUs = () => {
         hideParagraph={true} />
 
       <DesignMastery />
+      <ContactWithFoxvision />
       <HowWeWorks />
       <CustomerFocus />
       <ProjectStarten />
