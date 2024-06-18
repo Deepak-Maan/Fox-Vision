@@ -2,6 +2,7 @@ import React from 'react'
 import CommonHeader from '../components/common/CommonHeader'
 import OfferCards from '../components/offer/OfferCards'
 import DesignStrategy from '../components/offer/DesignStrategy'
+import ReachOut from '../components/contact-us/ReachOut'
 
 const Offer = () => {
   return (
@@ -13,6 +14,7 @@ const Offer = () => {
         hideParagraph={true} />
       <OfferCards />
       <DesignStrategy />
+      <ReachOut />
     </div>
   )
 }
