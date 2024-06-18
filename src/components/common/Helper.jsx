@@ -1,4 +1,4 @@
-import { Facebook, Instagram, PlatformIntegration, SoftwareDevelopment, WebsiteSolution, CorporateIdentity, MehrBtnArrow, Redesign, WebDesign, DigitalMarketing, DruckStick, Beschriftungen } from "./Icons";
+import { Facebook, Instagram, PlatformIntegration, SoftwareDevelopment, WebsiteSolution, CorporateIdentity, MehrBtnArrow, Redesign, WebDesign, DigitalMarketing, DruckStick, Beschriftungen, ReachPhoneIcon, ReachMessageIcon, ReachLocationIcon } from "./Icons";
 import wireFrame from "../../asstes/images/webp/offer/wireFraming.webp"
 import webDesign from "../../asstes/images/webp/offer/webDesign.webp"
 import appDesign from "../../asstes/images/webp/offer/appDesign.webp"
@@ -236,5 +236,28 @@ export const designStrategyData = [
         id: "4.",
         heading: "User Testing",
         para: "Real users provide invaluable feedback to refine the design, ensuring it aligns with user expectations.",
+    },
+]
+// ----------------------------------ReachOut data----------------------------------//
+
+export const reachOutData = [
+    {
+        link: "tel:+41 725 61 00",
+        icon: < ReachPhoneIcon />,
+        heading: "Call Us",
+        para: "+41 725 61 00",
+    },
+    {
+        link: "mailto:info@foxvision.ch",
+        icon: <ReachMessageIcon />,
+        heading: "Email Us",
+        para: "info@foxvision.ch",
+    },
+    {
+        target: "_blank",
+        link: "https://www.google.com/maps/search/Fox+Vision+GmbH+Badstrasse+50+CH-5200+Brugg/@47.474052,8.1922933,17z/data=!3m1!4b1?entry=ttu",
+        icon: <ReachLocationIcon />,
+        heading: "Visit Us ",
+        para: "Fox Vision GmbH Badstrasse 50 CH-5200 Brugg",
     },
 ]
