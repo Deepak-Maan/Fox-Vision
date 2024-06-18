@@ -3,27 +3,27 @@ import work from "../../asstes/images/webp/how-we-work/howWeWork.png";
 import { WorkArrow } from "../common/Icons";
 import { howWeWorkCardlist, howWeWorksCard } from "../common/Helper";
 import WorksCard from "../common/WorksCard";
-import {CommonHeading} from "../common/CommonHeading"
+import { CommonHeading, CommonsubHeading } from "../common/CommonHeading"
 import CommonBtn from "../common/CommonBtn";
 
 const HowWeWorks = () => {
     return (
-        <div className="xl:pt-[144.76px] xl:pb-[126.85ox] sm:py-[64px] lg:py-[70px] py-[48px]">
+        <div className="xl:pt-[144.76px] xl:pb-[126.85px] lg:py-[70px] sm:py-[64px] py-[48px]">
             <div className="container xl:max-w-[1164px] px-3 mx-auto">
-                <div className="flex flex-row flex-wrap justify-between items-end">
+                <div className="flex flex-row flex-wrap lg:justify-between items-end">
                     <div className="lg:w-6/12 w-full relative">
                         <WorkArrow className="absolute xl:-right-[14%] xl:top-[16%] top-[11%] -right-[24%] max-xl:max-w-[140px] lg:block hidden" />
-                        <p className="uppercase font-poppins text-darkblue text-center lg:text-start font-bold sm:text-xl text-sm !leading-normal sm:mb-3">
-                            A RESULTS-DRIVEN AGENCY
-                        </p>
-                       c
-                        <img
-                            width={378}
-                            height={294}
-                            src={work}
-                            alt="work"
-                            className="w-full sm:max-w-[378px] max-w-[310px]"
-                        />
+                        <CommonsubHeading className="lg:text-start" subheading="A RESULTS-DRIVEN AGENCY" />
+                        <CommonHeading heading="How we work" />
+                        <div className="flex justify-center items-center lg:justify-start">
+                            <img
+                                width={378}
+                                height={294}
+                                src={work}
+                                alt="work"
+                                className="w-full sm:max-w-[378px] max-w-[310px]"
+                            />
+                        </div>
                     </div>
                     <div className="lg:w-6/12 w-full mb-[10px] flex justify-end lg:pt-0 pt-6">
                         <div className="flex flex-col justify-center lg:justify-start items-center lg:items-start">
@@ -33,7 +33,7 @@ const HowWeWorks = () => {
                                 increase sales, increase brand awareness or attract new
                                 employees. We always look for the <span className="text-sky">
                                     right solution for your company </span>
-                                 and advise you individually
+                                and advise you individually
                             </p>
                             <CommonBtn btnName="Contact" />
                         </div>

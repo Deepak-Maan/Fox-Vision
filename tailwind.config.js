@@ -15,6 +15,7 @@ module.exports = {
         lightsky: "#E9FCFF",
         darkpurple: "#4B17E6",
         offpurple: " #4B17E60A",
+        lightsky2: '#50E2FC'
       },
       fontSize: {
         " xxsm": "8px",

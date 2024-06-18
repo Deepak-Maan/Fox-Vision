@@ -1,5 +1,16 @@
-import { Facebook, Instagram, PlatformIntegration, SoftwareDevelopment, WebsiteSolution } from "./Icons";
+import { Facebook, Instagram, PlatformIntegration, SoftwareDevelopment, WebsiteSolution, CorporateIdentity, MehrBtnArrow, Redesign, WebDesign, DigitalMarketing, DruckStick,Beschriftungen } from "./Icons";
+
 import Palokaag from "../../asstes/images/webp/portfolio/palokaag.png";
+import Sanalife from "../../asstes/images/webp/portfolio/sanalife.png";
+import PalokaagWhite from "../../asstes/images/webp/portfolio/palokaagWhite.png";
+import PalokaagWhite2 from "../../asstes/images/webp/portfolio/palokaagWhite2.png";
+import Blue_White from "../../asstes/images/webp/portfolio/blue&White.png";
+import AbrGmbh from "../../asstes/images/webp/portfolio/abrGmbh.png";
+import GreyCloth from "../../asstes/images/webp/portfolio/greyCloth.png";
+import BlueTshirt from "../../asstes/images/webp/portfolio/blueTshirt.png";
+import TwoBlueTshirt from "../../asstes/images/webp/portfolio/2BlueTshirt.png";
+import MallGlass from "../../asstes/images/webp/portfolio/mallGlass.png";
+import RoofGlass from "../../asstes/images/webp/portfolio/roofGlass.png";
 //------------------FOOTER---------------
 export const footerIcons = [
     {
@@ -34,6 +45,57 @@ export const howWeWorksCard = [
             "Visual graphic design is the art of using visual elements, such as images, typography, color, and layout, to convey a message, tell a story, or evoke emotions.",
     },
 ];
+//------------------ANGEBOT----------------
+export const angebotCardList = [
+    {
+        angebotsvg: <CorporateIdentity />,
+        title: "Corporate Identity",
+        description:
+            "Viele verbinden damit in erster Linie Logo und Farben. Corporate Identity ist weitaus mehr...",
+        cardBtn: "Mehr",
+        Btnarrow: <MehrBtnArrow />,
+    },
+    {
+        angebotsvg: <Redesign />,
+        title: "Redesign",
+        description:
+            "Sie haben durch Ihren Service und Ihre Dienstleistungen bereits einen hohen Bekanntheitsgrad erreicht und möchten..",
+        cardBtn: "Mehr",
+        Btnarrow: <MehrBtnArrow />,
+    },
+    {
+        angebotsvg: <WebDesign />,
+        title: "Web design",
+        description:
+            "Zeitgemässe und schönes Design macht Kunden neugierig und weckt bereits innert kurzer Zeit mehr Vertrauen...",
+        cardBtn: "Mehr",
+        Btnarrow: <MehrBtnArrow />,
+    },
+    {
+        angebotsvg: <DigitalMarketing />,
+        title: "Digital Marketing",
+        description:
+            "Digitales Auftreten war für Unternehmen noch nie wichtiger als jetzt. Kunden, Partner und Lieferanten setzen von Tag zu Tag auf digitale Lösungen...",
+        cardBtn: "Mehr",
+        Btnarrow: <MehrBtnArrow />,
+    },
+    {
+        angebotsvg: <DruckStick />,
+        title: "Arbeitsbekleidungen - Druck & Stick",
+        description:
+            "Visual graphic design is the art of using visual elements, such as images, typography, color, and layout.",
+        cardBtn: "Mehr",
+        Btnarrow: <MehrBtnArrow />,
+    },
+    {
+        angebotsvg: <Beschriftungen />,
+        title: "Beschriftungen",
+        description:
+            "Lorem ipsum dolor sit amet consectetur. Urna feugiat et morbi risus nibh in sed. Felis nisl bibendum ut velit amet pharetra.",
+        cardBtn: "Mehr",
+        Btnarrow: <MehrBtnArrow />,
+    },
+]
 //----------------- PORTFOLIO ------------------------
 export const portfolioData = [
     {
@@ -44,61 +106,85 @@ export const portfolioData = [
     },
     {
         id: 2,
-        image: Palokaag,
+        image: Sanalife,
         name: "Gut versichert ins leben.",
         description: "Wir helfen ihnen dabei",
     },
     {
         id: 3,
-        image: Palokaag,
+        image: PalokaagWhite,
         name: "Anton Paloka",
         description: "Geschäftsführer",
     },
     {
         id: 4,
-        image: Palokaag,
+        image: PalokaagWhite2,
         name: "Mhill Paloka",
         description: "Leiter Administration",
     },
     {
         id: 5,
-        image: Palokaag,
+        image: Blue_White,
         name: "Id nisi elementum",
         description: "Lorem ipsum dolor  consectetur.",
     },
     {
         id: 6,
-        image: Palokaag,
+        image: AbrGmbh,
         name: "Augue tincidunt ipsum",
         description: "Ipsum dolor sit amet.",
     },
     {
         id: 7,
-        image: Palokaag,
+        image: GreyCloth,
         name: "Amet consectetur Consequat",
         description: "Lorem sit amet consectetur.",
     },
     {
         id: 8,
-        image: Palokaag,
+        image: BlueTshirt,
         name: "Nunc tellus sed auctor nulla",
         description: "dolor sit amet consectetur.",
     },
     {
         id: 9,
-        image: Palokaag,
+        image: TwoBlueTshirt,
         name: "Egestas faucs aliquam libero",
         description: "Lorem ipsum dolor ",
     },
     {
         id: 10,
-        image: Palokaag,
+        image: MallGlass,
         name: "Amet consectetur Consequat",
         description: "Lorem ipsum.",
     },
     {
         id: 11,
-        image: Palokaag,
+        image: RoofGlass,
+        name: "Nunc tellus sed auctor  nulla",
+        description: "Lorem ipsum consectetur.",
+    },
+    {
+        id: 12,
+        image: BlueTshirt,
+        name: "Nunc tellus sed auctor nulla",
+        description: "dolor sit amet consectetur.",
+    },
+    {
+        id: 13,
+        image: TwoBlueTshirt,
+        name: "Egestas faucs aliquam libero",
+        description: "Lorem ipsum dolor ",
+    },
+    {
+        id: 14,
+        image: MallGlass,
+        name: "Amet consectetur Consequat",
+        description: "Lorem ipsum.",
+    },
+    {
+        id: 15,
+        image: RoofGlass,
         name: "Nunc tellus sed auctor  nulla",
         description: "Lorem ipsum consectetur.",
     },
