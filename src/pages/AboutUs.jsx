@@ -13,11 +13,12 @@ const AboutUs = () => {
       ]}
         hideImage={true}
         hideParagraph={true} />
+
       <DesignMastery />
       <HowWeWorks />
       <CustomerFocus />
       <ProjectStarten />
-
+ 
     </div>
   )
 }

@@ -62,21 +62,24 @@ const Navbar = () => {
 Portfolio
 </Link>
           </li>
-          <li className="flex flex-col md:flex-row  items-center gap-2 md:gap-4 relative z-20">
-           <span className="flex gap-3 mb-10">
-           <a href="tel:+1234567890" className="hover:translate-y-[-6px] md:hidden transition-all duration-300 ease-linear"><Calling/></a>
-           <a href="mailto:example@example.com" className="hover:translate-y-[-6px] md:hidden transition-all duration-300 ease-linear"><Email/></a>
+          <li className="flex flex-col md:flex-row  justify-center items-center gap-2 md:hidden md:gap-4 relative z-20">
+           <span className="flex gap-3 mb-6">
+           <a href="tel:+1234567890" className="hover:translate-y-[-6px]  transition-all duration-300 ease-linear"><Calling/></a>
+           <a href="mailto:example@example.com" className="hover:translate-y-[-6px]  transition-all duration-300 ease-linear"><Email/></a>
            </span>
-    <CommonBtn  btnName="Kontakt"className="w-[124px]  md:hidden"/>
+           <Link to="/contact" className="w-[124px] flex justify-center md:hidden">
+                <CommonBtn btnName="Kontakt" />
+            </Link> 
         </li>
 
           
         </ul>
         <div className="flex items-center gap-2 md:gap-4 relative z-20">
-            <a href="tel:+1234567890" className="hover:translate-y-[-6px] hidden md:block transition-all duration-300 ease-linear"><Calling/></a>
+            <a href="tel:+1234567890" className="hover:translate-y-[-6px] hidden md:block transition-all duration-3  00 ease-linear"><Calling/></a>
             <a href="mailto:example@example.com" className="hover:translate-y-[-6px] hidden md:block  transition-all duration-300 ease-linear"><Email/></a>
-    <CommonBtn  btnName="Kontakt"className="w-[124px] hidden md:block "/>
-        </div>
+            <Link to="/contact" className="w-[124px] hidden md:block">
+                <CommonBtn btnName="Kontakt" />
+            </Link>    </div>
     
       <button onClick={showNav} className="lg:hidden relative z-50">
         {navBar ? (
