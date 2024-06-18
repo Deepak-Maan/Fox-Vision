@@ -15,6 +15,7 @@ const AboutUs = () => {
         hideImage={true}
         hideParagraph={true} />
       <DesignMastery />
+      <ContactWithFoxvision />
       <HowWeWorks />
       <CustomerFocus />
       <ProjectStarten />

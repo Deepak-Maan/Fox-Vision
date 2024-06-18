@@ -9,12 +9,13 @@ export const CustomerFocus = () => {
             <div className='container xl:max-w-[1164px] px-3 mx-auto'>
                 <div className='flex flex-row flex-wrap items-center justify-center lg:justify-between pb-[48px] lg:pb-[78px]'>
                     <div className='lg:w-[48%] w-full'>
-                        <CommonsubHeading className="text-white lg:text-start" subheading="FOX philosophy" />
+                        <p
+                            className='font-poppins text-white text-center lg:text-start font-bold sm:text-xl text-sm !leading-normal sm:mb-3'>FOX philosophy</p>
                         <CommonHeading className="text-white mb-[21px]" heading="Customer Focus" />
                         <p className='text-white text-xl font-normal font-poppins lg:max-w-[481px] !leading-normal text-center lg:text-start'>The customer is our focus. We do everything we can to provide our customers with individual, needs-based advice.</p>
                     </div>
                     <div className='lg:w-[49%] w-full mt-[30px] lg:mt-0 flex justify-center lg:justify-end'>
-                        <img src={customerFocus} alt="customerFocus" className='max-w-[556px] w-full xl:h-[371px] ' />
+                        <img src={customerFocus} alt="customerFocus" className='max-w-[556px] w-full xl:h-[371px]'/>
                     </div>
                 </div>
                 <div className="flex justify-center">
