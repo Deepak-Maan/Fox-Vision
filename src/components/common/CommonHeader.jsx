@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Desktop from "../../asstes/images/webp/hero/cloud-desktop.png";
+import Desktop from "../../asstes/images/webp/hero/cloud-desktop.webp";
 
 const CommonHeader = ({ heroHeading, hideImage, hideParagraph }) => {
   return (

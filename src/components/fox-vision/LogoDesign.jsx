@@ -1,11 +1,11 @@
 import React from 'react'
-import Paypal from "../../asstes/images/webp/hero/PayPal.png";
+import Paypal from "../../asstes/images/webp/hero/PayPal.webp";
 import { LogoDesignIcon, SettingIcon, WhiteElipseBg } from '../common/Icon';
-import LogoDesign1 from "../../asstes/images/webp/hero/LogoDesign1.png";
-import LogoDesign2 from "../../asstes/images/webp/hero/LogoDesign2.png";
-import LogoDesign3 from "../../asstes/images/webp/hero/LogoDesign3.png";
-import LogoDesign4 from "../../asstes/images/webp/hero/LogoDesign4.png";
-import LikeEmoji from "../../asstes/images/webp/hero/LikeEmoji.png";
+import LogoDesign1 from "../../asstes/images/webp/hero/LogoDesign1.webp";
+import LogoDesign2 from "../../asstes/images/webp/hero/LogoDesign2.webp";
+import LogoDesign3 from "../../asstes/images/webp/hero/LogoDesign3.webp";
+import LogoDesign4 from "../../asstes/images/webp/hero/LogoDesign4.webp";
+import LikeEmoji from "../../asstes/images/webp/hero/LikeEmoji.webp";
 const LogoDesign = () => {
     return (
         <div className='bg-darkpurple p-[100px_0_60px_0] sm:p-[150px_0_60px_0] md:p-[193px_0_60px_0]'>

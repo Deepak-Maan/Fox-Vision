@@ -1,4 +1,8 @@
-import { Facebook, Instagram, PlatformIntegration, SoftwareDevelopment, WebsiteSolution, CorporateIdentity, MehrBtnArrow, Redesign, WebDesign, DigitalMarketing, DruckStick,Beschriftungen } from "./Icons";
+import { Facebook, Instagram, PlatformIntegration, SoftwareDevelopment, WebsiteSolution, CorporateIdentity, MehrBtnArrow, Redesign, WebDesign, DigitalMarketing, DruckStick, Beschriftungen } from "./Icons";
+import wireFrame from "../../asstes/images/webp/offer/wireFraming.webp"
+import webDesign from "../../asstes/images/webp/offer/webDesign.webp"
+import appDesign from "../../asstes/images/webp/offer/appDesign.webp"
+import logoDesign from "../../asstes/images/webp/offer/logoDesign.webp"
 
 import Palokaag from "../../asstes/images/webp/portfolio/palokaag.png";
 import Sanalife from "../../asstes/images/webp/portfolio/sanalife.png";
@@ -190,3 +194,47 @@ export const portfolioData = [
     },
 
 ];
+// -------------------OfferCards-------------------------//
+export const offerCards = [
+    {
+        img: wireFrame,
+        description: "Wireframing",
+    },
+    {
+        img: webDesign,
+        description: "Web Design",
+    },
+    {
+        img: logoDesign,
+        description: "Logo Design",
+    },
+    {
+        img: appDesign,
+        description: "App Design",
+    },
+]
+
+// -----------------------DesignStrategy Data-----------------------//
+
+export const designStrategyData = [
+    {
+        id: "1.",
+        heading: "Understanding Your Vision",
+        para: "We start by deeply understanding your goals, brand identity, and the needs of your target audience.",
+    },
+    {
+        id: "2.",
+        heading: "Research and Analysis",
+        para: "Our team conducts thorough research, including market and competitor analysis, to inform our design decisions.",
+    },
+    {
+        id: "3.",
+        heading: "Wireframing and Prototyping",
+        para: "We create wireframes and interactive prototypes to map out the layout and functionality of your project.",
+    },
+    {
+        id: "4.",
+        heading: "User Testing",
+        para: "Real users provide invaluable feedback to refine the design, ensuring it aligns with user expectations.",
+    },
+]

@@ -19,14 +19,17 @@ import { BlueElipseBg, GraphicDesigner, Logo, PaintingBoard, PurpleElipseBg } fr
 const WhatWeDo = () => {
     return (
         <div className='overflow-hidden'>
-        <div className='max-w-[1164px] mx-auto px-3 pt-24 md:pt-40 lg:pt-60'>
+        <div className='max-w-[1164px] mx-auto px-3 pt-12 md:pt-16 lg:pt-[70px] xl:pt-60'>
             <CommonWhatWeDo
                 CommonWhatWeDosubheading='A RESULTS-DRIVEN AGENCY'
                 ImgClass = 'max-w-[590.5px] max-h-[378.96px] mt-4 sm:mt-6 lg:mt-12'
                 CommonWhatWeDoimg={displayAvatar}
+                Logo = {<Logo/>} 
                 CommonWhatWeDoheading='What we do'
+                SvgPosition = 'lg:justify-end'
+                paraWidth= 'lg:max-w-[512px]'
                 textColor1='text-darkpurple'
-                arrowPosition='left-0 lg:left-[38%] top-[-18%] lg:top-[1%]'
+                arrowPosition='left-0 lg:left-[38%] top-[-12%] lg:top-[1%]'
                 CommonWhatWeDotext2='trust and loyalty to your brand.'
                 CommonWhatWeDotext1='We define the intangible assets of your brand and subsequently increase'
                 CommonWhatWeDotext3='Uniqueness, value proposition, clearly understandable core messages and an innovative design result in a brand personality that will be. We then transfer this genetic code to the relevant target groups cross-media via relevant channels. And we will reposition you profitably' />
