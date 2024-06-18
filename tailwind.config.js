@@ -14,8 +14,10 @@ module.exports = {
         offgrey: " #515D74",
         lightpurple: "#E6DEFF",
         lightsky: "#E9FCFF",
+        lightlbue: "#50E2FC",
         darkpurple: "#4B17E6",
         offpurple: " #4B17E60A",
+        lightsky2: '#50E2FC'
       },
       fontSize: {
         " xxsm": "8px",
@@ -29,9 +31,9 @@ module.exports = {
         "3md": "123%",
         lg: "183%",
       },
-      screens:{
-        '1xl': '1350px'
-      }
+      screens: {
+        "1xl": "1350px",
+      },
     },
   },
   plugins: [],

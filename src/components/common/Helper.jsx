@@ -1,6 +1,20 @@
-import { Facebook, Instagram, PlatformIntegration, SoftwareDevelopment, WebsiteSolution, CorporateIdentity, MehrBtnArrow, Redesign, WebDesign, DigitalMarketing, DruckStick,Beschriftungen } from "./Icons";
+import { Facebook, Instagram, PlatformIntegration, SoftwareDevelopment, WebsiteSolution, CorporateIdentity, MehrBtnArrow, Redesign, WebDesign, DigitalMarketing, DruckStick, Beschriftungen, ReachPhoneIcon, ReachMessageIcon, ReachLocationIcon } from "./Icons";
+import wireFrame from "../../asstes/images/webp/offer/wireFraming.webp"
+import webDesign from "../../asstes/images/webp/offer/webDesign.webp"
+import appDesign from "../../asstes/images/webp/offer/appDesign.webp"
+import logoDesign from "../../asstes/images/webp/offer/logoDesign.webp"
 
 import Palokaag from "../../asstes/images/webp/portfolio/palokaag.png";
+import Sanalife from "../../asstes/images/webp/portfolio/sanalife.png";
+import PalokaagWhite from "../../asstes/images/webp/portfolio/palokaagWhite.png";
+import PalokaagWhite2 from "../../asstes/images/webp/portfolio/palokaagWhite2.png";
+import Blue_White from "../../asstes/images/webp/portfolio/blue&White.png";
+import AbrGmbh from "../../asstes/images/webp/portfolio/abrGmbh.png";
+import GreyCloth from "../../asstes/images/webp/portfolio/greyCloth.png";
+import BlueTshirt from "../../asstes/images/webp/portfolio/blueTshirt.png";
+import TwoBlueTshirt from "../../asstes/images/webp/portfolio/2BlueTshirt.png";
+import MallGlass from "../../asstes/images/webp/portfolio/mallGlass.png";
+import RoofGlass from "../../asstes/images/webp/portfolio/roofGlass.png";
 //------------------FOOTER---------------
 export const footerIcons = [
     {
@@ -96,63 +110,154 @@ export const portfolioData = [
     },
     {
         id: 2,
-        image: Palokaag,
+        image: Sanalife,
         name: "Gut versichert ins leben.",
         description: "Wir helfen ihnen dabei",
     },
     {
         id: 3,
-        image: Palokaag,
+        image: PalokaagWhite,
         name: "Anton Paloka",
         description: "Geschäftsführer",
     },
     {
         id: 4,
-        image: Palokaag,
+        image: PalokaagWhite2,
         name: "Mhill Paloka",
         description: "Leiter Administration",
     },
     {
         id: 5,
-        image: Palokaag,
+        image: Blue_White,
         name: "Id nisi elementum",
         description: "Lorem ipsum dolor  consectetur.",
     },
     {
         id: 6,
-        image: Palokaag,
+        image: AbrGmbh,
         name: "Augue tincidunt ipsum",
         description: "Ipsum dolor sit amet.",
     },
     {
         id: 7,
-        image: Palokaag,
+        image: GreyCloth,
         name: "Amet consectetur Consequat",
         description: "Lorem sit amet consectetur.",
     },
     {
         id: 8,
-        image: Palokaag,
+        image: BlueTshirt,
         name: "Nunc tellus sed auctor nulla",
         description: "dolor sit amet consectetur.",
     },
     {
         id: 9,
-        image: Palokaag,
+        image: TwoBlueTshirt,
         name: "Egestas faucs aliquam libero",
         description: "Lorem ipsum dolor ",
     },
     {
         id: 10,
-        image: Palokaag,
+        image: MallGlass,
         name: "Amet consectetur Consequat",
         description: "Lorem ipsum.",
     },
     {
         id: 11,
-        image: Palokaag,
+        image: RoofGlass,
+        name: "Nunc tellus sed auctor  nulla",
+        description: "Lorem ipsum consectetur.",
+    },
+    {
+        id: 12,
+        image: BlueTshirt,
+        name: "Nunc tellus sed auctor nulla",
+        description: "dolor sit amet consectetur.",
+    },
+    {
+        id: 13,
+        image: TwoBlueTshirt,
+        name: "Egestas faucs aliquam libero",
+        description: "Lorem ipsum dolor ",
+    },
+    {
+        id: 14,
+        image: MallGlass,
+        name: "Amet consectetur Consequat",
+        description: "Lorem ipsum.",
+    },
+    {
+        id: 15,
+        image: RoofGlass,
         name: "Nunc tellus sed auctor  nulla",
         description: "Lorem ipsum consectetur.",
     },
 
 ];
+// -------------------OfferCards-------------------------//
+export const offerCards = [
+    {
+        img: wireFrame,
+        description: "Wireframing",
+    },
+    {
+        img: webDesign,
+        description: "Web Design",
+    },
+    {
+        img: logoDesign,
+        description: "Logo Design",
+    },
+    {
+        img: appDesign,
+        description: "App Design",
+    },
+]
+
+// -----------------------DesignStrategy Data-----------------------//
+
+export const designStrategyData = [
+    {
+        id: "1.",
+        heading: "Understanding Your Vision",
+        para: "We start by deeply understanding your goals, brand identity, and the needs of your target audience.",
+    },
+    {
+        id: "2.",
+        heading: "Research and Analysis",
+        para: "Our team conducts thorough research, including market and competitor analysis, to inform our design decisions.",
+    },
+    {
+        id: "3.",
+        heading: "Wireframing and Prototyping",
+        para: "We create wireframes and interactive prototypes to map out the layout and functionality of your project.",
+    },
+    {
+        id: "4.",
+        heading: "User Testing",
+        para: "Real users provide invaluable feedback to refine the design, ensuring it aligns with user expectations.",
+    },
+]
+// ----------------------------------ReachOut data----------------------------------//
+
+export const reachOutData = [
+    {
+        link: "tel:+41 725 61 00",
+        icon: < ReachPhoneIcon />,
+        heading: "Call Us",
+        para: "+41 725 61 00",
+    },
+    {
+        link: "mailto:info@foxvision.ch",
+        icon: <ReachMessageIcon />,
+        heading: "Email Us",
+        para: "info@foxvision.ch",
+    },
+    {
+        target: "_blank",
+        link: "https://www.google.com/maps/search/Fox+Vision+GmbH+Badstrasse+50+CH-5200+Brugg/@47.474052,8.1922933,17z/data=!3m1!4b1?entry=ttu",
+        icon: <ReachLocationIcon />,
+        heading: "Visit Us ",
+        para: "Fox Vision GmbH Badstrasse 50 CH-5200 Brugg",
+    },
+]
