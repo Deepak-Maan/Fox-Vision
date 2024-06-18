@@ -178,5 +178,18 @@ export const ContactList = () => {
         </filter>
         </defs>
         </svg>        
+    )}
+export const AccordianArrowUp = () => {
+    return (
+        <svg className="sm:w-[19px] w-[12px]" width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 10.625L9.5 1.625L18 10.625" stroke="#071838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>                  
+    )
+}
+export const AccordianArrowDown = () => {
+    return (
+        <svg className="sm:w-[19px] w-[12px]" width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1.625L9.5 10.625L18 1.625" stroke="#071838" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>                 
     )
 }

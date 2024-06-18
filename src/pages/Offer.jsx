@@ -3,6 +3,7 @@ import CommonHeader from '../components/common/CommonHeader'
 import OfferCards from '../components/offer/OfferCards'
 import DesignStrategy from '../components/offer/DesignStrategy'
 import CorporateIdentidy from '../components/offer/CorporateIdentidy'
+import Faq from '../components/offer/Faq'
 
 const Offer = () => {
   return (
@@ -15,6 +16,7 @@ const Offer = () => {
         <CorporateIdentidy/>
       <OfferCards />
       <DesignStrategy />
+      <Faq/>
     </div>
   )
 }

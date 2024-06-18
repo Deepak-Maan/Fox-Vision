@@ -14,7 +14,7 @@ export const CommonsubHeading = ({ subheading, className }) => {
   return (
 
     <p
-      className={`${className} uppercase font-poppins text-darkblue text-center font-bold sm:text-xl text-sm !leading-normal sm:mb-3`}
+      className={`${className} uppercase font-poppins text-darkblue !text-center font-bold sm:text-xl text-sm !leading-normal sm:mb-3`}
     >
       {subheading}
     </p>
