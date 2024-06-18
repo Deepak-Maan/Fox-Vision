@@ -36,8 +36,7 @@ const WhatWeDo = () => {
                     <p className='font-poppins font-bold text-2xl leading-[150%] text-darkblue text-center lg:text-start'>UI/UX Creative Design</p>
                     <p className='font-poppins font-normal text-base sm:text-lg md:text-xl leading-[150%] text-darkblue opacity-70 mt-2 lg:max-w-[386px] text-center lg:text-start'>UI/UX creative design is the art of crafting digital experiences that seamlessly blend aesthetics with functionality. It's about understanding users' needs and behaviors and translating that knowledge into intuitive, visually appealing interfaces. </p>
                 </div>
-                <div className='w-7/2 px-3 relative mx-auto'>
-                  
+                <div className='w-full lg:w-7/12 px-3 relative mx-auto'>
                     <div className='flex items-center gap-2 sm:gap-[22.63px]'>
                         <div className='max-w-[203.39px]'><img src={Watch} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
                         <div className=' relative'>
@@ -57,7 +56,7 @@ const WhatWeDo = () => {
             <span className=' absolute left-0 1xl:left-[-9%] top-[10%] sm:top-[26%] lg:top-[29%] z-[-1]'>
                         <BlueElipseBg />
                     </span>
-                <div className='w-7/2 px-3 relative mx-auto'>
+                <div className='w-7/12 px-3 relative mx-auto'>
                     <div className='flex gap-2 sm:gap-[22.63px]'>
                         <div className='max-w-[203.39px]'><img src={Joker} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
                         <div className='mt-5 sm:mt-10 relative'>

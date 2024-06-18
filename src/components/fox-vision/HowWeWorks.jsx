@@ -13,11 +13,10 @@ const HowWeWorks = () => {
                 <div className="flex flex-row flex-wrap justify-between items-end">
                     <div className="lg:w-6/12 w-full relative">
                         <WorkArrow className="absolute xl:-right-[14%] xl:top-[16%] top-[11%] -right-[24%] max-xl:max-w-[140px] lg:block hidden" />
-                        <p className="uppercase font-poppins text-darkblue font-bold sm:text-xl text-sm !leading-normal mb-3">
+                        <p className="uppercase font-poppins text-darkblue text-center lg:text-start font-bold sm:text-xl text-sm !leading-normal sm:mb-3">
                             A RESULTS-DRIVEN AGENCY
                         </p>
-                        <CommonHeading
-                            heading="How we work" className="mb-[26.95px]" />
+                       c
                         <img
                             width={378}
                             height={294}
@@ -27,8 +26,8 @@ const HowWeWorks = () => {
                         />
                     </div>
                     <div className="lg:w-6/12 w-full mb-[10px] flex justify-end lg:pt-0 pt-6">
-                        <div>
-                            <p className="font-normal font-poppins sm:text-xl text-base !leading-normal text-darkblue opacity-70 lg:max-w-[481px] lg:mb-10 sm:mb-7 mb-6">
+                        <div className="flex flex-col justify-center lg:justify-start items-center lg:items-start">
+                            <p className="font-normal font-poppins sm:text-xl text-base !leading-normal text-center lg:text-start text-darkblue opacity-70 lg:max-w-[481px] lg:mb-10 sm:mb-7 mb-6">
                                 We see our customers as partners and identify passionately with
                                 their companies. Regardless of what the goal is, whether to
                                 increase sales, increase brand awareness or attract new

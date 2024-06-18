@@ -27,7 +27,7 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph }) => {
             </p>
           )}
           {!hideImage && (
-            <img src={Desktop} alt="desktop" className='w-[621px] xl:h-[469px]' />
+            <img src={Desktop} alt="desktop" className='w-[714.51px] xl:ml-20 xl:h-[469px]' />
           )}
         </div>
       </div>

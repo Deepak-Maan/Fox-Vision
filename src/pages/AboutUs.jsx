@@ -1,6 +1,8 @@
 import React from 'react'
 import CommonHeader from '../components/common/CommonHeader'
-
+import HowWeWorks from '../components/fox-vision/HowWeWorks'
+import ProjectStarten from '../components/fox-vision/ProjectStarten'
+import DesignMastery from '../components/about/DesignMastery'
 const AboutUs = () => {
   return (
     <div>
@@ -10,6 +12,9 @@ const AboutUs = () => {
   ]}
   hideImage={true}
   hideParagraph={true}/>
+   <DesignMastery/>
+   <HowWeWorks />
+   <ProjectStarten />
 
     </div>
   )
