@@ -11,7 +11,7 @@ const Footer = () => {
         <div className='bg-darkblue relative'>
             <img src={footerVector1} alt="footerVector1" className='w-[205px] h-[360px] absolute left-0 top-0 pointer-events-none ' />
             <img src={footerVector2} alt="footerVector2" className='w-[205px] h-[360px] absolute right-0 bottom-0 pointer-events-none ' />
-            <div className='container xl:max-w-[1140px] px-3 mx-auto pt-[210px]'>
+            <div className='container xl:max-w-[1140px] px-3 mx-auto pt-[150px] md:pt-[210px]'>
                 <div className='flex flex-row flex-wrap pb-[48px] sm:pb-[64px] md:pb-[80px] lg:pb-[111px] justify-between'>
                     <div className='lg:w-4/12 w-full'>
                         <Link href="">
@@ -21,9 +21,9 @@ const Footer = () => {
                         <div className="flex gap-[16px] items-center">
                             {footerIcons.map((icon, index) => {
                                 return (
-                                    <a key={index} href={icon.link} aria-label={icon.label} target='blank' className="hover:scale-110 transition-all duration-300 ease-linear">
+                                    <Link key={index} href={icon.link} aria-label={icon.label} target='blank' className="hover:scale-110 transition-all duration-300 ease-linear">
                                         {icon.footersvg}
-                                    </a>
+                                    </Link>
                                 );
                             })}
                         </div>
