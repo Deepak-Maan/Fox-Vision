@@ -12,7 +12,7 @@ const HowWeWorks = () => {
             <div className="container xl:max-w-[1164px] px-3 mx-auto">
                 <div className="flex flex-row flex-wrap lg:justify-between items-end">
                     <div className="lg:w-6/12 w-full relative">
-                        <WorkArrow className="absolute xl:-right-[14%] xl:top-[16%] top-[11%] -right-[24%] max-xl:max-w-[140px] lg:block hidden" />
+                        <WorkArrow className="absolute xl:-right-[14%] xl:top-[16%] top-[11%] right-0 max-xl:max-w-[140px] lg:block hidden" />
                         <CommonsubHeading className="lg:text-start" subheading="A RESULTS-DRIVEN AGENCY" />
                         <CommonHeading heading="How we work" />
                         <div className="flex justify-center items-center lg:justify-start">
