@@ -5,7 +5,7 @@ import { FoxWhiteLogo } from '../common/Icons';
 
 export const CustomerFocus = () => {
     return (
-        <div className='bg-darkpurple pt-[77px] mb-[-2px]'>
+        <div className='bg-darkpurple pt-[48px] md:pt-[64px] lg:pt-[77px] mb-[-2px]'>
             <div className='container xl:max-w-[1164px] px-3 mx-auto'>
                 <div className='flex flex-row flex-wrap items-center justify-center lg:justify-between pb-[48px] lg:pb-[78px]'>
                     <div className='lg:w-[48%] w-full'>
@@ -21,7 +21,6 @@ export const CustomerFocus = () => {
                     <FoxWhiteLogo className="lg:w-[141px] lg:h-[172px] sm:w-[120px] sm:h-[100px] h-[80px] w-[101px] cursor-pointer" />
                 </div>
             </div>
-
         </div>
     );
 };
