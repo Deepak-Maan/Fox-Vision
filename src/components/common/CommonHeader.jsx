@@ -1,8 +1,24 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Desktop from "../../asstes/images/webp/hero/cloud-desktop.webp";
+import { PathArrow } from './Icons';
 
 const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }) => {
+  const location = useLocation();
+  const currentPath = location.pathname;
+
+  let pathChangeText = '';
+  if (currentPath === '/about') {
+    pathChangeText = 'About Us';
+  } else if (currentPath === '/offer') {
+    pathChangeText = 'Offer';
+  } else if (currentPath === '/portfolio') {
+    pathChangeText = 'Portfolios';
+  } else if (currentPath === '/contact') {
+    pathChangeText = 'Contact Us';
+  }
+
   return (
     <div className='bg-darkpurple custom-header'>
       <div className="max-w-[1164px] mx-auto px-3">
@@ -30,6 +46,11 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
             <img src={Desktop} alt="desktop" className='w-[714.51px] pb-[59px] xl:ml-20 xl:h-[469px]' />
           )}
         </div>
+        {currentPath !== '/' && (
+          <p className="flex items-center gap-2 lg:gap-4 text-white font-medium font-poppins text-sm sm:text-base pb-5 sm:pb-[30px] text-start">
+            Home <PathArrow /> <span className='cursor-pointer'>{pathChangeText}</span>
+          </p>
+        )}
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ const Footer = () => {
                         <div className="flex gap-[16px] items-center">
                             {footerIcons.map((icon, index) => {
                                 return (
-                                    <Link key={index} href={icon.link} aria-label={icon.label} target='blank' className="hover:scale-110 transition-all duration-300 ease-linear">
+                                    <Link key={index} href={icon.link} aria-label={icon.label} target='blank' className="hover:-translate-y-2 transition-all duration-300 ease-linear">
                                         {icon.footersvg}
                                     </Link>
                                 );

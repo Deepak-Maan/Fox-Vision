@@ -14,7 +14,7 @@ const AboutUs = () => {
       ]}
         hideImage={true}
         hideParagraph={true}
-        additionalClass="mt-[76px] mb-[100px]" />
+        additionalClass="mt-[76px] mb-20 sm:mb-[100px]" />
 
       <DesignMastery />
       <HowWeWorks />

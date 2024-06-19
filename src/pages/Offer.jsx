@@ -13,7 +13,8 @@ const Offer = () => {
         { text: 'Offer ', isBold: false },
       ]}
         hideImage={true}
-        hideParagraph={true} />
+        hideParagraph={true} 
+        additionalClass="mt-[76px] mb-[100px]"/>
         <CorporateIdentidy/>
       <OfferCards />
       <DesignStrategy />

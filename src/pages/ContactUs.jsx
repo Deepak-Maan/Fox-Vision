@@ -12,7 +12,8 @@ const ContactUs = () => {
         { text: 'Us', isBold: true },
       ]}
         hideImage={true}
-        hideParagraph={true} />
+        hideParagraph={true} 
+        additionalClass="mt-[76px] mb-[100px]"/>
       <ContactWithFoxvision />
       <ReachOut/>
       <Map/>
