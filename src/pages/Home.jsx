@@ -10,7 +10,8 @@ import LogoDesign from '../components/fox-vision/LogoDesign'
 const Home = () => {
   return (
     <div>
-      <CommonHeader/>
+      <CommonHeader 
+        additionalClass="mt-16"/>
       <WhatWeDo/>
       <LogoDesign/>
       <HowWeWorks />
