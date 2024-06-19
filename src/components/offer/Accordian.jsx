@@ -38,7 +38,7 @@ const Accordian = ({ items }) => {
           <button
             className="w-full "
             onClick={() => handleSetIndex(index)} >
-            <div className="flex justify-between items-center sm:h-[29px]">
+            <div className="flex justify-between items-center sm:h-[26px]">
               <span className="font-semibold font-montserrat sm:text-lg text-base md:text-xl lg:text-2xl leading-md text-start text-darkblue">{item.title}</span>
               <span className='pl-4'>
                 {activeIndex === index ? (
