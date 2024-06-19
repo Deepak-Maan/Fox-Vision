@@ -3,18 +3,17 @@ import wireFrame from "../../asstes/images/webp/offer/wireFraming.webp"
 import webDesign from "../../asstes/images/webp/offer/webDesign.webp"
 import appDesign from "../../asstes/images/webp/offer/appDesign.webp"
 import logoDesign from "../../asstes/images/webp/offer/logoDesign.webp"
-
-import Palokaag from "../../asstes/images/webp/portfolio/palokaag.png";
-import Sanalife from "../../asstes/images/webp/portfolio/sanalife.png";
-import PalokaagWhite from "../../asstes/images/webp/portfolio/palokaagWhite.png";
-import PalokaagWhite2 from "../../asstes/images/webp/portfolio/palokaagWhite2.png";
-import Blue_White from "../../asstes/images/webp/portfolio/blue&White.png";
-import AbrGmbh from "../../asstes/images/webp/portfolio/abrGmbh.png";
-import GreyCloth from "../../asstes/images/webp/portfolio/greyCloth.png";
-import BlueTshirt from "../../asstes/images/webp/portfolio/blueTshirt.png";
-import TwoBlueTshirt from "../../asstes/images/webp/portfolio/2BlueTshirt.png";
-import MallGlass from "../../asstes/images/webp/portfolio/mallGlass.png";
-import RoofGlass from "../../asstes/images/webp/portfolio/roofGlass.png";
+import Palokaag from "../../asstes/images/webp/portfolio/palokaag.webp";
+import Sanalife from "../../asstes/images/webp/portfolio/sanalife.webp";
+import PalokaagWhite from "../../asstes/images/webp/portfolio/palokaagWhite.webp";
+import PalokaagWhite2 from "../../asstes/images/webp/portfolio/palokaagWhite2.webp";
+import Blue_White from "../../asstes/images/webp/portfolio/blue&White.webp";
+import AbrGmbh from "../../asstes/images/webp/portfolio/abrGmbh.webp";
+import GreyCloth from "../../asstes/images/webp/portfolio/greyCloth.webp";
+import BlueTshirt from "../../asstes/images/webp/portfolio/blueTshirt.webp";
+import TwoBlueTshirt from "../../asstes/images/webp/portfolio/2BlueTshirt.webp";
+import MallGlass from "../../asstes/images/webp/portfolio/mallGlass.webp";
+import RoofGlass from "../../asstes/images/webp/portfolio/roofGlass.webp";
 //------------------FOOTER---------------
 export const footerIcons = [
     {

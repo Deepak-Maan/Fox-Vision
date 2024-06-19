@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { CommonsubHeading } from '../common/CommonHeading';
-import contactConversation from '../../asstes/images/webp/contact-us/contactConversation.png';
+import contactConversation from '../../asstes/images/webp/contact-us/contactConversation.webp';
 import robotsvg from '../../asstes/images/svg/robot.svg';
 import CommonBtn from "../common/CommonBtn";
 import CustomCheckbox from "../CustomCheckbox";

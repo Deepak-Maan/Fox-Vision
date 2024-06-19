@@ -1,8 +1,8 @@
 import React from 'react';
 import footerLogo from '../../asstes/images/svg/footerLogo.svg';
 import { footerIcons } from './Helper';
-import footerVector1 from '../../asstes/images/webp/footer/footerVector1.png';
-import footerVector2 from '../../asstes/images/webp/footer/footerVector2.png';
+import footerVector1 from '../../asstes/images/webp/footer/footerVector1.webp';
+import footerVector2 from '../../asstes/images/webp/footer/footerVector2.webp';
 import { Link } from 'react-router-dom';
 
 
