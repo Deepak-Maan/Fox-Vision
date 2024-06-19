@@ -4,7 +4,7 @@ import { reachOutData } from '../common/Helper'
 
 const ReachOut = () => {
     return (
-        <div>
+        <div className='pt-12 md:pt-16 lg:pt-[70px] xl:pt-[130px]'>
             <div className="container max-w-[1164px] px-3 mx-auto">
                 <CommonsubHeading subheading="FOX VISION - Friendly and reliable" />
                 <CommonHeading heading="More Ways to Reach Out" className="!text-center" />

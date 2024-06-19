@@ -2,6 +2,7 @@ import React from 'react'
 import CommonHeader from '../components/common/CommonHeader'
 import ContactWithFoxvision from '../components/contact-us/ContactWithFoxvision'
 import Map from '../components/contact-us/Map'
+import ReachOut from '../components/contact-us/ReachOut'
 
 const ContactUs = () => {
   return (
@@ -13,6 +14,7 @@ const ContactUs = () => {
         hideImage={true}
         hideParagraph={true} />
       <ContactWithFoxvision />
+      <ReachOut/>
       <Map/>
     </div>
   )
