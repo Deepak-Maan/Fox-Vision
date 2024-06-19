@@ -29,21 +29,22 @@ const WhatWeDo = () => {
                 SvgPosition = 'lg:justify-end'
                 paraWidth= 'lg:max-w-[512px]'
                 textColor1='text-darkpurple'
+                marginPara= 'mt-3 md:mt-5'
                 arrowPosition='left-0 lg:left-[38%] top-[-12%] lg:top-[1%]'
                 CommonWhatWeDotext2='trust and loyalty to your brand.'
                 CommonWhatWeDotext1='We define the intangible assets of your brand and subsequently increase'
                 CommonWhatWeDotext3='Uniqueness, value proposition, clearly understandable core messages and an innovative design result in a brand personality that will be. We then transfer this genetic code to the relevant target groups cross-media via relevant channels. And we will reposition you profitably' />
             <div className='flex pt-20 sm:pt-24 md:pt-32 lg:pt-[197px] flex-col-reverse lg:flex-row flex-wrap lg:flex-nowrap -mx-3 relative z-[1] items-center'>
-            <span className=' absolute right-0 1xl:right-[-8%] top-[26%] lg:top-[33%] z-[-1]'>
+            <span className=' absolute right-0 1xl:right-[-9%] top-[26%] lg:top-[36%] z-[-1]'>
                         <PurpleElipseBg />
                     </span>
                 <div className='w-full lg:w-5/12 px-3 mt-5 lg:mt-0'>
-                    <span className='flex justify-center lg:justify-start'><PaintingBoard /></span>
-                    <p className='font-poppins font-bold text-2xl leading-[150%] text-darkblue text-center lg:text-start'>UI/UX Creative Design</p>
-                    <p className='font-poppins font-normal text-base sm:text-lg md:text-xl leading-[150%] text-darkblue opacity-70 mt-2 lg:max-w-[386px] text-center lg:text-start'>UI/UX creative design is the art of crafting digital experiences that seamlessly blend aesthetics with functionality. It's about understanding users' needs and behaviors and translating that knowledge into intuitive, visually appealing interfaces. </p>
+                    <span className='flex justify-center items-center rounded-md shadow-[0px_12.63px_25.25px_0px_#4B17E62B] w-[70px] h-[70px] sm:w-[93px] sm:h-[93px] bg-lightpurple mx-auto lg:mx-0'><PaintingBoard /></span>
+                    <p className='font-poppins font-bold text-2xl !leading-[150%] text-darkblue text-center lg:text-start mt-4 sm:mt-5 md:mt-7 lg:mt-[39px]'>UI/UX Creative Design</p>
+                    <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-darkblue opacity-70 mt-2 lg:max-w-[386px] text-center lg:text-start'>UI/UX creative design is the art of crafting digital experiences that seamlessly blend aesthetics with functionality. It's about understanding users' needs and behaviors and translating that knowledge into intuitive, visually appealing interfaces. </p>
                 </div>
                 <div className='w-full lg:w-7/12 px-3 relative mx-auto'>
-                    <div className='flex items-center gap-2 sm:gap-[22.63px]'>
+                    <div className='flex items-center justify-center lg:justify-start gap-2 sm:gap-[22.63px]'>
                         <div className='max-w-[203.39px]'><img src={Watch} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
                         <div className=' relative'>
                             <img src={SmileEmoji} alt="smileemoji" className=' absolute left-[32%] top-[-28%] max-w-[60px] sm:max-w-[123px] max-h-[123px]' />
@@ -51,7 +52,7 @@ const WhatWeDo = () => {
                         </div>
                        <div className='max-w-[203.39px]'><img src={Men} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
                     </div>
-                    <div className='flex  gap-2 sm:gap-[22.63px]'>
+                    <div className='flex  gap-2 justify-center lg:justify-start sm:gap-[22.63px]'>
                         <div className='max-w-[203.39px]'><img src={ModelLady} alt="watch" className='mt-2 sm:mt-[25.97px] shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
                         <div className='max-w-[203.39px]'><img src={Boodie} alt="watch" className='mt-5 sm:mt-[68.69px] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
                         <div className='max-w-[203.39px]'><img src={Rebio} alt="watch" className='mt-2 sm:mt-[25.97px] shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
@@ -79,9 +80,9 @@ const WhatWeDo = () => {
                 </div>
                 <div className='w-full lg:w-5/12 px-3 mt-5 lg:mt-0'>
                     <div className='lg:max-w-[425px] lg:ml-auto'>
-                    <span className='flex justify-center lg:justify-start'><GraphicDesigner /></span>
-                    <p className='font-poppins font-bold text-2xl leading-[150%] text-darkblue text-center lg:text-start'>Visual Graphic Design</p>
-                    <p className='font-poppins font-normal text-base sm:text-lg md:text-xl leading-[150%] text-darkblue opacity-70 mt-2  text-center lg:text-start'>Visual graphic design is the art of using visual elements, such as images, typography, color, and layout, to convey a message, tell a story, or evoke emotions.</p>
+                    <span className='flex justify-center items-center rounded-md shadow-[0px_12.63px_25.25px_0px_#05D5FB29] w-[70px] h-[70px] sm:w-[93px] sm:h-[93px] bg-lightsky mx-auto lg:mx-0'><GraphicDesigner /></span>
+                    <p className='font-poppins font-bold text-2xl !leading-[150%] text-darkblue text-center lg:text-start mt-4 sm:mt-5 md:mt-7 lg:mt-[39px]'>Visual Graphic Design</p>
+                    <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-darkblue opacity-70 mt-2  text-center lg:text-start'>Visual graphic design is the art of using visual elements, such as images, typography, color, and layout, to convey a message, tell a story, or evoke emotions.</p>
                     </div>
                 </div>
             </div>

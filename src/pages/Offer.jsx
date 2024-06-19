@@ -4,6 +4,7 @@ import OfferCards from '../components/offer/OfferCards'
 import DesignStrategy from '../components/offer/DesignStrategy'
 import CorporateIdentidy from '../components/offer/CorporateIdentidy'
 import Faq from '../components/offer/Faq'
+import ProjectStarten from '../components/fox-vision/ProjectStarten'
 
 const Offer = () => {
   return (
@@ -17,6 +18,7 @@ const Offer = () => {
       <OfferCards />
       <DesignStrategy />
       <Faq/>
+      <ProjectStarten bgColor='bg-white'/>
     </div>
   )
 }

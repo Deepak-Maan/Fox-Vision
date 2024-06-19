@@ -15,7 +15,7 @@ const Home = () => {
       <LogoDesign/>
       <HowWeWorks />
       <Angebot />
-      <ProjectStarten />
+      <ProjectStarten bgColor='bg-darkpurple'/>
     </div>
   )
 }
