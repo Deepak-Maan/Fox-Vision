@@ -4,7 +4,7 @@ import { CheckSvg } from './common/Icons';
 const CustomCheckbox = ({ checked, onChange }) => {
     return (
         <label className="inline-flex items-center cursor-pointer">
-            <input required
+            <input
                 type="checkbox"
                 className="hidden"
                 checked={checked}
