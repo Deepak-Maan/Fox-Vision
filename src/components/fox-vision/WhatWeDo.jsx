@@ -22,7 +22,7 @@ const WhatWeDo = () => {
         <div className='max-w-[1164px] mx-auto px-3 pt-12 md:pt-16 lg:pt-[70px] xl:pt-60'>
             <CommonWhatWeDo
                 CommonWhatWeDosubheading='A RESULTS-DRIVEN AGENCY'
-                ImgClass = 'max-w-[590.5px] max-h-[378.96px] mt-4 sm:mt-6 lg:mt-12'
+                ImgClass = 'max-w-[590.5px] max-h-[378.96px] mt-4 sm:mt-6 lg:mt-[49.87px]'
                 CommonWhatWeDoimg={displayAvatar}
                 Logo = {<Logo/>} 
                 CommonWhatWeDoheading='What we do'
@@ -44,38 +44,46 @@ const WhatWeDo = () => {
                     <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-darkblue opacity-70 mt-2 lg:max-w-[386px] text-center lg:text-start'>UI/UX creative design is the art of crafting digital experiences that seamlessly blend aesthetics with functionality. It's about understanding users' needs and behaviors and translating that knowledge into intuitive, visually appealing interfaces. </p>
                 </div>
                 <div className='w-full lg:w-7/12 px-3 relative mx-auto'>
-                    <div className='flex items-center justify-center lg:justify-start gap-2 sm:gap-[22.63px]'>
+                    <div className='flex justify-center lg:justify-start gap-2 sm:gap-[22.63px]'>
+                        <div className='flex flex-col gap-2 sm:gap-[25.97px]'>
                         <div className='max-w-[203.39px]'><img src={Watch} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        <div className='max-w-[203.39px]'><img src={ModelLady} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        </div>
+                        <div className='flex flex-col'>
                         <div className=' relative'>
                             <img src={SmileEmoji} alt="smileemoji" className=' absolute left-[32%] top-[-28%] max-w-[60px] sm:max-w-[123px] max-h-[123px]' />
                             <img src={TwoPhone} alt="watch" className=' hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' />
                         </div>
-                       <div className='max-w-[203.39px]'><img src={Men} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                    </div>
-                    <div className='flex  gap-2 justify-center lg:justify-start sm:gap-[22.63px]'>
-                        <div className='max-w-[203.39px]'><img src={ModelLady} alt="watch" className='mt-2 sm:mt-[25.97px] shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                        <div className='max-w-[203.39px]'><img src={Boodie} alt="watch" className='mt-5 sm:mt-[68.69px] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                        <div className='max-w-[203.39px]'><img src={Rebio} alt="watch" className='mt-2 sm:mt-[25.97px] shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        <div className='max-w-[203.39px]'><img src={Boodie} alt="watch" className='mt-4 sm:mt-[68.69px] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        </div>
+                        <div className='flex flex-col gap-2 sm:gap-[25.97px]'>
+                        <div className='max-w-[203.39px]'><img src={Men} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        <div className='max-w-[203.39px]'><img src={Rebio} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div className=' pt-20 md:pt-40 lg:pt-[202px] flex-row flex-wrap lg:flex-nowrap -mx-3 flex items-center relative pb-8 sm:pb-12 md:pb-16 lg:pb-[102px]'>
-            <span className=' absolute left-0 1xl:left-[-9%] top-[21%] sm:top-[26%] lg:top-[29%] z-[-1]'>
+            <span className=' absolute left-0 1xl:left-[-9%] top-[21%] sm:top-[26%] lg:top-[28%] z-[-1]'>
                         <BlueElipseBg />
                     </span>
                 <div className='lg:w-7/12 px-3 relative mx-auto'>
                     <div className='flex gap-2 sm:gap-[22.63px]'>
+                        <div className='flex flex-col gap-3 md:gap-[26.5px]'>
                         <div className='max-w-[203.39px]'><img src={Joker} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        <div className='max-w-[203.39px]'><img src={BlackMagic} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        </div>
+                        <div className='flex flex-col gap-3 md:gap-[26.5px]'>
                         <div className='mt-5 sm:mt-10 relative'>
                             <img src={StarEmoji} alt="smileemoji" className=' absolute left-[10%] top-[-28%] max-w-[60px] sm:max-w-[123px] max-h-[123px]' />
                             <img src={Dog} alt="watch" className=' hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' />
                         </div>
-                       <div className='max-w-[203.39px]'><img src={Reptiles} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                    </div>
-                    <div className='flex gap-2 sm:gap-[22.63px]'>
-                        <div className='max-w-[203.39px]'><img src={BlackMagic} alt="watch" className='-mt-1 shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                        <div className='max-w-[203.39px]'><img src={Strawberry} alt="watch" className='mt-2 sm:mt-[28.69px] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                        <div className='max-w-[203.39px]'><img src={MobilePhone} alt="watch" className='-mt-1 shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        <div className='max-w-[203.39px]'><img src={Strawberry} alt="watch" className='hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        </div>
+                        <div className='flex flex-col gap-3 md:gap-[26.5px]'>
+                        <div className='max-w-[203.39px]'><img src={Reptiles} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        <div className='max-w-[203.39px]'><img src={MobilePhone} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                        </div>
                     </div>
                 </div>
                 <div className='w-full lg:w-5/12 px-3 mt-5 lg:mt-0'>
