@@ -3,7 +3,7 @@ import { CommonHeading, CommonsubHeading } from '../common/CommonHeading'
 import MhillPaloka from '../../asstes/images/webp/design-mastery/mhillPaloka.webp';
 import CommonWhatWeDo from '../common/CommonWhatWeDo';
 import DesignProject from "../../asstes/images/webp/about-us/designProject.webp";
-import { Logo } from '../common/Icon';
+import { Logo } from '../common/Icons';
 
 const DesignMastery = () => {
   return (

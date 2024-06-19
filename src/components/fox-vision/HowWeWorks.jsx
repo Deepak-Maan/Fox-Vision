@@ -1,7 +1,7 @@
 import React from "react";
-import work from "../../asstes/images/webp/how-we-work/howWeWork.png";
+import work from "../../asstes/images/webp/how-we-work/howWeWork.webp";
 import { WorkArrow } from "../common/Icons";
-import { howWeWorkCardlist, howWeWorksCard } from "../common/Helper";
+import { howWeWorksCard } from "../common/Helper";
 import WorksCard from "../common/WorksCard";
 import { CommonHeading, CommonsubHeading } from "../common/CommonHeading"
 import CommonBtn from "../common/CommonBtn";

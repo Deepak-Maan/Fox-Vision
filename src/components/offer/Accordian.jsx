@@ -1,6 +1,6 @@
 // src/Accordian.js
 import React, { useState, useRef, useEffect } from 'react';
-import { AccordianArrow, AccordianArrowDown, AccordianArrowUp } from '../common/Icon';
+import { AccordianArrowDown, AccordianArrowUp } from '../common/Icons';
 
 const Accordian = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(0);  // Set the first item to be active by default

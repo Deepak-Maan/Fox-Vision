@@ -1,9 +1,9 @@
 import React from 'react'
 import CommonBtn from './CommonBtn'
-import { Arrow, Logo } from './Icon';
+import { Arrow } from './Icons';
 
-const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWhatWeDoheading, CommonWhatWeDotext1, CommonWhatWeDotext2, CommonWhatWeDotext3, ImgClass, textColor1, textColor2, textColor3, CommonWhatWeDotext4, CommonWhatWeDotext5, arrowPosition, paraWidth, Logo ,
-  SvgPosition , marginPara
+const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWhatWeDoheading, CommonWhatWeDotext1, CommonWhatWeDotext2, CommonWhatWeDotext3, ImgClass, textColor1, textColor2, textColor3, CommonWhatWeDotext4, CommonWhatWeDotext5, arrowPosition, paraWidth, Logo,
+  SvgPosition, marginPara
 }) => {
   return (
     <>
@@ -17,7 +17,7 @@ const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWha
         <div className='w-full lg:w-1/2 px-3 flex flex-col lg:items-end mt-5 lg:mt-0'>
           <div className={`${paraWidth}`}>
             <span className={`${SvgPosition} flex justify-center`}>
-              { Logo}
+              {Logo}
             </span>
             <p className={`${marginPara} font-normal font-poppins text-base sm:text-lg md:text-xl !leading-lg opacity-70 text-darkblue text-center lg:text-start`}>
               {CommonWhatWeDotext1}

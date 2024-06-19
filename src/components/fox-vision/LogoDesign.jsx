@@ -1,6 +1,6 @@
 import React from 'react'
 import Paypal from "../../asstes/images/webp/hero/PayPal.webp";
-import { LogoDesignIcon, SettingIcon, WhiteElipseBg } from '../common/Icon';
+import { LogoDesignIcon, SettingIcon, WhiteElipseBg } from '../common/Icons';
 import LogoDesign1 from "../../asstes/images/webp/hero/LogoDesign1.webp";
 import LogoDesign2 from "../../asstes/images/webp/hero/LogoDesign2.webp";
 import LogoDesign3 from "../../asstes/images/webp/hero/LogoDesign3.webp";
@@ -25,18 +25,18 @@ const LogoDesign = () => {
                     <div className='lg:w-7/12 w-full px-3 relative z-[2]'>
                         <div className='flex max-w-[547px] w-full justify-center lg:justify-start relative mx-auto lg:ml-auto lg:mr-0 gap-2 sm:gap-[22.88px]'>
                             <span className=' absolute right-0 bottom-[4%] z-[1]'>
-                                <WhiteElipseBg/>
+                                <WhiteElipseBg />
                             </span>
-                        <div className='flex flex-col gap-2 sm:gap-[26.5px] relative z-[2]'>
-                        <div className='max-w-[203.39px]'><img src={LogoDesign1} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] object-cover w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                        <div className='max-w-[203.39px]'><img src={LogoDesign3} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] object-cover w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                        </div>
-                        <div className='flex flex-col gap-2 sm:gap-[26.5px] mt-5 sm:mt-10 relative z-[2]'>
-                        <div className='max-w-[203.39px] relative'>
-                        <img src={LikeEmoji} alt="smileemoji" className='absolute left-[-10%] sm:left-[-15%] top-[-45%] sm:top-[-69%] max-w-[130px] sm:max-w-[194px] max-h-[194px]' />
-                            <img src={LogoDesign2} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] object-cover w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                        <div className='max-w-[203.39px]'><img src={LogoDesign4} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] object-cover w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                        </div>
+                            <div className='flex flex-col gap-2 sm:gap-[26.5px] relative z-[2]'>
+                                <div className='max-w-[203.39px]'><img src={LogoDesign1} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] object-cover w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                                <div className='max-w-[203.39px]'><img src={LogoDesign3} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] object-cover w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                            </div>
+                            <div className='flex flex-col gap-2 sm:gap-[26.5px] mt-5 sm:mt-10 relative z-[2]'>
+                                <div className='max-w-[203.39px] relative'>
+                                    <img src={LikeEmoji} alt="smileemoji" className='absolute left-[-10%] sm:left-[-15%] top-[-45%] sm:top-[-69%] max-w-[130px] sm:max-w-[194px] max-h-[194px]' />
+                                    <img src={LogoDesign2} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] object-cover w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                                <div className='max-w-[203.39px]'><img src={LogoDesign4} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] object-cover w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                            </div>
                         </div>
                     </div>
 
