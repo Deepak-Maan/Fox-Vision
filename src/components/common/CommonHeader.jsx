@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Desktop from "../../asstes/images/webp/hero/cloud-desktop.webp";
 import { PathArrow } from './Icons';
@@ -48,7 +48,7 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
         </div>
         {currentPath !== '/' && (
           <p className="flex items-center gap-2 lg:gap-4 text-white font-medium font-poppins text-sm sm:text-base pb-5 sm:pb-[30px] text-start">
-            Home <PathArrow /> <span className='cursor-pointer'>{pathChangeText}</span>
+            <Link to="/">Home</Link> <PathArrow /> <span className='cursor-pointer'>{pathChangeText}</span>
           </p>
         )}
       </div>
