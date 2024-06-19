@@ -13,7 +13,8 @@ const AboutUs = () => {
         { text: 'Us', isBold: false },
       ]}
         hideImage={true}
-        hideParagraph={true} />
+        hideParagraph={true}
+        additionalClass="mt-[76px] mb-[100px]" />
 
       <DesignMastery />
       <HowWeWorks />
