@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
-import Logo from "../../asstes/images/webp/hero/nav-logo.webp"
-import { Link } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
+import Logo from "../../asstes/images/webp/hero/nav-logo.webp";
 import { Calling, Email } from "./Icons";
 import CommonBtn from "./CommonBtn";
+
 const Navbar = () => {
   const [navBar, setNavBar] = useState(false);
+  const location = useLocation();
+  const currentPath = location.pathname;
 
   function showNav() {
     setNavBar(!navBar);
@@ -18,68 +21,80 @@ const Navbar = () => {
     }
   }, [navBar]);
 
+  const getLinkClasses = (path) => {
+    const isActive = currentPath === path;
+    return `font-poppins font-normal relative before:absolute before:flex before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:w-0 hover:before:w-[26px] before:rounded-lg before:duration-300 ${isActive ? 'before:w-[26px] text-stroke-0.5' : 'before:w-0'} text-base text-darkblue hover:text-stroke-0.5`;
+  };
+
   return (
     <div className="pt-[19px]">
-      <nav className="max-w-[1240px] mx-auto px-6 sm:px-[50px] h-[54px] sm:h-[74px] rounded-[150px] sm:py-[11px] flex items-center justify-between  shadow-[0px_0px_13px_0px_#00000024] bg-white">
-
-        <img src={Logo} alt="logo" className="w-[120px] sm:w-[207px] sm:h-[27.92px] cursor-pointer z-20" />
+      <nav className="max-w-[1240px] mx-auto px-6 sm:px-[50px] h-[54px] sm:h-[74px] rounded-[150px] sm:py-[11px] flex items-center justify-between shadow-[0px_0px_13px_0px_#00000024] bg-white">
+        <img
+          src={Logo}
+          alt="logo"
+          className="w-[120px] sm:w-[207px] sm:h-[27.92px] cursor-pointer z-20"
+        />
         <ul
-          className={`flex items-center  gap-5 z-10 relative  sm:gap-[40px] duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center  max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-white ${navBar && "!left-0"
+          className={`flex items-center gap-5 z-10 relative sm:gap-[40px] duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-white ${navBar && "!left-0"
             }`}
         >
           <li className="duration-300 transition-all">
-            <Link
-              to="/"
-              className="font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all hover:before:w-[26px] before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-lg before:duration-300 before:w-0 text-base text-darkblue "
-            >
+            <Link to="/" className={getLinkClasses("/")}>
               Home
             </Link>
           </li>
           <li className="duration-300 transition-all">
-            <Link
-              to="/about"
-              className="font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all hover:before:w-[26px] before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-lg before:duration-300 before:w-0 text-base text-darkblue "
-            >
+            <Link to="/about" className={getLinkClasses("/about")}>
               Über uns
             </Link>
           </li>
-
           <li className="duration-300 transition-all">
-            <Link
-              to="/offer"
-              className="font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all hover:before:w-[26px] before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-lg before:duration-300 before:w-0 text-base text-darkblue "
-            >
+            <Link to="/offer" className={getLinkClasses("/offer")}>
               Angebot
             </Link>
           </li>
-
           <li className="duration-300 transition-all">
-            <Link
-              to="/portfolio"
-              className="font-poppins font-normal relative before:absolute before:h-[3px] duration-300 transition-all before:transition-all hover:before:w-[26px] before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:rounded-md before:duration-300 before:w-0 text-base text-darkblue "
-            >
+            <Link to="/portfolio" className={getLinkClasses("/portfolio")}>
               Portfolio
             </Link>
           </li>
-          <li className="flex flex-col md:flex-row  justify-center items-center gap-2 md:hidden md:gap-4 relative z-20">
+          <li className="flex flex-col md:flex-row justify-center items-center gap-2 md:hidden md:gap-4 relative z-20">
             <span className="flex gap-3 mb-6">
-              <Link to="tel:+1234567890" className="hover:translate-y-[-6px]  transition-all duration-300 ease-linear"><Calling /></Link>
-              <Link to="mailto:example@example.com" className="hover:translate-y-[-6px]  transition-all duration-300 ease-linear"><Email /></Link>
+              <Link
+                to="tel:+1234567890"
+                className="hover:translate-y-[-6px] transition-all duration-300 ease-linear"
+              >
+                <Calling />
+              </Link>
+              <Link
+                to="mailto:example@example.com"
+                className="hover:translate-y-[-6px] transition-all duration-300 ease-linear"
+              >
+                <Email />
+              </Link>
             </span>
             <Link to="/contact" className="w-[124px] flex justify-center md:hidden">
               <CommonBtn btnName="Kontakt" />
             </Link>
           </li>
-
-
         </ul>
         <div className="flex items-center gap-2 md:gap-4 relative z-20">
-          <Link to="tel:+1234567890" className="hover:translate-y-[-6px] hidden md:block transition-all duration-3  00 ease-linear"><Calling /></Link>
-          <Link to="mailto:example@example.com" className="hover:translate-y-[-6px] hidden md:block  transition-all duration-300 ease-linear"><Email /></Link>
+          <Link
+            to="tel:+1234567890"
+            className="hover:translate-y-[-6px] hidden md:block transition-all duration-300 ease-linear"
+          >
+            <Calling />
+          </Link>
+          <Link
+            to="mailto:example@example.com"
+            className="hover:translate-y-[-6px] hidden md:block transition-all duration-300 ease-linear"
+          >
+            <Email />
+          </Link>
           <Link to="/contact" className="w-[124px] hidden md:block">
             <CommonBtn btnName="Kontakt" />
-          </Link>    </div>
-
+          </Link>
+        </div>
         <button onClick={showNav} className="lg:hidden relative z-50">
           {navBar ? (
             <div className="flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer">
@@ -100,3 +115,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
