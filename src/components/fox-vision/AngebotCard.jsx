@@ -18,7 +18,7 @@ const AngebotCard = (props) => {
                 <h3 className="text-black capitalize font-poppins sm:text-2xl text-xl !leading-normal font-semibold mb-2">
                     {props.title}
                 </h3>
-                <p className="text-black opacity-70 font-poppins sm:!text-base text-sm font-normal !leading-normal xl:mb-[44.67px] lg:mb-[38px] sm:mb-8 mb-6">
+                <p className="text-black opacity-70 font-poppins sm:!text-base text-sm font-normal !leading-normal xl:mb-[44.67px] px-[1px] lg:mb-[38px] sm:mb-8 mb-6">
                     {props.description}
                 </p>
             </div>

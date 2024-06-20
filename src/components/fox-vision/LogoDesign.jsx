@@ -14,7 +14,7 @@ const LogoDesign = () => {
                     <div className='w-full lg:w-5/12 px-3 mt-5 lg:mt-0'>
                         <div className='lg:max-w-[421px] lg:ml-auto'>
                             <span className='flex justify-center lg:justify-start'><LogoDesignIcon /></span>
-                            <p className='font-poppins font-bold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start'>Logo Design</p>
+                            <p className='font-poppins font-semibold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start'>Logo Design</p>
                             <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-white mt-2  text-center lg:text-start opacity-70'>Logo design is a specialized discipline within the realm of graphic design, focused on creating unique and memorable visual symbols that represent a brand, company, or organization.</p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const LogoDesign = () => {
                     <div className='w-full lg:w-5/12 px-3 mt-5 lg:mt-0'>
                         <div className='lg:max-w-[445px] lg:mr-auto'>
                             <span className='flex justify-center lg:justify-start'><SettingIcon /></span>
-                            <p className='font-poppins font-bold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start'>Strategy & Digital Marketing</p>
+                            <p className='font-poppins font-semibold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start'>Strategy & Digital Marketing</p>
                             <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-white mt-2  text-center lg:text-start'>Strategy in digital marketing is the foundation upon which successful online campaigns are built. It involves setting clear objectives, identifying target audiences.</p>
                         </div>
                     </div>
