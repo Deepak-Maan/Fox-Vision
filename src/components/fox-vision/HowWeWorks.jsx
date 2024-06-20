@@ -46,7 +46,6 @@ const HowWeWorks = () => {
                             key={index}
                         >
                             <WorksCard
-                                className={index === 1 ? "bg-lightsky" : "bg-lightpurple"}
                                 worksvg={data.worksvg}
                                 title={data.title}
                                 description={data.description}
