@@ -14,8 +14,8 @@ const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWha
           <h2 className='font-semibold font-montserrat text-4xl md:text-6xxl leading-md text-darkblue text-center lg:text-start relative z-[2]'>{CommonWhatWeDoheading}</h2>
           <img src={CommonWhatWeDoimg} alt="displayAvatar" className={`${ImgClass} mx-auto w-full xl:w-auto lg:-mx-3`} />
         </div>
-        <div className='w-full lg:w-1/2 px-3 flex flex-col lg:items-end mt-5 lg:mt-0'>
-          <div className={`${paraWidth}`}>
+        <div className='w-full lg:w-1/2 px-3 flex flex-col lg:items-end mt-5 lg:mt-3'>
+          <div className={`${paraWidth} lg:ml-auto`}>
             <span className={`${SvgPosition} flex justify-center`}>
               {Logo}
             </span>
@@ -25,7 +25,7 @@ const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWha
               <span className={`${textColor2}`}> {CommonWhatWeDotext3} </span>
               <span className={`${textColor3}`}> {CommonWhatWeDotext4} </span>
               {CommonWhatWeDotext5}</p>
-            <div className='pt-5 lg:pt-10 text-center lg:text-start'><CommonBtn btnName='Contact' /></div>
+            <div className='pt-5 lg:pt-10 text-center lg:text-start'><CommonBtn btnName='Contact' className='sm:!p-[14px_33px]' /></div>
           </div>
         </div>
       </div>

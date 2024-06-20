@@ -10,12 +10,13 @@ const CorporateIdentidy = () => {
           <CommonWhatWeDo
             CommonWhatWeDoimg={CorporateIdentiy}
             textColor1='text-darkpurple'
-            arrowPosition='left-0 lg:left-[35%] top-[-5%] lg:top-[4%]'
+            arrowPosition='left-0 lg:left-[32%] top-[-5%] lg:top-[4%]'
             textColor3='text-darkpurple'
             paraWidth='lg:max-w-[552px]'
             SvgPosition='lg:justify-start'
-            marginPara='mt-[0px]'
-            Logo={<ContactList />}
+            marginPara='mt-2 sm:mt-3'
+            Logo={<span className="flex justify-center items-center rounded-md shadow-[0px_12.63px_25.25px_0px_#05D5FB29] w-[70px] h-[70px] sm:w-[93px] sm:h-[93px] bg-lightsky">
+              <ContactList /></span>}
             ImgClass='max-w-[465px] max-h-[349px] mt-[17px]'
             CommonWhatWeDoheading='Corporate identity'
             CommonWhatWeDotext2='corporate design,'

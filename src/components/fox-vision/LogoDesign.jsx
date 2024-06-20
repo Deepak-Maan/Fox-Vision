@@ -10,16 +10,12 @@ const LogoDesign = () => {
     return (
         <div className='bg-darkpurple p-[100px_0_60px_0] sm:p-[150px_0_60px_0] md:p-[193px_0_60px_0]'>
             <div className='max-w-[1164px] mx-auto px-3'>
-
-                <div className='lg:flex-row flex-col-reverse flex-wrap -mx-3 flex items-center'>
-                    <span className=' absolute left-0 1xl:left-[-9%] top-[10%] sm:top-[26%] lg:top-[29%] z-[-1]'>
-                        <LogoDesignIcon />
-                    </span>
+                <div className='lg:flex-row flex-col-reverse flex-wrap -mx-3 flex'>
                     <div className='w-full lg:w-5/12 px-3 mt-5 lg:mt-0'>
                         <div className='lg:max-w-[421px] lg:ml-auto'>
-                            <span className='flex justify-center lg:justify-start'><SettingIcon /></span>
-                            <p className='font-poppins font-bold text-lg sm:text-xl md:text-2xl leading-[150%] text-white text-center lg:text-start'>Logo Design</p>
-                            <p className='font-poppins font-normal text-base sm:text-lg md:text-xl leading-[150%] text-white mt-2  text-center lg:text-start opacity-70'>Logo design is a specialized discipline within the realm of graphic design, focused on creating unique and memorable visual symbols that represent a brand, company, or organization.</p>
+                            <span className='flex justify-center lg:justify-start'><LogoDesignIcon /></span>
+                            <p className='font-poppins font-bold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start'>Logo Design</p>
+                            <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-white mt-2  text-center lg:text-start opacity-70'>Logo design is a specialized discipline within the realm of graphic design, focused on creating unique and memorable visual symbols that represent a brand, company, or organization.</p>
                         </div>
                     </div>
                     <div className='lg:w-7/12 w-full px-3 relative z-[2]'>
@@ -48,8 +44,8 @@ const LogoDesign = () => {
                     <div className='w-full lg:w-5/12 px-3 mt-5 lg:mt-0'>
                         <div className='lg:max-w-[445px] lg:mr-auto'>
                             <span className='flex justify-center lg:justify-start'><SettingIcon /></span>
-                            <p className='font-poppins font-bold text-lg sm:text-xl md:text-2xl leading-[150%] text-white text-center lg:text-start'>Strategy & Digital Marketing</p>
-                            <p className='font-poppins font-normal text-base sm:text-lg md:text-xl leading-[150%] text-white mt-2  text-center lg:text-start'>Strategy in digital marketing is the foundation upon which successful online campaigns are built. It involves setting clear objectives, identifying target audiences.</p>
+                            <p className='font-poppins font-bold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start'>Strategy & Digital Marketing</p>
+                            <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-white mt-2  text-center lg:text-start'>Strategy in digital marketing is the foundation upon which successful online campaigns are built. It involves setting clear objectives, identifying target audiences.</p>
                         </div>
                     </div>
                 </div>
