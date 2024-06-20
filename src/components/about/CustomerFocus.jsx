@@ -7,7 +7,7 @@ export const CustomerFocus = () => {
     return (
         <div className='bg-darkpurple pt-[48px] md:pt-[64px] lg:pt-[77px] mb-[-2px]'>
             <div className='container xl:max-w-[1164px] px-3 mx-auto'>
-                <div className='flex flex-row flex-wrap items-center justify-center lg:justify-between pb-[25px] md:pb-[30px] lg:pb-[78px]'>
+                <div className='flex flex-row flex-wrap items-center justify-center lg:justify-between pb-[25px] md:pb-[30px] xl:pb-[78px]'>
                     <div className='lg:w-[48%] w-full'>
                         <p
                             className='font-poppins text-white text-center lg:text-start font-bold sm:text-xl text-sm !leading-normal sm:mb-3'>FOX philosophy</p>
@@ -19,7 +19,7 @@ export const CustomerFocus = () => {
                     </div>
                 </div>
                 <div className="flex justify-center">
-                    <FoxWhiteLogo className="lg:w-[141px] lg:h-[172px] sm:w-[120px] sm:h-[100px] h-[80px] w-[101px] cursor-pointer" />
+                    <FoxWhiteLogo className="xl:w-[141px] xl:h-[172px] sm:w-[120px] sm:h-[100px] h-[80px] w-[101px] cursor-pointer" />
                 </div>
             </div>
         </div>

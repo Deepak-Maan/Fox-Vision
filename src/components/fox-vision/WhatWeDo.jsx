@@ -22,7 +22,7 @@ const WhatWeDo = () => {
             <div className='max-w-[1164px] mx-auto px-3 pt-12 md:pt-16 lg:pt-[70px] xl:pt-60'>
                 <CommonWhatWeDo
                     CommonWhatWeDosubheading='A RESULTS-DRIVEN AGENCY'
-                    ImgClass='max-w-[590.5px] max-h-[378.96px] mt-4 sm:mt-6 lg:mt-[49.87px]'
+                    ImgClass='max-w-[590.5px] max-h-[378.96px] mt-4 sm:mt-6 xl:mt-[49.87px]'
                     CommonWhatWeDoimg={DisplayAvatar}
                     Logo={<Logo />}
                     CommonWhatWeDoheading='What we do'

@@ -8,11 +8,11 @@ const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWha
 }) => {
   return (
     <>
-      <p className='font-poppins font-bold sm:text-xl text-sm leading-lg text-darkblue text-center lg:text-start'>{CommonWhatWeDosubheading}</p>
-      <div className='flex-row flex flex-wrap items-center -mx-3 md:mt-3 relative'>
-        <span className={`${arrowPosition} absolute z-[-1]`}><Arrow /></span>
+      <div className='flex-row flex flex-wrap items-center -mx-3 relative'>
+        <span className={`${arrowPosition} absolute z-[-1] hidden xl:block`}><Arrow /></span>
         <div className='w-full lg:w-1/2 px-3'>
-          <h2 className='font-semibold font-montserrat text-3xl md:text-5xl xl:text-6xxl leading-md text-darkblue text-center lg:text-start relative z-[2]'>{CommonWhatWeDoheading}</h2>
+          <p className='font-poppins font-bold sm:text-xl text-sm leading-lg text-darkblue text-center lg:text-start'>{CommonWhatWeDosubheading}</p>
+          <h2 className='font-semibold font-montserrat text-3xl  md:mt-3 md:text-5xl xl:text-6xxl leading-md text-darkblue text-center lg:text-start relative z-[2]'>{CommonWhatWeDoheading}</h2>
           <img src={CommonWhatWeDoimg} alt="displayAvatar" className={`${ImgClass} mx-auto w-full xl:w-auto lg:-mx-3`} />
         </div>
         <div className='w-full lg:w-1/2 px-3 flex flex-col lg:items-end mt-5 lg:mt-3'>
