@@ -5,6 +5,7 @@ import { howWeWorksCard } from "../common/Helper";
 import WorksCard from "../common/WorksCard";
 import { CommonHeading, CommonsubHeading } from "../common/CommonHeading"
 import CommonBtn from "../common/CommonBtn";
+import { Link } from "react-router-dom";
 
 const HowWeWorks = () => {
     return (
@@ -35,7 +36,8 @@ const HowWeWorks = () => {
                                     right solution for your company </span>
                                 and advise you individually
                             </p>
-                            <CommonBtn btnName="Contact" className="w-[126px]" />
+                            <Link to="/contact"> <CommonBtn btnName="Contact" className="w-[126px]" /></Link>
+                           
                         </div>
                     </div>
                 </div>
