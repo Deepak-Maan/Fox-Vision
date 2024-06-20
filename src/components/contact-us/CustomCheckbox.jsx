@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckSvg } from './common/Icons';
+import { CheckSvg } from '../common/Icons';
 
 const CustomCheckbox = ({ checked, onChange }) => {
     return (

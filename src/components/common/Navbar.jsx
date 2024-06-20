@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
-import Logo from "../../asstes/images/webp/hero/nav-logo.webp";
+import Logo from "../../asstes/images/webp/hero/navLogo.webp";
 import { Calling, Email } from "./Icons";
 import CommonBtn from "./CommonBtn";
 
@@ -91,8 +91,8 @@ const Navbar = () => {
           >
             <Email />
           </Link>
-          <Link to="/contact" className="w-[124px] hidden md:block">
-            <CommonBtn btnName="Kontakt" />
+          <Link to="/contact" className="!w-[124px] hidden md:block">
+            <CommonBtn btnName="Kontakt" className="!w-[124px]"/>
           </Link>
         </div>
         <button onClick={showNav} className="lg:hidden relative z-50">
