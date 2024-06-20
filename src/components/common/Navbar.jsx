@@ -79,23 +79,23 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="flex items-center gap-2 md:gap-4 relative z-20">
-          <Link
+          <Link aria-label=" make call"
             to="tel:+1234567890"
             className="hover:translate-y-[-6px] hidden md:block transition-all duration-300 ease-linear"
           >
             <Calling />
           </Link>
-          <Link
+          <Link aria-label="send email"
             to="mailto:example@example.com"
             className="hover:translate-y-[-6px] hidden md:block transition-all duration-300 ease-linear"
           >
             <Email />
           </Link>
           <Link to="/contact" className="!w-[124px] hidden md:block">
-            <CommonBtn btnName="Kontakt" className="!w-[124px]"/>
+            <CommonBtn btnName="Kontakt" className="!w-[124px]" />
           </Link>
         </div>
-        <button onClick={showNav} className="lg:hidden relative z-50">
+        <button aria-label="crossIcon" onClick={showNav} className="lg:hidden relative z-50">
           {navBar ? (
             <div className="flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer">
               <span className="bg-darkpurple min-w-[11px] min-h-[2px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 -translate-y-1 -bottom-[15px]"></span>
