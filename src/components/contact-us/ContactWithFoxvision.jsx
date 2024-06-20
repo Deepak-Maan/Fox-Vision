@@ -144,7 +144,7 @@ const ContactWithFoxvision = () => {
     return (
         <div className='xl:pt-[126px] lg:pt-[70px] md:pt-[64px] pt-[48px]'>
             <div className='container xl:max-w-[1164px] px-3 mx-auto'>
-                <div className='flex flex-wrap flex-row justify-between items-center'>
+                <div className='flex flex-wrap flex-row justify-between '>
                     <div className='lg:w-[43%] w-full'>
                         <CommonsubHeading className="lg:!text-start !capitalize" subheading="Contact With FoxVision" />
                         <h2 className='font-semibold font-montserrat text-center lg:text-start text-4xl md:text-5xl xl:text-6xxl !leading-md text-darkblue mb-5'>Let's Start a Conversation</h2>
@@ -152,7 +152,7 @@ const ContactWithFoxvision = () => {
                             <img src={contactConversation} alt="contactConversation" className='max-w-[483px] xl:h-[349px] w-full' />
                         </div>
                     </div>
-                    <div className='lg:w-[53%] w-full mt-[40px] lg:mt-0'>
+                    <div className='lg:w-[53%] w-full mt-[40px] lg:mt-[57px]'>
                         <form onSubmit={handleSubmit}>
                             <div className='flex sm:flex-row flex-col sm:gap-[11px]'>
                                 <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3">
