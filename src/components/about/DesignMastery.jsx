@@ -12,6 +12,7 @@ const DesignMastery = () => {
         <div className='pt-12 md:pt-16 lg:pt-[70px] xl:pt-32'>
 
           {/* --------design projet agency----------------- */}
+
           <CommonWhatWeDo
             CommonWhatWeDosubheading='FOX VISION'
             paraWidth='lg:max-w-[512px]'
@@ -33,6 +34,7 @@ const DesignMastery = () => {
         </div>
 
         {/* --------------------- our genes------------- */}
+
         <div className="overflow-hidden pt-12 md:pt-16 lg:pt-[70px] xl:pt-[150px]">
           <p className='font-poppins text-darkblue text-center font-bold sm:text-xl text-sm !leading-normal sm:mb-3'>FOX VISION - Friendly and reliable</p>
           <CommonHeading heading="Design Mastery in Our Genes" className="!text-center" />
