@@ -4,7 +4,7 @@ export const CommonHeading = ({ heading, className }) => {
   return (
 
     <h2
-      className={`${className} capitalize font-semibold font-montserrat text-center lg:text-start text-4xl md:text-5xl xl:text-6xxl !leading-md text-darkblue`}
+      className={`${className} capitalize font-semibold font-montserrat text-center lg:text-start text-3xl md:text-5xl xl:text-6xxl !leading-md text-darkblue`}
     >
       {heading}
     </h2 >
