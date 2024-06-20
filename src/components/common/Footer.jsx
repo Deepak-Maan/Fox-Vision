@@ -1,27 +1,28 @@
 import React from 'react';
+import { useLocation, Link } from 'react-router-dom';
 import footerLogo from '../../asstes/images/svg/footerLogo.svg';
 import { footerIcons } from './Helper';
 import footerVector1 from '../../asstes/images/webp/footer/footerVector1.webp';
 import footerVector2 from '../../asstes/images/webp/footer/footerVector2.webp';
-import { Link } from 'react-router-dom';
-
 
 const Footer = () => {
+    const location = useLocation();
+
     return (
         <div className='bg-darkblue relative'>
             <img src={footerVector1} alt="footerVector1" className='w-[205px] h-[360px] absolute left-0 top-0 pointer-events-none ' />
             <img src={footerVector2} alt="footerVector2" className='w-[205px] h-[360px] absolute right-0 bottom-0 pointer-events-none ' />
-            <div className='container xl:max-w-[1140px] px-3 mx-auto pt-[150px] md:pt-[210px]'>
+            <div className={`container xl:max-w-[1140px] px-3 mx-auto ${location.pathname === '/contact' ? 'pt-[81px]' : 'pt-[150px] md:pt-[210px]'}`}>
                 <div className='flex flex-row flex-wrap pb-[48px] sm:pb-[64px] md:pb-[80px] lg:pb-[111px] justify-between'>
                     <div className='lg:w-4/12 w-full'>
-                        <Link href="">
+                        <Link to="/">
                             <img src={footerLogo} alt="logo" className='sm:w-[252px] h-[33px] w-[230px]' />
                         </Link>
                         <p className='font-poppins text-white opacity-70 max-w-[311px] leading-normal mt-2 sm:mt-4 mb-4 sm:mb-[30px]'>Libero morbi pharetra sollicitudin enim praesent nulla velit sitonec leodui.</p>
                         <div className="flex gap-[16px] items-center">
                             {footerIcons.map((icon, index) => {
                                 return (
-                                    <Link key={index} href={icon.link} aria-label={icon.label} target='blank' className="hover:-translate-y-2 transition-all duration-300 ease-linear">
+                                    <Link key={index} to={icon.link} aria-label={icon.label} target='blank' className="hover:-translate-y-2 transition-all duration-300 ease-linear">
                                         {icon.footersvg}
                                     </Link>
                                 );
@@ -58,11 +59,12 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <p className="text-center text-white  opacity-70 text-sm font-normal font-poppins pb-[12px] px-8 sm:px-0">
+                <p className="text-center text-white opacity-70 text-sm font-normal font-poppins pb-[12px] px-8 sm:px-0">
                     Copyright©{new Date().getFullYear()} Fox Vision GmbH. All right reserved.
                 </p>
             </div>
         </div>
     );
 };
+
 export default Footer;
