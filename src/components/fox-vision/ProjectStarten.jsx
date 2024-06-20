@@ -1,5 +1,6 @@
 import React from 'react';
 import CommonButton from '../common/CommonBtn';
+import { Link } from 'react-router-dom';
 
 const ProjectStarten = ({ bgColor }) => {
     return (
@@ -10,10 +11,11 @@ const ProjectStarten = ({ bgColor }) => {
                         <h3 className='sm:max-w-[613px] max-w-[400px] text-2xl sm:text-4xl lg:text-4xxl text-center font-semibold text-white mb-[29px] !leading-3md'>
                             Möchten Sie ein Projekt starten? Wir freuen uns.
                         </h3>
-                        <CommonButton
+                        <Link to="/contact">  <CommonButton
                             className='border bordr-solid border-white hover:!border-transparent w-[124px] !py-[13px] !px-[30px]'
                             btnName='Kontakt'
-                        />
+                        /></Link>
+                      
                     </div>
                 </div>
             </div>

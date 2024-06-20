@@ -6,7 +6,7 @@ const PortfolioCardSection = () => {
     const [btnName, setBtnName] = useState('See more');
     const [showAll, setShowAll] = useState(false);
     const [initialCardsToShow, setInitialCardsToShow] = useState(11);
-    const [additionalCardsToShow, setAdditionalCardsToShow] = useState(15);
+    const [, setAdditionalCardsToShow] = useState(15);
 
     useEffect(() => {
         const updateCardCount = () => {
@@ -24,7 +24,7 @@ const PortfolioCardSection = () => {
 
         // Update values on resize
         window.addEventListener('resize', updateCardCount);
-        
+
         // Cleanup event listener on component unmount
         return () => {
             window.removeEventListener('resize', updateCardCount);
@@ -49,7 +49,7 @@ const PortfolioCardSection = () => {
                     </div>
                 ))}
             </div>
-            <div className='mt-[26px] text-center'>
+            <div className='mt-[26px] flex justify-center'>
                 <CommonBtn btnName={btnName} onClick={handleButtonClick} />
             </div>
         </div>
