@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 nav ul li a:hover {
   -webkit-text-stroke-width: 0.5px;
 }
