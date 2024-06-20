@@ -13,14 +13,14 @@ const LogoDesign = () => {
                 <div className='lg:flex-row flex-col-reverse flex-wrap -mx-3 flex'>
                     <div className='w-full lg:w-5/12 px-3 mt-5 lg:mt-0'>
                         <div className='lg:max-w-[421px] lg:ml-auto'>
-                            <span className='flex justify-center lg:justify-start'><LogoDesignIcon /></span>
+                            <span className='flex justify-center lg:justify-start -mt-2.5'><LogoDesignIcon /></span>
                             <p className='font-poppins font-semibold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start'>Logo Design</p>
                             <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-white mt-2  text-center lg:text-start opacity-70'>Logo design is a specialized discipline within the realm of graphic design, focused on creating unique and memorable visual symbols that represent a brand, company, or organization.</p>
                         </div>
                     </div>
                     <div className='lg:w-7/12 w-full px-3 relative z-[2]'>
                         <div className='flex max-w-[547px] w-full justify-center lg:justify-start relative mx-auto lg:ml-auto lg:mr-0 gap-2 sm:gap-[22.88px]'>
-                            <span className=' absolute right-0 bottom-[4%] z-[1]'>
+                            <span className=' absolute right-0 bottom-[4%] z-[1] '>
                                 <WhiteElipseBg />
                             </span>
                             <div className='flex flex-col gap-2 sm:gap-[26.5px] relative z-[2]'>

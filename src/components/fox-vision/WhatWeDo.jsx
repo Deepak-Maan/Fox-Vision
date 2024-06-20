@@ -94,6 +94,9 @@ const WhatWeDo = () => {
                         </div>
                     </div>
                 </div>
+                <div className='mb-4 md:mb-[30px] flex justify-center lg:justify-start'>
+                    <Logo/>
+                </div>
             </div>
         </div>
     )
