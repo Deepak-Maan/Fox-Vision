@@ -14,7 +14,7 @@ const CorporateIdentidy = () => {
             textColor3='text-darkpurple'
             paraWidth='lg:max-w-[552px]'
             SvgPosition='lg:justify-start'
-            marginPara='mt-2 sm:mt-3'
+            marginPara='mt-5'
             Logo={<span className="flex justify-center items-center rounded-md shadow-[0px_12.63px_25.25px_0px_#05D5FB29] w-[70px] h-[70px] sm:w-[93px] sm:h-[93px] bg-lightsky">
               <ContactList /></span>}
             ImgClass='max-w-[465px] max-h-[349px] mt-[17px]'
