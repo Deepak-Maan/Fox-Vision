@@ -29,18 +29,15 @@ const ContactWithFoxvision = () => {
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
         if (name === 'number') {
-            // Allow only digits and restrict to 10 characters
             if (!/^\d*$/.test(value) || value.length > 10) {
                 return;
             }
         }
-
         setFormData((prevFormData) => ({
             ...prevFormData,
             [name]: type === "checkbox" ? checked : value,
         }));
     };
-
     const handleCheckboxChange = (event) => {
         const isChecked = event.target.checked;
         setFormData((prevFormData) => ({
@@ -48,7 +45,6 @@ const ContactWithFoxvision = () => {
             box: isChecked,
         }));
     };
-
     const handleSubmit = (e) => {
         e.preventDefault();
         const regex = {
@@ -60,8 +56,6 @@ const ContactWithFoxvision = () => {
             message: /^.*$/,
         };
         const errors = {};
-
-        // Check for empty fields
         if (!formData.name.trim()) {
             errors.name = "Name is required.";
         } else if (!regex.name.test(formData.name)) {
@@ -95,7 +89,6 @@ const ContactWithFoxvision = () => {
         if (!formData.box) {
             errors.box = "Please confirm you are not a robot";
         }
-
         setFormErrors(errors);
         if (Object.keys(errors).length === 0) {
             setShowSuccessPopup(true);
@@ -135,7 +128,6 @@ const ContactWithFoxvision = () => {
         } else {
             document.removeEventListener("mousedown", handleOutsideClick);
         }
-
         return () => {
             document.removeEventListener("mousedown", handleOutsideClick);
         };
@@ -156,7 +148,7 @@ const ContactWithFoxvision = () => {
                         <form onSubmit={handleSubmit}>
                             <div className='flex sm:flex-row flex-col sm:gap-[11px]'>
                                 <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3">
-                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full border-solid border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
+                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
                                         type="text"
                                         placeholder="First Name"
                                         id="name"
@@ -166,11 +158,11 @@ const ContactWithFoxvision = () => {
                                         autoComplete="off"
                                     />
                                     {formErrors.name && (
-                                        <p className="error-message font-plusJkarta text-red-600">{formErrors.name}</p>
+                                        <p className="error-message font-poppins text-red-600">{formErrors.name}</p>
                                     )}
                                 </div>
                                 <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3">
-                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full border-solid border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
+                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
                                         type="text"
                                         placeholder="Last Name"
                                         id="lastname"
@@ -180,13 +172,13 @@ const ContactWithFoxvision = () => {
                                         autoComplete="off"
                                     />
                                     {formErrors.lastname && (
-                                        <p className="error-message font-plusJkarta text-red-600">{formErrors.lastname}</p>
+                                        <p className="error-message font-poppins text-red-600">{formErrors.lastname}</p>
                                     )}
                                 </div>
                             </div>
                             <div className="flex sm:flex-row flex-col sm:gap-[11px]">
                                 <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3">
-                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full border-solid border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
+                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
                                         type="text"
                                         placeholder="Subject"
                                         id="subject"
@@ -196,11 +188,11 @@ const ContactWithFoxvision = () => {
                                         autoComplete="off"
                                     />
                                     {formErrors.subject && (
-                                        <p className="error-message font-plusJkarta text-red-600">{formErrors.subject}</p>
+                                        <p className="error-message font-poppins text-red-600">{formErrors.subject}</p>
                                     )}
                                 </div>
                                 <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3">
-                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full border-solid border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
+                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
                                         type="text"
                                         placeholder="Mobile Number"
                                         id="number"
@@ -211,12 +203,12 @@ const ContactWithFoxvision = () => {
                                         maxLength={10}
                                     />
                                     {formErrors.number && (
-                                        <p className="error-message font-plusJkarta text-red-600">{formErrors.number}</p>
+                                        <p className="error-message font-poppins text-red-600">{formErrors.number}</p>
                                     )}
                                 </div>
                             </div>
                             <div className="w-full mb-3 sm:mb-3">
-                                <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full border-solid border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
+                                <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
                                     type="text"
                                     placeholder="Email"
                                     id="email"
@@ -226,10 +218,10 @@ const ContactWithFoxvision = () => {
                                     autoComplete="off"
                                 />
                                 {formErrors.email && (
-                                    <p className="error-message font-plusJkarta text-red-600">{formErrors.email}</p>)}
+                                    <p className="error-message font-poppins text-red-600">{formErrors.email}</p>)}
                             </div>
                             <div className="w-full mb-3 sm:mb-3 lg:mb-[18px]">
-                                <textarea className="resize-none text-base !text-black h-[100px] sm:h-[159px] placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 font-poppins font-normal p-3 sm:p-[15px] outline-none w-full border-solid border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
+                                <textarea className="resize-none text-base !text-black h-[100px] sm:h-[159px] placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
                                     type="text"
                                     placeholder="Tell us more about your projects"
                                     id="message"
@@ -241,11 +233,11 @@ const ContactWithFoxvision = () => {
                                     autoComplete="off"
                                 />
                                 {formErrors.message && (
-                                    <p className="error-message font-plusJkarta text-red-600">{formErrors.message}</p>
+                                    <p className="error-message font-poppins text-red-600">{formErrors.message}</p>
                                 )}
                             </div>
                             <div className="flex justify-center lg:justify-start">
-                                <div className="w-full lg:max-w-[302px] max-w-[402px] border border-solid border-offGrey bg-extraLightgrey rounded-[6px] p-[8px_12px_7px_13px]">
+                                <div className="w-full max-w-[277px] border border-offGrey bg-extraLightgrey rounded-[6px] p-[8px_12px_7px_13px]">
                                     <div className="flex justify-between items-center">
                                         <div className="flex gap-2">
                                             <CustomCheckbox
@@ -255,7 +247,7 @@ const ContactWithFoxvision = () => {
                                         </div>
                                         <div>
                                             <img src={robotsvg} alt="robotsvg" className="mx-auto w-[49px] h-[45px]" />
-                                            <p className='font-normal !text-[8px] text-lightGrey '>Privacy - Terms</p>
+                                            <p className='font-normal font-poppins !text-[8px] text-lightGrey '>Privacy - Terms</p>
                                         </div>
                                     </div>
                                 </div>
@@ -268,12 +260,12 @@ const ContactWithFoxvision = () => {
                             </div>
                         </form>
                         {showSuccessPopup && (
-                            <div className="success-popup fixed top-[50%] left-[50%] h-[200px] sm:h-[280px] md:h-[350px] w-full max-w-[300px] sm:max-w-[500px] md:max-w-[550px] lg:max-w-[600px] bg-white border border-solid border-darkpurple p-[20px] sm:p-[40px] rounded  shadow-[0px_0px_10px_0px_#0000001A] flex justify-center items-center flex-col translate-x-[-50%] translate-y-[-50%] z-[50]">
+                            <div className="success-popup fixed top-[50%] left-[50%] h-[200px] sm:h-[280px] md:h-[350px] w-full max-w-[300px] sm:max-w-[500px] md:max-w-[550px] lg:max-w-[600px] bg-white border   border-darkpurple p-[20px] sm:p-[40px] rounded  shadow-[0px_0px_10px_0px_#0000001A] flex justify-center items-center flex-col translate-x-[-50%] translate-y-[-50%] z-[50]">
                                 <p className="mb-[40px] text-darkblue text-xl sm:text-3xl font-semibold font-poppins text-center leading-normal">Message sent successfully!</p>
                                 <div className="flex justify-center items-center">
                                     <div className='w-full'>
                                         <button onClick={handlePopupClose}
-                                            className='sm:py-[14px] py-3 sm:px-[50px] px-7 bg-sky hover:bg-darkpurple transition-all duration-300 ease-in-out  rounded-[69px] text-white font-semibold sm:text-base text-sm leading-normal'
+                                            className='sm:py-[14px] py-3 sm:px-[50px] px-7 bg-sky hover:bg-darkpurple transition-all duration-300 ease-in-out  rounded-[69px] text-white font-semibold font-poppins sm:text-base text-sm leading-normal'
                                         >
                                             close
                                         </button>

@@ -24,7 +24,7 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
       <div className="max-w-[1164px] mx-auto px-3">
         <Navbar />
         <div className="sm:px-12 md:px-8 lg:px-0 flex flex-col items-center">
-          <h1 className={`leading-[107%] font-montserrat text-center text-white text-5xl md:text-6xxl lg:text-8xxl ${additionalClass}`}>
+          <h1 className={`!leading-[107%] font-montserrat text-center text-white text-5xl md:text-6xxl lg:text-8xxl ${additionalClass}`}>
             {heroHeading ? (
               heroHeading.map((part, index) => (
                 <span key={index} className={part.isBold ? 'font-bold' : 'font-normal'}>
@@ -38,7 +38,7 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
             )}
           </h1>
           {!hideParagraph && (
-            <p className='text-white text-center font-poppins text-base px-3 md:text-2xl mt-3 lg:mt-9 mb-1'>
+            <p className='text-white !leading-[150%] text-center font-poppins text-base px-3 md:text-2xl mt-3 lg:mt-9 mb-1'>
               Kreativagentur für Branding, Social Media & digitale Lösungen.
             </p>
           )}

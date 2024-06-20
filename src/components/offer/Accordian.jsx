@@ -1,9 +1,8 @@
-// src/Accordian.js
 import React, { useState, useRef, useEffect } from 'react';
 import { AccordianArrowDown, AccordianArrowUp } from '../common/Icons';
 
 const Accordian = ({ items }) => {
-  const [activeIndex, setActiveIndex] = useState(0);  // Set the first item to be active by default
+  const [activeIndex, setActiveIndex] = useState(0);
   const [contentHeight, setContentHeight] = useState(0);
   const contentRefs = useRef([]);
 
@@ -25,19 +24,18 @@ const Accordian = ({ items }) => {
   }, [activeIndex]);
 
   useEffect(() => {
-    // Set the initial height for the first item
     if (contentRefs.current[0]) {
       setContentHeight(contentRefs.current[0].scrollHeight);
     }
   }, []);
 
   return (
-    <div className="accordion max-w-[970px] mx-auto">
+    <div className="accordion max-w-[970px] mx-auto relative z-10">
       {items.map((item, index) => (
-        <div key={index} className="border-[1px] border-solid md:p-[15px] p-3 lg:p-[21px] border-[#00000033] rounded-md mb-3 md:mb-5">
+        <div onClick={() => handleSetIndex(index)} key={index} className="border-[1px] cursor-pointer md:p-[15px] p-3 lg:p-[21px] border-lightOffGrey rounded-md mb-3 md:mb-5">
           <button
             className="w-full "
-            onClick={() => handleSetIndex(index)} >
+          >
             <div className="flex justify-between items-center sm:h-[26px]">
               <span className="font-semibold font-montserrat sm:text-lg text-base md:text-xl lg:text-2xl leading-md text-start text-darkblue">{item.title}</span>
               <span className='pl-4'>

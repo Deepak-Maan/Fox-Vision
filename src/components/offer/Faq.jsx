@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { CommonHeading } from '../common/CommonHeading'
 import Accordian from './Accordian';
 
@@ -35,7 +34,7 @@ const Faq = () => {
             <div className=' max-w-[1164px] mx-auto px-3 lg:pt-[70px] md:pt-16 pt-12 xl:pt-[150px]'>
                 <CommonHeading heading="Frequently Asked Questions" className='!text-center' />
                 <div className=' pt-5 md:pt-10 lg:pt-[50px]'>
-                <Accordian items={items} />
+                    <Accordian items={items} />
                 </div>
             </div>
         </>

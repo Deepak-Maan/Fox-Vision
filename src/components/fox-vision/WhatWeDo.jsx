@@ -63,7 +63,7 @@ const WhatWeDo = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' pt-20 md:pt-40 lg:pt-[202px] flex-row flex-wrap lg:flex-nowrap -mx-3 flex items-center relative pb-8 sm:pb-12 md:pb-16 lg:pb-[102px]'>
+                <div className=' pt-20 md:pt-40 lg:pt-[202px] flex-row flex-wrap lg:flex-nowrap -mx-3 flex items-center relative pb-4 sm:pb-10 md:pb-16 lg:pb-[102px]'>
                     <span className=' absolute left-0 1xl:left-[-9%] top-[21%] sm:top-[26%] lg:top-[28%] z-[-1]'>
                         <BlueElipseBg />
                     </span>
@@ -94,8 +94,8 @@ const WhatWeDo = () => {
                         </div>
                     </div>
                 </div>
-                <div className='mb-4 md:mb-[30px] flex justify-center lg:justify-start'>
-                    <Logo/>
+                <div className='mb-12 md:mb-[30px] flex justify-center lg:justify-start'>
+                    <Logo />
                 </div>
             </div>
         </div>

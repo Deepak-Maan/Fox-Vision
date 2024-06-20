@@ -8,7 +8,7 @@ import LogoDesign4 from "../../asstes/images/webp/hero/LogoDesign4.webp";
 import LikeEmoji from "../../asstes/images/webp/hero/LikeEmoji.webp";
 const LogoDesign = () => {
     return (
-        <div className='bg-darkpurple p-[100px_0_60px_0] sm:p-[150px_0_60px_0] md:p-[193px_0_60px_0]'>
+        <div className='bg-darkpurple p-[100px_0_48px_0] sm:p-[150px_0_60px_0] md:p-[193px_0_60px_0]'>
             <div className='max-w-[1164px] mx-auto px-3'>
                 <div className='lg:flex-row flex-col-reverse flex-wrap -mx-3 flex'>
                     <div className='w-full lg:w-5/12 px-3 mt-5 lg:mt-0'>
@@ -39,7 +39,7 @@ const LogoDesign = () => {
                 </div>
                 <div className='flex-row flex-wrap -mx-3 flex items-center mt-10 sm:mt-16 md:mt-20 lg:mt-24'>
                     <div className='lg:w-7/12 w-full px-3 relative mx-auto lg:mx-0 '>
-                        <img src={Paypal} alt="paypal" className='max-w-[495px] w-full lg:w-[unset] max-h-[529px] mx-auto lg:mx-0 ' />
+                        <img src={Paypal} alt="paypal" className='max-w-[380px] w-full lg:w-[unset] max-h-[529px] mx-auto lg:mx-0 ' />
                     </div>
                     <div className='w-full lg:w-5/12 px-3 mt-5 lg:mt-0'>
                         <div className='lg:max-w-[445px] lg:mr-auto'>

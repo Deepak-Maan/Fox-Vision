@@ -15,7 +15,7 @@ const CustomCheckbox = ({ checked, onChange }) => {
                     <CheckSvg />
                 )}
             </span>
-            <span className="select-none text-black cursor-pointer font-poppins opacity-70 text-sm sm:text-base font-normal ">  I’m not a robot</span>
+            <span className="select-none text-black cursor-pointer font-poppins opacity-70 !leading-[150%] text-sm sm:text-base font-normal ">  I’m not a robot</span>
         </label>
     );
 };

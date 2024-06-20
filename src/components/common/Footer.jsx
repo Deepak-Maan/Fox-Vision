@@ -7,12 +7,11 @@ import footerVector2 from '../../asstes/images/webp/footer/footerVector2.webp';
 
 const Footer = () => {
     const location = useLocation();
-
     return (
         <div className='bg-darkblue relative'>
             <img src={footerVector1} alt="footerVector1" className='w-[205px] h-[360px] absolute left-0 top-0 pointer-events-none ' />
             <img src={footerVector2} alt="footerVector2" className='w-[205px] h-[360px] absolute right-0 bottom-0 pointer-events-none ' />
-            <div className={`container xl:max-w-[1140px] px-3 mx-auto ${location.pathname === '/contact' ? 'pt-[81px]' : 'pt-[150px] md:pt-[210px]'}`}>
+            <div className={`container xl:max-w-[1140px] px-3 mx-auto ${location.pathname === '/contact' ? 'pt-[81px]' : '/' ? 'pt-32 sm:pt-[224px]' : '/contact' ? 'pt-[150px] md:pt-[210px]' : ''}`}>
                 <div className='flex flex-row flex-wrap pb-[48px] sm:pb-[64px] md:pb-[80px] lg:pb-[111px] justify-between'>
                     <div className='lg:w-4/12 w-full'>
                         <Link to="/">
@@ -63,7 +62,7 @@ const Footer = () => {
                     Copyright©{new Date().getFullYear()} Fox Vision GmbH. All right reserved.
                 </p>
             </div>
-        </div>
+        </div >
     );
 };
 

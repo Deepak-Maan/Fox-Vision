@@ -23,7 +23,7 @@ const Navbar = () => {
 
   const getLinkClasses = (path) => {
     const isActive = currentPath === path;
-    return `font-poppins font-normal relative before:absolute before:flex before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:w-0 hover:before:w-[26px] before:rounded-lg before:duration-300 ${isActive ? 'before:w-[26px] text-stroke-0.5' : 'before:w-0'} text-base text-darkblue hover:text-stroke-0.5`;
+    return `font-poppins font-normal relative before:absolute !leading-[150%] before:flex before:h-[3px] duration-300 transition-all before:transition-all before:bg-darkpurple before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:w-0 hover:before:w-[26px] before:rounded-lg before:duration-300 ${isActive ? 'before:w-[26px] text-stroke-0.5' : 'before:w-0'} text-base text-darkblue hover:text-stroke-0.5`;
   };
 
   return (

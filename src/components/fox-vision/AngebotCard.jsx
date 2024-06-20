@@ -28,7 +28,7 @@ const AngebotCard = (props) => {
                 href="/"
             >
                 {props.cardBtn}
-               <span className=" group-hover:translate-x-1 transition-all ease-linear duration-300"> {props.Btnarrow}</span>
+                <span className=" group-hover:translate-x-1 transition-all ease-linear duration-300"> {props.Btnarrow}</span>
             </Link>
         </div>
     );

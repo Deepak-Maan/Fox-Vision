@@ -28,6 +28,8 @@ module.exports = {
         lightGrey: "#A6A6A6",
         offGrey: "#D3D3D3",
         extraLightgrey: "#F9F9F9",
+        lightOffGrey: "#CCCCCC",
+        extraLightOffGrey: "#E5E5E5",
       },
       fontSize: {
         " xxsm": "8px",

@@ -1,5 +1,5 @@
 import React from "react";
-import backtotop from "../../asstes/images/webp/backToTop/up-arrow.webp";
+import backtotop from "../../asstes/images/webp/backToTop/upArrow.webp";
 
 function Backtotop() {
     window.addEventListener("scroll", () => {
