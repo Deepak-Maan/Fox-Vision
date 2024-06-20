@@ -10,7 +10,7 @@ const CorporateIdentidy = () => {
           <CommonWhatWeDo
             CommonWhatWeDoimg={CorporateIdentiy}
             textColor1='text-darkpurple'
-            arrowPosition='left-0 lg:left-[32%] top-[-5%] lg:top-[4%]'
+            arrowPosition='left-0 lg:left-[32%] top-[-8%] lg:top-[4%]'
             textColor3='text-darkpurple'
             paraWidth='lg:max-w-[552px]'
             SvgPosition='lg:justify-start'
