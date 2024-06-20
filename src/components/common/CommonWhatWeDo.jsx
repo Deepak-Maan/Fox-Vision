@@ -25,7 +25,7 @@ const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWha
               <span className={`${textColor2}`}> {CommonWhatWeDotext3} </span>
               <span className={`${textColor3}`}> {CommonWhatWeDotext4} </span>
               {CommonWhatWeDotext5}</p>
-            <div className='pt-5 lg:pt-10 text-center lg:text-start'><CommonBtn btnName='Contact' className='sm:!p-[14px_33px]' /></div>
+            <div className='pt-5 lg:pt-10 text-center lg:text-start'><CommonBtn btnName='Contact' className='sm:!p-[14px_33px] w-[126px]' /></div>
           </div>
         </div>
       </div>
