@@ -21,7 +21,7 @@ const HowWeWorks = () => {
                                 height={294}
                                 src={work}
                                 alt="work"
-                                className="w-full sm:max-w-[378px] max-w-[310px]"
+                                className="w-full sm:max-w-[378px] lg:max-w-[467px] object-cover max-w-[310px]"
                             />
                         </div>
                     </div>
