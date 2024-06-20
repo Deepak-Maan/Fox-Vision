@@ -1,6 +1,7 @@
 import React from 'react'
 import CommonBtn from './CommonBtn'
 import { Arrow } from './Icons';
+import { Link } from 'react-router-dom';
 
 const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWhatWeDoheading, CommonWhatWeDotext1, CommonWhatWeDotext2, CommonWhatWeDotext3, ImgClass, textColor1, textColor2, textColor3, CommonWhatWeDotext4, CommonWhatWeDotext5, arrowPosition, paraWidth, Logo,
   SvgPosition, marginPara
@@ -25,7 +26,7 @@ const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWha
               <span className={`${textColor2}`}> {CommonWhatWeDotext3} </span>
               <span className={`${textColor3}`}> {CommonWhatWeDotext4} </span>
               {CommonWhatWeDotext5}</p>
-            <div className='pt-5 lg:pt-10 text-center lg:text-start'><CommonBtn btnName='Contact' className='sm:!p-[14px_33px] w-[126px]' /></div>
+            <div className='pt-5 lg:pt-10 text-center lg:text-start'><Link to="/contact"><CommonBtn btnName='Contact' className='sm:!p-[14px_33px] w-[126px]' /></Link> </div>
           </div>
         </div>
       </div>
