@@ -8,7 +8,7 @@ const DesignStrategy = () => {
     return (
         <div>
             <div className="container max-w-[1164px] mx-auto px-3 ">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8">
                     <div className='lg:max-w-[484px] flex flex-col md:flex-row lg:flex-col items-center '>
                         <div>
                             <CommonHeading heading="UI/UX Design Strategy" className="md:text-start text-center" />
