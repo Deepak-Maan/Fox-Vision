@@ -3,7 +3,7 @@ import CommonBtn from './CommonBtn'
 import { Arrow } from './Icons';
 import { Link } from 'react-router-dom';
 
-const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWhatWeDoheading, CommonWhatWeDotext1, CommonWhatWeDotext2, CommonWhatWeDotext3, ImgClass, textColor1, textColor2, textColor3, CommonWhatWeDotext4, CommonWhatWeDotext5, arrowPosition, paraWidth, Logo,
+const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWhatWeDoheading, CommonWhatWeDoTextblack, CommonWhatWeDoTextSkyblue, CommonWhatWeDoBetweenTextblackagain, ImgClass, textLightpurple, textOffblack, textSkyblue, CommonWhatWeDoTextLightpurple, CommonWhatWeDotext5, arrowPosition, paraWidth, Logo,
   SvgPosition, marginPara
 }) => {
   return (
@@ -21,10 +21,10 @@ const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWha
               {Logo}
             </span>
             <p className={`${marginPara} font-normal font-poppins text-base sm:text-lg md:text-xl !leading-lg opacity-70 text-darkblue text-center lg:text-start`}>
-              {CommonWhatWeDotext1}
-              <span className={`${textColor1}`}> {CommonWhatWeDotext2} </span>
-              <span className={`${textColor2}`}> {CommonWhatWeDotext3} </span>
-              <span className={`${textColor3}`}> {CommonWhatWeDotext4} </span>
+              {CommonWhatWeDoTextblack}
+              <span className={`${textLightpurple}`}> {CommonWhatWeDoTextLightpurple} </span>
+              <span className={`${textOffblack}`}> {CommonWhatWeDoBetweenTextblackagain} </span>
+              <span className={`${textSkyblue}`}> {CommonWhatWeDoTextSkyblue} </span>
               {CommonWhatWeDotext5}</p>
             <div className='pt-5 lg:pt-10 flex justify-center lg:justify-start'><Link to="/contact"><CommonBtn btnName='Contact' className='sm:!p-[14px_33px] w-[126px]' /></Link> </div>
           </div>

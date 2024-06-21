@@ -9,9 +9,9 @@ const CorporateIdentidy = () => {
         <div className='pt-12 md:pt-16 lg:pt-[70px] xl:pt-32'>
           <CommonWhatWeDo
             CommonWhatWeDoimg={CorporateIdentiy}
-            textColor1='text-darkpurple'
+            textLightpurple='text-darkpurple'
             arrowPosition='left-0 lg:left-[32%] top-[-7%] lg:top-[4%] hidden xl:block'
-            textColor3='text-darkpurple'
+            textSkyblue='text-darkpurple'
             paraWidth='lg:max-w-[552px]'
             SvgPosition='lg:justify-start'
             marginPara='mt-5'
@@ -19,10 +19,10 @@ const CorporateIdentidy = () => {
               <ContactList /></span>}
             ImgClass='max-w-[465px] max-h-[349px] mt-[17px]'
             CommonWhatWeDoheading='Corporate identity'
-            CommonWhatWeDotext2='corporate design,'
-            CommonWhatWeDotext1='Many people primarily associate logo and colors with it. Corporate identity is much more. Corporate identity, together with '
-            CommonWhatWeDotext3=' forms the character of your company. Give your company a face and awaken emotions and trust in your customers. '
-            CommonWhatWeDotext4='FOX VISION'
+            CommonWhatWeDoTextLightpurple='corporate design,'
+            CommonWhatWeDoTextblack='Many people primarily associate logo and colors with it. Corporate identity is much more. Corporate identity, together with '
+            CommonWhatWeDoBetweenTextblackagain=' forms the character of your company. Give your company a face and awaken emotions and trust in your customers. '
+            CommonWhatWeDoTextSkyblue='FOX VISION'
             CommonWhatWeDotext5='would be happy to develop your corporate identity.'
           />
         </div>
