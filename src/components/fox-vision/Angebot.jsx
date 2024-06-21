@@ -10,7 +10,7 @@ export const Angebot = () => {
             <div className="container xl:max-w-[1164px] px-3 mx-auto">
                 <CommonsubHeading className='text-white !text-center' subheading=" A RESULTS-DRIVEN AGENCY" />
                 <CommonHeading heading="Angebot" className="!text-center text-white" />
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-4 xl:gap-[22px] lg:pt-[98px] lg:pb-[77px] md:py-16 sm:py-12 py-9">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-4 xl:gap-[22px]  xl:pt-[98px] lg:pb-[77px] xl:py-16 py-8">
                     {angebotCardList.map((data, index) => (
                         <div key={index}>
                             <AngebotCard

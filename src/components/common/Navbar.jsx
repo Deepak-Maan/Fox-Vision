@@ -80,6 +80,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+        <div className="flex items-center gap-4">
         <div className="flex items-center gap-2 md:gap-4 relative z-20">
           <Link aria-label=" make call"
             to="tel:+1234567890"
@@ -111,6 +112,7 @@ const Navbar = () => {
             </div>
           )}
         </button>
+        </div>
       </nav>
     </div>
   );

@@ -28,7 +28,7 @@ const HowWeWorks = () => {
                     </div>
                     <div className="lg:w-6/12 w-full mb-[10px] flex justify-end lg:pt-0 pt-6">
                         <div className="flex flex-col justify-center lg:justify-start items-center lg:items-start">
-                            <p className="font-normal font-poppins sm:text-xl text-base !leading-[150%] text-center lg:text-start text-darkblue opacity-70 lg:max-w-[481px] lg:mb-10 md:mb-7 sm:mb-6 mb-4" >
+                            <p className="font-normal font-poppins stext-base sm:text-lg xl:text-xl sm:px-10 lg:px-0 !leading-[150%] text-center lg:text-start text-darkblue opacity-70 lg:max-w-[481px] lg:mb-10 sm:mb-7 mb-6" >
                                 We see our customers as partners and identify passionately with
                                 their companies. Regardless of what the goal is, whether to
                                 increase sales, increase brand awareness or attract new

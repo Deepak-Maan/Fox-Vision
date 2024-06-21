@@ -15,7 +15,7 @@ const LogoDesign = () => {
                         <div className='lg:max-w-[421px] lg:ml-auto'>
                             <span className='flex justify-center items-center mx-auto lg:mx-0 mb-3 sm:mb-5 md:mb-7 w-[75px] h-[75px] sm:w-[93.15px] sm:h-[93.15px] rounded-[7.59px] bg-white' ><LogoDesignIcon /></span>
                             <p className='font-poppins font-semibold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start' >Logo Design</p>
-                            <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-white mt-2  text-center lg:text-start opacity-70' >Logo design is a specialized discipline within the realm of graphic design, focused on creating unique and memorable visual symbols that represent a brand, company, or organization.</p>
+                            <p className='font-poppins font-normal text-base sm:text-lg xl:text-xl sm:px-10 lg:px-0 !leading-[150%] text-white mt-2  text-center lg:text-start opacity-70' >Logo design is a specialized discipline within the realm of graphic design, focused on creating unique and memorable visual symbols that represent a brand, company, or organization.</p>
                         </div>
                     </div>
                     <div className='lg:w-7/12 w-full px-3 relative z-[2]'>
@@ -45,7 +45,7 @@ const LogoDesign = () => {
                         <div className='lg:max-w-[445px] lg:mr-auto'>
                             <span className='flex justify-center items-center mx-auto lg:mx-0 mb-3 sm:mb-5 md:mb-7 w-[75px] h-[75px] sm:w-[93.15px] sm:h-[93.15px] rounded-[7.59px] bg-white' ><SettingIcon /></span>
                             <p className='font-poppins font-semibold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start' >Strategy & Digital Marketing</p>
-                            <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-white mt-2  text-center lg:text-start' >Strategy in digital marketing is the foundation upon which successful online campaigns are built. It involves setting clear objectives, identifying target audiences.</p>
+                            <p className='font-poppins font-normal text-base sm:text-lg xl:text-xl sm:px-10 lg:px-0 !leading-[150%] text-white mt-2  text-center lg:text-start' >Strategy in digital marketing is the foundation upon which successful online campaigns are built. It involves setting clear objectives, identifying target audiences.</p>
                         </div>
                     </div>
                 </div>
