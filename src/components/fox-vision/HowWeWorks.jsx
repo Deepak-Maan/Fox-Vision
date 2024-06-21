@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const HowWeWorks = () => {
     return (
-        <div className="xl:pt-[144.76px] xl:pb-[126.85px] lg:py-[70px] sm:py-[64px] py-[48px]">
+        <div className="xl:pt-[145px] xl:pb-[127px] lg:py-20 sm:py-16 py-12">
             <div className="container xl:max-w-[1164px] px-3 mx-auto">
                 <div className="flex flex-row flex-wrap lg:justify-between items-end">
                     <div className="lg:w-6/12 w-full relative">
