@@ -11,10 +11,10 @@ const PortfolioCardSection = () => {
     useEffect(() => {
         const updateCardCount = () => {
             if (window.innerWidth <= 640) {
-                setInitialCardsToShow(5);
+                setInitialCardsToShow(4);
                 setAdditionalCardsToShow(portfolioData.length);
             } else {
-                setInitialCardsToShow(11);
+                setInitialCardsToShow(12);
                 setAdditionalCardsToShow(portfolioData.length);
             }
         };

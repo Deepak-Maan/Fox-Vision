@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <CommonHeader 
-        additionalClass="mt-16"/>
+        additionalClass="mt-12 lg:mt-16"/>
       <WhatWeDo/>
       <LogoDesign/>
       <HowWeWorks />
