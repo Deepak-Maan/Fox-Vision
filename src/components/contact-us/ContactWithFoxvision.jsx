@@ -136,7 +136,7 @@ const ContactWithFoxvision = () => {
     return (
         <div className='xl:pt-[126px] lg:pt-[70px] md:pt-[64px] pt-[48px]'>
             <div className='container xl:max-w-[1164px] px-3 mx-auto'>
-                <div className='flex flex-wrap flex-row justify-between '>
+                <div className='flex flex-wrap flex-row justify-center lg:justify-between '>
                     <div className='lg:w-[43%] w-full'>
                         <CommonsubHeading className="lg:!text-start !uppercase" subheading="Contact With FoxVision" />
                         <h2 className='font-semibold font-montserrat text-center lg:text-start text-4xl md:text-5xl xl:text-6xxl !leading-md text-darkblue mb-5'>Let's Start a Conversation</h2>
@@ -144,11 +144,11 @@ const ContactWithFoxvision = () => {
                             <img src={contactConversation} alt="contactConversation" className='max-w-[483px] xl:h-[349px] w-full' />
                         </div>
                     </div>
-                    <div className='lg:w-[53%] w-full mt-[40px] lg:mt-[57px]'>
+                    <div className='lg:w-[53%] w-full sm:w-[80%] mt-[40px] lg:mt-[57px]'>
                         <form onSubmit={handleSubmit}>
                             <div className='flex sm:flex-row flex-col sm:gap-[11px]'>
-                                <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3" >
-                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
+                                <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3">
+                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-12 sm:h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
                                         type="text"
                                         placeholder="First Name"
                                         id="name"
@@ -161,8 +161,8 @@ const ContactWithFoxvision = () => {
                                         <p className="error-message font-poppins text-red-600">{formErrors.name}</p>
                                     )}
                                 </div>
-                                <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3" >
-                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
+                                <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3">
+                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-12 sm:h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
                                         type="text"
                                         placeholder="Last Name"
                                         id="lastname"
@@ -177,8 +177,8 @@ const ContactWithFoxvision = () => {
                                 </div>
                             </div>
                             <div className="flex sm:flex-row flex-col sm:gap-[11px]">
-                                <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3" >
-                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
+                                <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3">
+                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-12 sm:h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
                                         type="text"
                                         placeholder="Subject"
                                         id="subject"
@@ -191,8 +191,8 @@ const ContactWithFoxvision = () => {
                                         <p className="error-message font-poppins text-red-600">{formErrors.subject}</p>
                                     )}
                                 </div>
-                                <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3" >
-                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
+                                <div className="lg:max-w-[297px] w-full mb-3 sm:mb-3">
+                                    <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-12 sm:h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
                                         type="text"
                                         placeholder="Mobile Number"
                                         id="number"
@@ -207,8 +207,8 @@ const ContactWithFoxvision = () => {
                                     )}
                                 </div>
                             </div>
-                            <div className="w-full mb-3 sm:mb-3" >
-                                <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
+                            <div className="w-full mb-3 sm:mb-3">
+                                <input className="text-base !text-black placeholder:text-black placeholder:!text-opacity-50 !text-opacity-50 h-12 sm:h-[55px] font-poppins font-normal p-3 sm:p-[15px] outline-none w-full   border border-lightBlue shadow-[0px_0px_5px_-2px_#4B17E666]"
                                     type="text"
                                     placeholder="Email"
                                     id="email"

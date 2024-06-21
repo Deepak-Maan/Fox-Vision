@@ -27,7 +27,7 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
       <div className="max-w-[1164px] mx-auto px-3">
 
         <div className="sm:px-12 md:px-8 lg:px-0 flex flex-col items-center">
-          <h1 className={`!leading-[107%] font-montserrat text-center text-white text-5xl md:text-6xxl lg:text-8xxl ${additionalClass}`}>
+          <h1 className={`!leading-[107%] font-montserrat text-center text-white text-4xl md:text-6xxl lg:text-6xl xl:text-8xxl ${additionalClass}`}>
             {heroHeading ? (
               heroHeading.map((part, index) => (
                 <span key={index} className={part.isBold ? 'font-bold' : 'font-normal'}>
@@ -41,7 +41,7 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
             )}
           </h1>
           {!hideParagraph && (
-            <p className='text-white !leading-[150%] text-center font-poppins text-base px-3 md:text-2xl mt-3 lg:mt-9 mb-1' >
+            <p className='text-white !leading-[150%] text-center font-poppins px-3  text-base md:text-lg xl:text-2xl mt-3 lg:mt-9 mb-1'>
               Kreativagentur für Branding, Social Media & digitale Lösungen.
             </p>
           )}
@@ -50,7 +50,7 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
           )}
         </div>
         {currentPath !== '/' && (
-          <p className="flex items-center gap-2 lg:gap-4 text-white font-medium font-poppins text-sm sm:text-base pb-5 sm:pb-[30px] text-start">
+          <p className="flex items-center md:gap-2 xl:gap-4 text-white font-medium font-poppins text-sm sm:text-base pb-5 sm:pb-[30px] text-start">
             <Link to="/">Home</Link> <PathArrow /> <span className='cursor-pointer'>{pathChangeText}</span>
           </p>
         )}

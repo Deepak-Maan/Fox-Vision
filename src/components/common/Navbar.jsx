@@ -28,12 +28,12 @@ const Navbar = () => {
 
   return (
     <div className="md:pt-5 pt-3">
-      <nav className="max-w-[1240px] w-full mx-auto px-6 sm:px-[50px] h-[54px] sm:h-[74px] rounded-[150px] sm:py-3 flex items-center justify-between shadow-[0px_0px_13px_0px_#00000024] bg-white">
+      <nav className="max-w-[1240px] w-full mx-auto px-6 md:px-[50px] h-[40px] sm:h-[56px] md:h-[60px] lg:h-[74px] rounded-[150px] sm:py-3 flex items-center justify-between shadow-[0px_0px_13px_0px_#00000024] bg-white">
         <Link className="relative z-20" to="/">
           <img
             src={Logo}
             alt="logo"
-            className="w-[120px] sm:w-[207px] sm:h-8 cursor-pointer z-20"
+            className="w-[120px] sm:w-[160px] sm:h-6 lg:w-[207px] lg:h-8 cursor-pointer z-20"
           />
         </Link>
         <ul
@@ -104,10 +104,10 @@ const Navbar = () => {
               <span className="bg-darkpurple min-w-[11px] min-h-[2px] relative z-50 transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-0 bottom-[11px]"></span>
             </div>
           ) : (
-            <div className="flex lg:hidden flex-col z-50 justify-between my-1 w-[21px] h-[15px] cursor-pointer relative">
-              <span className="bg-darkpurple rounded-md w-1/2 h-[3px] relative z-50 transition-all ease-linear duration-300"></span>
-              <span className="bg-darkpurple rounded-md w-full h-[3px] relative z-50 transition-all ease-linear duration-300"></span>
-              <span className="bg-darkpurple rounded-md w-1/2 h-[3px] ms-auto relative z-50 transition-all ease-linear duration-300"></span>
+            <div className="flex lg:hidden flex-col z-50 justify-between my-1 w-[21px] h-[15px] md:w-[28px] md:h-[18px] cursor-pointer relative">
+              <span className="bg-darkpurple rounded-md w-[11px] md:w-[14px] h-[3px] md:h-[4px] relative z-50 transition-all ease-linear duration-300"></span>
+              <span className="bg-darkpurple rounded-md w-full h-[3px] md:h-[4px] relative z-50 transition-all ease-linear duration-300"></span>
+              <span className="bg-darkpurple rounded-md w-[11px] md:w-[14px] h-[3px] md:h-[4px] ms-auto relative z-50 transition-all ease-linear duration-300"></span>
             </div>
           )}
         </button>

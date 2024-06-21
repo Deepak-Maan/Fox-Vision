@@ -11,7 +11,7 @@ function Portfolio() {
       ]}
         hideImage={true}
         hideParagraph={true}
-        additionalClass="mt-[76px] mb-[100px]" />
+        additionalClass="mt-12 lg:mt-[76px]  mb-14 md:mb-[100px]" />
       <PortfolioCardSection />
       <ProjectStarten bgColor='bg-white'/>
     </div>
