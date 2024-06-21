@@ -11,7 +11,7 @@ const LogoDesign = () => {
         <div className='bg-darkpurple p-[100px_0_48px_0] sm:p-[150px_0_60px_0] lg:p-[140px_0_60px_0] xl:p-[193px_0_60px_0]'>
             <div className='max-w-[1164px] mx-auto px-3'>
                 <div className='lg:flex-row flex-col-reverse flex-wrap -mx-3 flex'>
-                    <div className='w-full lg:w-5/12 px-3 mt-14 sm:mt-16 md:mt-20 lg:mt-0'>
+                    <div className='w-full lg:w-5/12 px-3 mt-8 sm:mt-16 md:mt-20 lg:mt-0'>
                         <div className='lg:max-w-[421px] lg:ml-auto'>
                             <span className='flex justify-center lg:justify-start -mt-2.5'><LogoDesignIcon /></span>
                             <p className='font-poppins font-semibold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start'>Logo Design</p>
@@ -23,7 +23,7 @@ const LogoDesign = () => {
                             <span className=' absolute right-0 bottom-[4%] z-[1] '>
                                 <WhiteElipseBg />
                             </span>
-                            <div className='flex flex-col gap-2 sm:gap-[26.5px] relative z-[2]'>
+                            <div className='flex flex-col gap-2 sm:gap-7 relative z-[2]'>
                                 <div className='max-w-[203.39px]'><img src={LogoDesign1} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] object-cover w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
                                 <div className='max-w-[203.39px]'><img src={LogoDesign3} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] object-cover w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
                             </div>
@@ -37,11 +37,11 @@ const LogoDesign = () => {
                     </div>
 
                 </div>
-                <div className='flex-row flex-wrap -mx-3 flex items-center mt-10 sm:mt-16 md:mt-20 lg:mt-24'>
+                <div className='flex-row flex-wrap -mx-3 flex items-center mt-8 sm:mt-16 lg:mt-20 xl:mt-24'>
                     <div className='lg:w-7/12 w-full px-3 relative mx-auto lg:mx-0 '>
                         <img src={Paypal} alt="paypal" className='max-w-[380px] w-full lg:w-[unset] lg:max-w-[495px] max-h-[529px] mx-auto lg:mx-0 ' />
                     </div>
-                    <div className='w-full lg:w-5/12 px-3 mt-5 lg:mt-0'>
+                    <div className='w-full lg:w-5/12 px-3 mt-8 lg:mt-0'>
                         <div className='lg:max-w-[445px] lg:mr-auto'>
                             <span className='flex justify-center lg:justify-start'><SettingIcon /></span>
                             <p className='font-poppins font-semibold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start'>Strategy & Digital Marketing</p>

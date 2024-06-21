@@ -10,11 +10,11 @@ export const Angebot = () => {
             <div className="container xl:max-w-[1164px] px-3 mx-auto">
                 <CommonsubHeading className='text-white !text-center' subheading=" A RESULTS-DRIVEN AGENCY" />
                 <CommonHeading heading="Angebot" className="!text-center text-white" />
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-[15px] xl:gap-[22px] lg:pt-[97.79px] lg:pb-[77.23px] md:py-[64px] sm:py-12 py-9">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-4 xl:gap-[22px] lg:pt-[98px] lg:pb-[77px] md:py-16 sm:py-12 py-9">
                     {angebotCardList.map((data, index) => (
                         <div key={index}>
                             <AngebotCard
-                                className={`${index === 0 ? "sm:pb-[59.24px]" : index === 1 ? "sm:pb-[59.24px]" : index === 2 ? "sm:pb-[59.24px]" : ""}`}
+                                className={`${index === 0 ? "sm:pb-[59px]" : index === 1 ? "sm:pb-[59px]" : index === 2 ? "sm:pb-[59px]" : ""}`}
                                 angebotsvg={data.angebotsvg}
                                 title={data.title}
                                 description={data.description}
