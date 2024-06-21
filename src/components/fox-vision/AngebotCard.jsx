@@ -10,8 +10,8 @@ const AngebotCard = (props) => {
                 <div
                     className={`${props.bgCardSvg
                         ? "bg-lightpurple shadow-[0px_10px_20px_0px_#4B17E62B]"
-                        : "bg-lightsky shadow-[0px_11.57px_23.15px_0px_#05D5FB29]"
-                        } md:w-[85px] md:h-[85px] w-[72px] h-[72px] rounded-[7px] shadow-[0px 10px 20px 0px #4B17E62B] sm:mb-7 mb-5 flex justify-center items-center`}
+                        : "bg-lightsky shadow-[0px_12px_23px_0px_#05D5FB29]"
+                        } md:w-[85px] md:h-[85px] sm:w-[72px] w-[60px] h-[60px] sm:h-[72px] rounded-[7px] shadow-[0px 10px 20px 0px #4B17E62B] sm:mb-7 mb-5 flex justify-center items-center`}
                 >
                     {props.angebotsvg}
                 </div>
