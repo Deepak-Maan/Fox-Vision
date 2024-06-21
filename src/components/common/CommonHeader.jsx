@@ -21,8 +21,9 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
 
   return (
     <div className='bg-darkpurple custom-header'>
+      <Navbar />
       <div className="max-w-[1164px] mx-auto px-3">
-        <Navbar />
+
         <div className="sm:px-12 md:px-8 lg:px-0 flex flex-col items-center">
           <h1 className={`!leading-[107%] font-montserrat text-center text-white text-5xl md:text-6xxl lg:text-8xxl ${additionalClass}`}>
             {heroHeading ? (

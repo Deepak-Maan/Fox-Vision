@@ -36,7 +36,7 @@ const DesignMastery = () => {
         {/* --------------------- our genes------------- */}
 
         <div className="overflow-hidden pt-12 md:pt-16 lg:pt-[70px] xl:pt-[150px]">
-          <p className='font-poppins text-darkblue text-center font-bold sm:text-xl text-sm !leading-normal sm:mb-3'>FOX VISION - Friendly and reliable</p>
+          <p className='font-poppins text-darkblue text-center font-bold sm:text-xl text-sm !leading-normal uppercase sm:mb-3'>FOX VISION - Friendly and reliable</p>
           <CommonHeading heading="Design Mastery in Our Genes" className="!text-center" />
           <div className="mt-6 lg:mt-[55px] py-6  sm:p-4  lg:p-[35px] shadow-[0px_0px_51px_8px_#00000012] justify-center flex flex-wrap items-center">
             <div className="md:w-1/2 px-2 sm:px-4 xl:px-0">
