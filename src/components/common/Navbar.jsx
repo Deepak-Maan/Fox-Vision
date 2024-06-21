@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <div className="pt-[19px]">
       <nav className="max-w-[1240px] w-full mx-auto px-6 sm:px-[50px] h-[54px] sm:h-[74px] rounded-[150px] sm:py-[11px] flex items-center justify-between shadow-[0px_0px_13px_0px_#00000024] bg-white">
-        <Link to="/">
+        <Link className="relative z-20" to="/">
           <img
             src={Logo}
             alt="logo"
