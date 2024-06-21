@@ -32,7 +32,7 @@ const Accordian = ({ items }) => {
   return (
     <div className="accordion max-w-[970px] mx-auto relative z-10">
       {items.map((item, index) => (
-        <div data-aos="zoom-in" onClick={() => handleSetIndex(index)} key={index} className="border-[1px] cursor-pointer md:p-[15px] p-3 lg:p-[21px] border-lightOffGrey rounded-md mb-3 md:mb-5">
+        <div onClick={() => handleSetIndex(index)} key={index} className="border-[1px] cursor-pointer md:p-[15px] p-3 lg:p-[21px] border-lightOffGrey rounded-md mb-3 md:mb-5">
           <button
             className="w-full " >
             <div className="flex justify-between items-center sm:h-[26px]">

@@ -21,8 +21,11 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
 
   return (
     <div className='bg-darkpurple custom-header'>
-      <div className="max-w-[1164px] mx-auto px-3">
+      <div className="px-3">
         <Navbar />
+      </div>
+      <div className="max-w-[1164px] mx-auto px-3">
+
         <div className="sm:px-12 md:px-8 lg:px-0 flex flex-col items-center">
           <h1 className={`!leading-[107%] font-montserrat text-center text-white text-5xl md:text-6xxl lg:text-8xxl ${additionalClass}`}>
             {heroHeading ? (
@@ -38,12 +41,12 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
             )}
           </h1>
           {!hideParagraph && (
-            <p className='text-white !leading-[150%] text-center font-poppins text-base px-3 md:text-2xl mt-3 lg:mt-9 mb-1' data-aos="zoom-in">
+            <p className='text-white !leading-[150%] text-center font-poppins text-base px-3 md:text-2xl mt-3 lg:mt-9 mb-1' >
               Kreativagentur für Branding, Social Media & digitale Lösungen.
             </p>
           )}
           {!hideImage && (
-            <img src={Desktop} alt="desktop" className='w-[714.51px] mb-[59px] xl:ml-20 xl:!h-[469px]' data-aos="zoom-in" />
+            <img src={Desktop} alt="desktop" className='w-[714.51px] mb-12 sm:mb-[59px] xl:ml-20 xl:!h-[469px]' />
           )}
         </div>
         {currentPath !== '/' && (

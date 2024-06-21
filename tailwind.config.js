@@ -35,10 +35,10 @@ module.exports = {
         " xxsm": "8px",
         "4xxl": "40px",
         "6xxl": "64px",
-        "8xxl": "88.41px",
+        "8xxl": "88px",
       },
       lineHeight: {
-        sm: "107.9%",
+        sm: "108%",
         md: "121%",
         "3md": "123%",
         lg: "183%",

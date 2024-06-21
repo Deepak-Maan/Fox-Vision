@@ -8,7 +8,7 @@ const ProjectStarten = ({ bgColor }) => {
             <div className='container mx-auto xl:max-w-[1164px] px-3 -mt-10 sm:-mt-1 relative z-[1]'>
                 <div className='bg-sky w-full h-[200px] sm:h-[253px] rounded-[10px] p-[25px] sm:p-[36px] relative z-[1] translate-y-20 md:translate-y-28'>
                     <div className='flex flex-col justify-center items-center'>
-                        <h3 data-aos="zoom-in" className='sm:max-w-[613px] max-w-[400px] text-2xl sm:text-4xl lg:text-4xxl text-center font-semibold text-white mb-[29px] !leading-3md'>
+                        <h3 className='sm:max-w-[613px] max-w-[400px] text-2xl sm:text-4xl lg:text-4xxl text-center font-semibold text-white mb-[29px] !leading-3md'>
                             Möchten Sie ein Projekt starten? Wir freuen uns.
                         </h3>
                         <Link to="/contact">  <CommonButton
