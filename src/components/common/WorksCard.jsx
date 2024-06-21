@@ -8,7 +8,7 @@ const WorksCard = (props) => {
             >
                 {props.worksvg}
             </div>
-            <h3 className="text-darkblue font-semibold font-poppins sm:text-2xl text-xl !leading-normal mb-2 pr-1" >
+            <h3 className="text-darkblue font-semibold font-poppins xl:text-2xl text-lg sm:text-xl !leading-normal mb-2 pr-1" >
                 {props.title}
             </h3>
             <p className="text-darkblue opacity-70 sm:text-base text-sm font-poppins font-normal !leading-normal" >

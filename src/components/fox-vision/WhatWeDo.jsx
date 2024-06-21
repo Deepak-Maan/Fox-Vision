@@ -41,7 +41,7 @@ const WhatWeDo = () => {
                     <div className='w-full lg:w-5/12 px-3 mt-8 lg:mt-0'>
                         <span className='flex justify-center items-center rounded-md shadow-[0px_12.63px_25.25px_0px_#4B17E62B] w-[70px] h-[70px] sm:w-[93px] sm:h-[93px] bg-lightpurple mx-auto lg:mx-0'><PaintingBoard /></span>
                         <p className='font-poppins font-semibold text-2xl !leading-[150%] text-darkblue text-center lg:text-start mt-4 sm:mt-5 md:mt-7 lg:mt-[39px]'>UI/UX Creative Design</p>
-                        <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-darkblue opacity-70 mt-2 lg:max-w-[386px] text-center lg:text-start'>UI/UX creative design is the art of crafting digital experiences that seamlessly blend aesthetics with functionality. It's about understanding users' needs and behaviors and translating that knowledge into intuitive, visually appealing interfaces. </p>
+                        <p className='font-poppins font-normal text-base sm:text-lg xl:text-xl sm:px-10 lg:px-0 !leading-[150%] text-darkblue opacity-70 mt-2 lg:max-w-[386px] text-center lg:text-start'>UI/UX creative design is the art of crafting digital experiences that seamlessly blend aesthetics with functionality. It's about understanding users' needs and behaviors and translating that knowledge into intuitive, visually appealing interfaces. </p>
                     </div>
                     <div className='w-full lg:w-7/12 px-3 relative mx-auto'>
                         <div className='flex justify-center lg:justify-start gap-2 sm:gap-[22.63px]'>
@@ -90,7 +90,7 @@ const WhatWeDo = () => {
                         <div className='lg:max-w-[425px] lg:ml-auto'>
                             <span className='flex justify-center items-center rounded-md shadow-[0px_12.63px_25.25px_0px_#05D5FB29] w-[70px] h-[70px] sm:w-[93px] sm:h-[93px] bg-lightsky mx-auto lg:mx-0' ><GraphicDesigner /></span>
                             <p className='font-poppins font-semibold text-2xl !leading-[150%] text-darkblue text-center lg:text-start mt-4 sm:mt-5 md:mt-7 lg:mt-[39px]' >Visual Graphic Design</p>
-                            <p className='font-poppins font-normal text-base sm:text-lg md:text-xl !leading-[150%] text-darkblue opacity-70 mt-2  text-center lg:text-start' >Visual graphic design is the art of using visual elements, such as images, typography, color, and layout, to convey a message, tell a story, or evoke emotions.</p>
+                            <p className='font-poppins font-normal text-base sm:text-lg xl:text-xl sm:px-10 lg:px-0 !leading-[150%] text-darkblue opacity-70 mt-2  text-center lg:text-start' >Visual graphic design is the art of using visual elements, such as images, typography, color, and layout, to convey a message, tell a story, or evoke emotions.</p>
                         </div>
                     </div>
                 </div>

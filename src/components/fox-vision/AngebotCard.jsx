@@ -15,7 +15,7 @@ const AngebotCard = (props) => {
                 >
                     {props.angebotsvg}
                 </div>
-                <h3 className="text-black capitalize font-poppins sm:text-2xl text-xl !leading-normal font-semibold mb-2" >
+                <h3 className="text-black capitalize font-poppins xl:text-2xl text-lg sm:text-xl !leading-normal font-semibold mb-2" >
                     {props.title}
                 </h3>
                 <p className="text-black opacity-70 font-poppins sm:!text-base text-sm font-normal !leading-normal xl:mb-[45px] px-[1px] lg:mb-[38px] sm:mb-8 mb-6">
