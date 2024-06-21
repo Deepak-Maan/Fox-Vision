@@ -21,10 +21,10 @@ const DesignStrategy = () => {
                             <div key={index} className={`max-w-[609px] mx-auto py-5 sm:py-[26px] relative lg:h-[150px] xl:min-w-[609px] shadow-[0_4px_27px_0px_#4B17E614] flex ${index === 0 ? "mb-8 sm:mb-[50px]" : index === 1 ? "mb-8 sm:mb-[50px]" : index === 2 ? "mb-8 sm:mb-[50px]" : index === 3 ? "mb-0" : ""}`}>
                                 <div className={`absolute left-[-8px] sm:left-[-23px]  z-1 ${index === 0 ? "min-[425px]:-top-6 top-[-10px] sm:top-0" : index === 1 ? "top-0 min-[425px]:-top-6 sm:top-0" : index === 2 ? "top-0 min-[425px]:-top-6 sm:top-0" : index === 3 ? "top-0 min-[425px]:-top-6 sm:top-0" : ""}`}><OfferArrowLayer /></div>
                                 <div className='flex items-center sm:items-end pr-[45px] sm:pr-[87px]'>
-                                    <p className='pl-5 text-white relative z-10 font-montserrat !leading-[120%] font-semibold text-4xxl'>{data.id}</p>
+                                    <p className='pl-5 text-white relative z-10 font-montserrat !leading-[120%] font-semibold text-4xxl' >{data.id}</p>
                                 </div>
                                 <div>
-                                    <p className=' font-montserrat text-lg sm:text-xl font-semibold !leading-[120%] text-darkblue'>{data.heading}</p>
+                                    <p className=' font-montserrat text-lg sm:text-xl font-semibold !leading-[120%] text-darkblue' >{data.heading}</p>
                                     <p className={`text-offgrey font-normal text-sm sm:text-base font-poppins !leading-[180%] pt-[15px] ${index === 0 ? "max-w-[455px]" : index === 1 ? "max-w-[461px]" : index === 2 ? "max-w-[463px]" : ""}`}>{data.para}</p>
                                 </div>
                             </div>

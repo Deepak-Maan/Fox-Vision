@@ -7,10 +7,9 @@ import Offer from "./pages/Offer";
 import Footer from "../src/components/common/Footer";
 import { Route, Routes } from "react-router-dom";
 import Backtotop from "./components/common/BackToTop";
-
 function App() {
   return (
-    <div>
+    <div >
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<AboutUs />}></Route>

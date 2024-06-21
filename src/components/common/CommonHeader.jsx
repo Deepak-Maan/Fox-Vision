@@ -41,7 +41,7 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
             )}
           </h1>
           {!hideParagraph && (
-            <p className='text-white !leading-[150%] text-center font-poppins text-base px-3 md:text-2xl mt-3 lg:mt-9 mb-1'>
+            <p className='text-white !leading-[150%] text-center font-poppins text-base px-3 md:text-2xl mt-3 lg:mt-9 mb-1' >
               Kreativagentur für Branding, Social Media & digitale Lösungen.
             </p>
           )}
