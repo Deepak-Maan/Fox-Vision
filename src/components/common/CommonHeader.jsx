@@ -46,7 +46,7 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
             </p>
           )}
           {!hideImage && (
-            <img src={Desktop} alt="desktop" className='w-[714.51px] mb-[59px] xl:ml-20 xl:!h-[469px]' />
+            <img src={Desktop} alt="desktop" className='w-[714.51px] mb-12 sm:mb-[59px] xl:ml-20 xl:!h-[469px]' />
           )}
         </div>
         {currentPath !== '/' && (

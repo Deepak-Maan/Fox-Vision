@@ -27,13 +27,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="pt-[19px]">
-      <nav className="max-w-[1240px] w-full mx-auto px-6 sm:px-[50px] h-[54px] sm:h-[74px] rounded-[150px] sm:py-[11px] flex items-center justify-between shadow-[0px_0px_13px_0px_#00000024] bg-white">
+    <div className="md:pt-5 pt-3">
+      <nav className="max-w-[1240px] w-full mx-auto px-6 sm:px-[50px] h-[54px] sm:h-[74px] rounded-[150px] sm:py-3 flex items-center justify-between shadow-[0px_0px_13px_0px_#00000024] bg-white">
         <Link className="relative z-20" to="/">
           <img
             src={Logo}
             alt="logo"
-            className="w-[120px] sm:w-[207px] sm:h-[27.92px] cursor-pointer z-20"
+            className="w-[120px] sm:w-[207px] sm:h-8 cursor-pointer z-20"
           />
         </Link>
         <ul
