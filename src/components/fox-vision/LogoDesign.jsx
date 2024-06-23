@@ -9,13 +9,13 @@ import LikeEmoji from "../../asstes/images/webp/hero/LikeEmoji.webp";
 const LogoDesign = () => {
     return (
         <div className='bg-darkpurple p-[100px_0_48px_0] sm:p-[150px_0_60px_0] lg:p-[140px_0_60px_0] xl:p-[193px_0_60px_0]'>
-            <div className='max-w-[1164px] mx-auto px-3'>
+            <div className='container xl:max-w-[1164px] mx-auto px-3 lg:px-4 xl:px-3'>
                 <div className='lg:flex-row flex-col-reverse flex-wrap -mx-3 flex'>
                     <div className='w-full lg:w-5/12 px-3 mt-8 sm:mt-16 md:mt-20 lg:mt-0'>
                         <div className='lg:max-w-[421px] lg:ml-auto'>
                             <span className='flex justify-center items-center mx-auto lg:mx-0 mb-3 sm:mb-5 md:mb-7 w-[75px] h-[75px] sm:w-[93.15px] sm:h-[93.15px] rounded-[7.59px] bg-white' ><LogoDesignIcon /></span>
                             <p className='font-poppins font-semibold text-lg sm:text-xl md:text-2xl !leading-[150%] text-white text-center lg:text-start' >Logo Design</p>
-                            <p className='font-poppins font-normal text-base sm:text-lg xl:text-xl sm:px-10 lg:px-0 !leading-[150%] text-white mt-2  text-center lg:text-start opacity-70' >Logo design is a specialized discipline within the realm of graphic design, focused on creating unique and memorable visual symbols that represent a brand, company, or organization.</p>
+                            <p className='font-poppins font-normal text-base sm:text-lg xl:text-xl sm:px-10 lg:px-0 !leading-[150%] text-white mt-2  text-center lg:text-start' >Logo design is a specialized discipline within the realm of graphic design, focused on creating unique and memorable visual symbols that represent a brand, company, or organization.</p>
                         </div>
                     </div>
                     <div className='lg:w-7/12 w-full px-3 relative z-[2]'>
@@ -24,14 +24,14 @@ const LogoDesign = () => {
                                 <WhiteElipseBg />
                             </span>
                             <div className='flex flex-col gap-2 sm:gap-7 relative z-[2]'>
-                                <div className='max-w-[203px]'><img src={LogoDesign1} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203px] object-cover w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                                <div className='max-w-[203px]'><img src={LogoDesign3} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203px] object-cover w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                                <div className='max-w-[203px]'><img src={LogoDesign1} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203px] object-cover w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] border-transparent' /></div>
+                                <div className='max-w-[203px]'><img src={LogoDesign3} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203px] object-cover w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] border-transparent' /></div>
                             </div>
                             <div className='flex flex-col gap-2 sm:gap-[26.5px] mt-5 sm:mt-10 relative z-[2]'>
                                 <div className='max-w-[203px] relative' >
                                     <img src={LikeEmoji} alt="smileemoji" className='absolute left-[-10%] sm:left-[-15%] top-[-45%] sm:top-[-69%] max-w-[130px] sm:max-w-[194px] max-h-[194px]' />
-                                    <img src={LogoDesign2} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203px] object-cover w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                                <div className='max-w-[203px]' ><img src={LogoDesign4} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203px] object-cover w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                                    <img src={LogoDesign2} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203px] object-cover w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] border-transparent' /></div>
+                                <div className='max-w-[203px]' ><img src={LogoDesign4} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203px] object-cover w-full max-h-[159px] border-[1px] border-solid duration-300 rounded-[12.52px] border-transparent' /></div>
                             </div>
                         </div>
                     </div>

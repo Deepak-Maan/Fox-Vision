@@ -10,10 +10,10 @@ import { Link } from "react-router-dom";
 const HowWeWorks = () => {
     return (
         <div className="xl:pt-[145px] xl:pb-[127px] lg:py-20 sm:py-16 py-12">
-            <div className="container xl:max-w-[1164px] px-3 mx-auto">
+            <div className="container xl:max-w-[1164px] px-3 lg:px-4 xl:px-3 mx-auto">
                 <div className="flex flex-row flex-wrap lg:justify-between items-end">
                     <div className="lg:w-6/12 w-full relative">
-                        <WorkArrow className="absolute xl:-right-[14%] xl:top-[16%] top-[11%] right-0 max-xl:max-w-[140px] lg:block hidden" />
+                        <WorkArrow className="absolute xl:-right-[14%] xl:top-[25%] top-[11%] right-0 max-xl:max-w-[140px] lg:block hidden" />
                         <CommonsubHeading className="lg:!text-start !mb-0" subheading="A RESULTS-DRIVEN AGENCY" />
                         <CommonHeading heading="How we work" />
                         <div className="flex justify-center items-center lg:justify-start">
@@ -41,7 +41,7 @@ const HowWeWorks = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-row justify-center lg:justify-between flex-wrap lg:gap-0 md:gap-5 gap-3 xl:pt-[124px] md:pt-14 lg:pt-16 sm:pt-12 pt-8">
+                <div className="flex flex-row justify-center xl:justify-between flex-wrap lg:gap-3 md:gap-5 gap-3 xl:pt-[124px] md:pt-14 lg:pt-16 sm:pt-12 pt-8">
                     {howWeWorksCard.map((data, index) => (
                         <div
                             className="lg:w-[32.2%] md:w-[45%] sm:w-[49%] w-full"

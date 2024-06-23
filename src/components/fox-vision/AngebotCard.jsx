@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 const AngebotCard = (props) => {
     return (
         <div
-            className={`${props.className} md:pt-7 md:px-7 md:pb-8 p-6 bg-white rounded-[6px] lg:max-w-[366px] w-full h-full xl:min-h-[383px] flex justify-between flex-col relative transition-all ease-linear duration-300 group `}
+            className={`${props.className} group md:pt-7 md:px-7 md:pb-8 p-6 bg-white hover:bg-lightsky rounded-[6px] lg:max-w-[366px] w-full h-full xl:min-h-[383px] flex justify-between flex-col relative transition-all ease-linear duration-300 group `}
         >
             <div>
                 <div
                     className={`${props.bgCardSvg
-                        ? "bg-lightpurple shadow-[0px_10px_20px_0px_#4B17E62B]"
+                        ? "bg-lightpurple group-hover:bg-lightsky group-hover:shadow-[0px_12px_23px_0px_#05D5FB29] shadow-[0px_10px_20px_0px_#4B17E62B]"
                         : "bg-lightsky shadow-[0px_12px_23px_0px_#05D5FB29]"
-                        } md:w-[85px] md:h-[85px] sm:w-[72px] w-[60px] h-[60px] sm:h-[72px] rounded-[7px] shadow-[0px 10px 20px 0px #4B17E62B] sm:mb-7 mb-5 flex justify-center items-center`}
+                        } md:w-[85px] md:h-[85px] sm:w-[72px] w-[60px] h-[60px] sm:h-[72px] rounded-[7px] shadow-[0px 10px 20px 0px #4B17E62B] hover:shadow-[0_11.57px_23.15px_0_#05D5FB29] sm:mb-7 mb-5 flex justify-center items-center transition-all ease-linear duration-300`}
                 >
                     {props.angebotsvg}
                 </div>

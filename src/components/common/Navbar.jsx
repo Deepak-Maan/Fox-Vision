@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
-import Logo from "../../asstes/images/webp/hero/navLogo.webp";
+import Logo from "../../asstes/images/svg/navLogo.svg";
 import { Calling, Email } from "./Icons";
 import CommonBtn from "./CommonBtn";
 
@@ -15,9 +15,9 @@ const Navbar = () => {
 
   useEffect(() => {
     if (navBar) {
-      document.body.classList.add("max-md:overflow-hidden");
+      document.body.classList.add("max-lg:overflow-hidden");
     } else {
-      document.body.classList.remove("max-md:overflow-hidden");
+      document.body.classList.remove("max-lg:overflow-hidden");
     }
   }, [navBar]);
 
@@ -29,15 +29,15 @@ const Navbar = () => {
   return (
     <div className="md:pt-5 pt-3">
       <nav className="max-w-[1240px] w-full mx-auto px-6 md:px-[50px] h-[40px] sm:h-[56px] md:h-[60px] lg:h-[74px] rounded-[150px] sm:py-3 flex items-center justify-between shadow-[0px_0px_13px_0px_#00000024] bg-white">
-        <Link className="relative z-20" to="/">
-          <img
-            src={Logo}
-            alt="logo"
-            className="w-[120px] sm:w-[160px] sm:h-6 lg:w-[207px] lg:h-8 cursor-pointer z-20"
-          />
-        </Link>
+          <Link className="relative z-10" to="/">
+            <img
+              src={Logo}
+              alt="logo"
+              className="w-[120px] sm:w-[160px] sm:h-6 lg:w-[207px] lg:h-8 cursor-pointer z-20"
+            />
+          </Link>
         <ul
-          className={`flex items-center gap-5 z-10 relative sm:gap-[40px] duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-white ${navBar && "!left-0"
+          className={`flex items-center gap-5 z-20 relative sm:gap-[32px] lg:gap-[40px] duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-white ${navBar && "!left-0"
             }`}
         >
           <li className="duration-300 transition-all">
@@ -60,7 +60,7 @@ const Navbar = () => {
               Portfolio
             </Link>
           </li>
-          <li className="flex flex-col md:flex-row justify-center items-center gap-2 md:hidden md:gap-4 relative z-20">
+          <li className="flex flex-col lg:flex-row justify-center items-center gap-2 lg:hidden lg:gap-4 relative z-20">
             <span className="flex gap-3 mb-6">
               <Link
                 to="tel:+1234567890"
@@ -75,43 +75,43 @@ const Navbar = () => {
                 <Email />
               </Link>
             </span>
-            <Link to="/contact" className="w-[124px] flex justify-center md:hidden">
+            <Link to="/contact" className="w-[124px] flex justify-center lg:hidden">
               <CommonBtn btnName="Kontakt" />
             </Link>
           </li>
         </ul>
         <div className="flex items-center gap-4">
-        <div className="flex items-center gap-2 md:gap-4 relative z-20">
-          <Link aria-label=" make call"
-            to="tel:+1234567890"
-            className="hover:translate-y-[-6px] hidden md:block transition-all duration-300 ease-linear"
-          >
-            <Calling />
-          </Link>
-          <Link aria-label="send email"
-            to="mailto:example@example.com"
-            className="hover:translate-y-[-6px] hidden md:block transition-all duration-300 ease-linear"
-          >
-            <Email />
-          </Link>
-          <Link to="/contact" className="!w-[124px] hidden md:block">
-            <CommonBtn btnName="Kontakt" className="!w-[124px]" />
-          </Link>
-        </div>
-        <button aria-label="crossIcon" onClick={showNav} className="lg:hidden relative z-50">
-          {navBar ? (
-            <div className="flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer">
-              <span className="bg-darkpurple min-w-[11px] min-h-[2px] relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 -translate-y-1 -bottom-[15px]"></span>
-              <span className="bg-darkpurple min-w-[11px] min-h-[2px] relative z-50 transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-0 bottom-[11px]"></span>
-            </div>
-          ) : (
-            <div className="flex lg:hidden flex-col z-50 justify-between my-1 w-[21px] h-[15px] md:w-[28px] md:h-[18px] cursor-pointer relative">
-              <span className="bg-darkpurple rounded-md w-[11px] md:w-[14px] h-[3px] md:h-[4px] relative z-50 transition-all ease-linear duration-300"></span>
-              <span className="bg-darkpurple rounded-md w-full h-[3px] md:h-[4px] relative z-50 transition-all ease-linear duration-300"></span>
-              <span className="bg-darkpurple rounded-md w-[11px] md:w-[14px] h-[3px] md:h-[4px] ms-auto relative z-50 transition-all ease-linear duration-300"></span>
-            </div>
-          )}
-        </button>
+          <div className="flex items-center gap-2 md:gap-4 relative z-20">
+            <Link aria-label=" make call"
+              to="tel:+1234567890"
+              className="hover:translate-y-[-6px] hidden lg:block transition-all duration-300 ease-linear"
+            >
+              <Calling />
+            </Link>
+            <Link aria-label="send email"
+              to="mailto:example@example.com"
+              className="hover:translate-y-[-6px] hidden lg:block transition-all duration-300 ease-linear"
+            >
+              <Email />
+            </Link>
+            <Link to="/contact" className="!w-[124px] hidden lg:block">
+              <CommonBtn btnName="Kontakt" className="!w-[124px]" />
+            </Link>
+          </div>
+          <button aria-label="crossIcon" onClick={showNav} className="lg:hidden relative z-50">
+            {navBar ? (
+              <div className="flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer">
+                <span className="bg-black min-w-[11px] min-h-[2px] rounded-md relative z-50 transition-all ease-linear duration-300 rotate-[45deg] translate-x-0 -translate-y-1 -bottom-[15px]"></span>
+                <span className="bg-black min-w-[11px] min-h-[2px] rounded-md relative z-50 transition-all ease-linear duration-300 rotate-[-45deg] translate-x-0 translate-y-0 bottom-[11px]"></span>
+              </div>
+            ) : (
+              <div className="flex lg:hidden flex-col z-50 justify-between my-1 w-[21px] h-[15px] md:w-[28px] md:h-[18px] cursor-pointer relative">
+                <span className="bg-black rounded-md w-[11px] md:w-[14px] h-[3px] md:h-[4px] relative z-50 transition-all ease-linear duration-300"></span>
+                <span className="bg-black rounded-md w-full h-[3px] md:h-[4px] relative z-50 transition-all ease-linear duration-300"></span>
+                <span className="bg-black rounded-md w-[11px] md:w-[14px] h-[3px] md:h-[4px] ms-auto relative z-50 transition-all ease-linear duration-300"></span>
+              </div>
+            )}
+          </button>
         </div>
       </nav>
     </div>
@@ -119,4 +119,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
