@@ -10,8 +10,8 @@ const Footer = () => {
 
     return (
         <div className='bg-darkblue relative'>
-            <img src={footerVector1} alt="footerVector1" className='w-[205px] h-[360px] absolute left-0 top-0 pointer-events-none ' />
-            <img src={footerVector2} alt="footerVector2" className='w-[205px] h-[360px] absolute right-0 bottom-0 pointer-events-none ' />
+            <img src={footerVector1} alt="footerVector1" className='sm:w-[205px] sm:h-[360px] w-[150px] h-[200px] absolute left-0 top-0 pointer-events-none ' />
+            <img src={footerVector2} alt="footerVector2" className='sm:w-[205px] sm:h-[360px] w-[150px] h-[200px] absolute right-0 bottom-0 pointer-events-none ' />
             <div className={`container xl:max-w-[1140px] px-3 mx-auto ${location.pathname === '/contact' ? 'pt-[81px]' : 'pt-[150px] md:pt-[210px]'}`}>
                 <div className='flex flex-row flex-wrap pb-[48px] sm:pb-[64px] md:pb-[80px] lg:pb-[111px] justify-between'>
                     <div className='lg:w-4/12 w-full'>

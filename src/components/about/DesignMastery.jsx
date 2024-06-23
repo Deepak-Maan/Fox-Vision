@@ -21,7 +21,7 @@ const DesignMastery = () => {
             CommonWhatWeDoimg={DesignProject}
             marginPara='mt-3 lg:mt-5'
             textLightpurple='text-lightsky2'
-            arrowPosition='left-0 lg:left-[41%] top-[-11%] lg:top-[11%]'
+            arrowPosition='left-0 lg:left-[43%] top-[-11%] lg:top-[11%]'
             textSkyblue='text-lightsky2'
             ImgClass='max-w-[564px] max-h-[328px] mt-[29px]'
             CommonWhatWeDoheading='Design Project Agency'

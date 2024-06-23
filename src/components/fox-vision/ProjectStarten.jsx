@@ -12,7 +12,7 @@ const ProjectStarten = ({ bgColor }) => {
                             Möchten Sie ein Projekt starten? Wir freuen uns.
                         </h3>
                         <Link to="/contact">  <CommonButton
-                            className='border border-white hover:!border-transparent w-[124px] sm:!py-[13px] sm:!px-[30px] px-[25px] py-[7px]'
+                            className='!border-[2px] border-white hover:!border-transparent w-[124px] sm:!py-[13px] sm:!px-[30px] px-[25px] py-[7px]'
                             btnName='Kontakt'
                         /></Link>
 

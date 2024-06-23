@@ -51,7 +51,7 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
           </div>
             {currentPath !== '/' && (
               <p className="flex items-center md:gap-2 xl:gap-4 text-white font-medium font-poppins text-sm sm:text-base pb-5 sm:pb-[30px] text-start">
-                <Link to="/">Home</Link> <PathArrow /> <span className='cursor-pointer'>{pathChangeText}</span>
+              <Link to="/" className='hover:scale-105 transition-all ease-linear duration-300'>Home</Link> <PathArrow /> <span className='cursor-pointer hover:scale-105 transition-all ease-linear duration-300'>{pathChangeText}</span>
               </p>
             )}
         </div>
