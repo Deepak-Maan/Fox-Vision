@@ -31,7 +31,7 @@ const PortfolioCardSection = () => {
     };
 
     return (
-        <div className='md:max-w-[768px] lg:max-w-[1164px] mx-auto px-3 mt-12 sm:mt-[70px] lg:mt-[123px]'>
+        <div className='md:max-w-[768px] lg:max-w-[1164px] mx-auto px-3 lg:px-4 xl:px-3 mt-12 sm:mt-[70px] lg:mt-[123px]'>
             <div className='flex flex-wrap flex-row -mx-3'>
                 {portfolioData.slice(0, showAll ? portfolioData.length : initialCardsToShow).map(item => (
                     <div key={item.id} className='lg:w-1/3 w-full sm:w-1/2 px-3 mb-4 md:mb-6'>
@@ -43,7 +43,7 @@ const PortfolioCardSection = () => {
                     </div>
                 ))}
             </div>
-            <div className='mt-[26px] flex justify-center relative z-10'>
+            <div className='sm:mt-[26px] mt-2 flex justify-center relative z-10'>
                 <CommonBtn btnName={btnName} onClick={handleButtonClick} />
             </div>
         </div>

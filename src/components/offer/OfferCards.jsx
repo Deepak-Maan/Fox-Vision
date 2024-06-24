@@ -4,7 +4,7 @@ import { offerCards } from '../common/Helper'
 const OfferCards = () => {
     return (
         <div>
-            <div className="container sm:max-w-[600px] lg:max-w-[1164px] mx-auto px-3 py-12 md:py-16 lg:py-[70px] xl:pt-[130px] xl:pb-[150px]">
+            <div className="container sm:max-w-[600px] lg:max-w-[1164px] mx-auto px-3 lg:px-4 xl:px-3 py-12 md:py-16 lg:py-[70px] xl:pt-[130px] xl:pb-[150px]">
                 <div className="grid sm:grid-cols-2  lg:grid-cols-4 gap-[22px]">
                     {offerCards.map((data, index) => (
                         <div key={index} className=' max-w-[268px] mx-auto group max-h-[262px] px-[10px] py-[22px] bg-white rounded-md shadow-[0_4px_27px_0_#4B17E614]'>

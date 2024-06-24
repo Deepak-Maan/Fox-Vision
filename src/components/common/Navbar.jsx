@@ -64,13 +64,13 @@ const Navbar = () => {
             <span className="flex gap-3 mb-6">
               <Link
                 to="tel:+1234567890"
-                className="hover:translate-y-[-6px] transition-all duration-300 ease-linear"
+                className="hover:scale-105 transition-all duration-300 ease-linear"
               >
                 <Calling />
               </Link>
               <Link
                 to="mailto:example@example.com"
-                className="hover:translate-y-[-6px] transition-all duration-300 ease-linear"
+                className="hover:scale-105 transition-all duration-300 ease-linear"
               >
                 <Email />
               </Link>
@@ -84,13 +84,13 @@ const Navbar = () => {
           <div className="flex items-center gap-2 md:gap-4 relative z-20">
             <Link aria-label=" make call"
               to="tel:+1234567890"
-              className="hover:translate-y-[-6px] hidden lg:block transition-all duration-300 ease-linear"
+              className="hover:scale-105 hidden lg:block transition-all duration-300 ease-linear"
             >
               <Calling />
             </Link>
             <Link aria-label="send email"
               to="mailto:example@example.com"
-              className="hover:translate-y-[-6px] hidden lg:block transition-all duration-300 ease-linear"
+              className="hover:scale-105 hidden lg:block transition-all duration-300 ease-linear"
             >
               <Email />
             </Link>

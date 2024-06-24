@@ -34,7 +34,7 @@ const WhatWeDo = () => {
                     CommonWhatWeDoTextLightpurple='trust and loyalty to your brand.'
                     CommonWhatWeDoTextblack='We define the intangible assets of your brand and subsequently increase'
                     CommonWhatWeDoBetweenTextblackagain='Uniqueness, value proposition, clearly understandable core messages and an innovative design result in a brand personality that will be. We then transfer this genetic code to the relevant target groups cross-media via relevant channels. And we will reposition you profitably' />
-                <div className='flex pt-16 sm:pt-[130px]  xl:pt-[197px] flex-col-reverse lg:flex-row flex-wrap lg:flex-nowrap -mx-3 relative z-[1] items-center'>
+                <div className='flex pt-20 sm:pt-[130px]  xl:pt-[197px] flex-col-reverse lg:flex-row flex-wrap lg:flex-nowrap -mx-3 relative z-[1] items-center'>
                     <span className=' absolute right-0 1xl:right-[-9%] top-[26%] lg:top-[36%] z-[-1]'>
                         <PurpleElipseBg />
                     </span>
@@ -63,7 +63,7 @@ const WhatWeDo = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' pt-14 sm:pt-[100px] md:p t-16 lg:pt-20 xl:pt-[202px] flex-row flex-wrap lg:flex-nowrap -mx-3 flex items-center relative pb-8  xl:pb-[102px]'>
+                <div className=' pt-16 sm:pt-[100px] md:p t-16 lg:pt-20 xl:pt-[202px] flex-row flex-wrap lg:flex-nowrap -mx-3 flex items-center relative pb-8  xl:pb-[102px]'>
                     <span className=' absolute left-0 1xl:left-[-9%] top-[21%] sm:top-[26%] lg:top-[28%] z-[-1]'>
                         <BlueElipseBg />
                     </span>

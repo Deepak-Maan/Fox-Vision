@@ -5,7 +5,7 @@ import { ContactList } from '../common/Icons';
 const CorporateIdentidy = () => {
   return (
     <>
-      <div className=' max-w-[1164px] mx-auto px-3'>
+      <div className=' max-w-[1164px] mx-auto px-3 lg:px-4 xl:px-3'>
         <div className='pt-12 md:pt-16 lg:pt-[70px] xl:pt-32'>
           <CommonWhatWeDo
             CommonWhatWeDoimg={CorporateIdentiy}

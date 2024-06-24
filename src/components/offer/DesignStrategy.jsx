@@ -7,12 +7,12 @@ import { OfferArrowLayer } from '../common/Icons'
 const DesignStrategy = () => {
     return (
         <div>
-            <div className="container max-w-[1164px] mx-auto px-3 ">
+            <div className="container max-w-[1164px] mx-auto px-3 lg:px-4 xl:px-3">
                 <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8">
                     <div className='lg:max-w-[484px] flex flex-col md:flex-row lg:flex-col items-center '>
                         <div>
                             <CommonHeading heading="UI/UX Design Strategy" className="md:text-start text-center" />
-                            <p className='!leading-[180%] text-offgrey font-poppins font-normal text-lg sm:text-xl lg:pb-[45px] text-center md:text-start pt-3 sm:pt-5'>Our design process is a <span className=" text-lightlbue">well-thought-out journey</span> that combines innovation, strategy, and collaboration to produce outstanding results.</p>
+                            <p className='sm:!leading-[180%] !leading-normal text-offgrey font-poppins font-normal text-lg sm:text-xl lg:pb-[45px] text-center md:text-start pt-3 sm:pt-5'>Our design process is a <span className=" text-lightlbue">well-thought-out journey</span> that combines innovation, strategy, and collaboration to produce outstanding results.</p>
                         </div>
                         <img className='max-w-[400px] mx-auto max-md:w-full max-lg:w-1/2 lg:max-w-[451px]' src={designImage} alt="designImg" />
                     </div>
@@ -25,7 +25,7 @@ const DesignStrategy = () => {
                                 </div>
                                 <div>
                                     <p className=' font-montserrat text-lg sm:text-xl font-semibold !leading-[120%] text-darkblue' >{data.heading}</p>
-                                    <p className={`text-offgrey font-normal text-sm sm:text-base font-poppins !leading-[180%] pt-[15px] ${index === 0 ? "max-w-[455px]" : index === 1 ? "max-w-[461px]" : index === 2 ? "max-w-[463px]" : ""}`}>{data.para}</p>
+                                    <p className={`text-offgrey font-normal text-sm sm:text-base font-poppins !leading-normal sm:!leading-[180%] mt-2 sm:pt-[15px] ${index === 0 ? "max-w-[455px]" : index === 1 ? "max-w-[461px]" : index === 2 ? "max-w-[463px]" : ""}`}>{data.para}</p>
                                 </div>
                             </div>
                         ))}

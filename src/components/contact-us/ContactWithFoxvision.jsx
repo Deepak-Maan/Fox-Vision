@@ -135,7 +135,7 @@ const ContactWithFoxvision = () => {
 
     return (
         <div className='xl:pt-[126px] lg:pt-20 md:pt-16 sm-pt-14 pt-12'>
-            <div className='container xl:max-w-[1164px] px-3 mx-auto'>
+            <div className='container xl:max-w-[1164px] px-3 lg:px-4 xl:px-3 mx-auto'>
                 <div className='flex flex-wrap flex-row justify-center lg:justify-between '>
                     <div className='lg:w-[43%] w-full'>
                         <CommonsubHeading className="lg:!text-start !uppercase" subheading="Contact With FoxVision" />
