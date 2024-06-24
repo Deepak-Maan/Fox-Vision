@@ -49,11 +49,11 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
               <img src={Desktop} alt="desktop" className='w-[714.51px] mb-12 sm:mb-[59px] xl:ml-20 xl:!h-[469px]' />
             )}
           </div>
-            {currentPath !== '/' && (
-              <p className="flex items-center md:gap-2 xl:gap-4 text-white font-medium font-poppins text-sm sm:text-base pb-5 sm:pb-[30px] text-start">
-              <Link to="/" className='hover:scale-105 transition-all ease-linear duration-300'>Home</Link> <PathArrow /> <span className='cursor-pointer hover:scale-105 transition-all ease-linear duration-300'>{pathChangeText}</span>
-              </p>
-            )}
+          {currentPath !== '/' && (
+            <p className="flex items-center md:gap-2 xl:gap-4 text-white font-medium font-poppins text-sm sm:text-base pb-5 sm:pb-[30px] text-start">
+              <Link to="/" className='relative before:absolute before:flex before:h-[3px] before:transition-all before:bg-white before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:w-0 hover:before:w-full before:rounded-lg before:duration-300 cursor-pointer'>Home</Link> <PathArrow /> <span className='relative before:absolute before:flex before:h-[3px] duration-300 transition-all before:transition-all before:bg-white before:start-[50%] before:translate-x-[-50%] before:bottom-[-5px] before:w-0 hover:before:w-full before:rounded-lg before:duration-300 cursor-pointer'>{pathChangeText}</span>
+            </p>
+          )}
         </div>
       </div>
     </div>
