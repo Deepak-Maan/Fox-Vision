@@ -19,9 +19,9 @@ const DesignStrategy = () => {
                     <div className='pt-10 lg:pt-0'>
                         {designStrategyData.map((data, index) => (
                             <div key={index} className={`max-w-[609px] mx-auto py-5 sm:py-[26px] relative xl:h-[150px] xl:min-w-[609px] shadow-[0_4px_27px_0px_#4B17E614] flex ${index === 0 ? "mb-4 sm:mb-6 lg:mb-8 xl:mb-[50px]" : index === 1 ? "mb-4 sm:mb-6 lg:mb-8 xl:mb-[50px]" : index === 2 ? "mb-4 sm:mb-6 lg:mb-8 xl:mb-[50px]" : index === 3 ? "mb-0" : ""}`}>
-                                <div className={`absolute left-[-8px] sm:left-[-23px]  z-1 ${index === 0 ? "min-[425px]:-top-6 top-[-10px] sm:top-0" : index === 1 ? "top-0 min-[425px]:-top-6 sm:top-0" : index === 2 ? "top-0 min-[425px]:-top-6 sm:top-0" : index === 3 ? "top-0 min-[425px]:-top-6 sm:top-0" : ""}`}><OfferArrowLayer /></div>
+                                <div className={`absolute left-[-8px] sm:left-[-23px]  z-1 ${index === 0 ? "min-[425px]:-top-6 -top-6 sm:top-0" : index === 1 ? "-top-5 min-[425px]:-top-6 sm:top-0" : index === 2 ? "-top-2 min-[425px]:-top-5 sm:top-0" : index === 3 ? "-top-5 min-[425px]:-top-6 sm:top-0" : ""}`}><OfferArrowLayer /></div>
                                 <div className='flex items-center sm:items-end lg:items-center xl:items-end pr-[45px] sm:pr-[87px]'>
-                                    <p className='pl-5 text-white relative z-10 font-montserrat !leading-[120%] font-semibold text-4xxl' >{data.id}</p>
+                                    <p className='pl-5 text-white relative z-10 font-montserrat !leading-[120%] font-semibold text-3xl sm:text-4xxl' >{data.id}</p>
                                 </div>
                                 <div>
                                     <p className=' font-montserrat text-lg sm:text-xl font-semibold !leading-[120%] text-darkblue' >{data.heading}</p>
