@@ -88,9 +88,9 @@ const CommonHeader = ({ heroHeading, hideImage, hideParagraph, additionalClass }
       <div className="px-3">
         <Navbar />
       </div>
-      <div className="container xl:max-w-[1164px] mx-auto px-3 2xl:flex-grow flex justify-center items-center flex-col">
+      <div className="container xl:max-w-[1164px] mx-auto px-3 2xl:flex-grow flex justify-center flex-col">
         <div className='flex justify-start flex-col'>
-          <div className="sm:px-12 md:px-8 lg:px-0 flex flex-col items-center">
+          <div className="sm:px-12 md:px-8 lg:px-0 flex flex-col  w-full">
             <h1 className={`sm:!leading-[107%] !leading-[120%] font-montserrat text-center text-white text-[33px] sm:text-4xl md:text-6xxl lg:text-6xl xl:text-8xxl ${additionalClass}`}>
               {heroHeading ? (
                 heroHeading.map((part, index) => (
