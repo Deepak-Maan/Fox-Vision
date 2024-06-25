@@ -8,7 +8,7 @@ const DesignStrategy = () => {
     return (
         <div>
             <div className="container max-w-[1164px] mx-auto px-3 ">
-                <div className="grid grid-cols-1 lg:grid-cols-2">
+                <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8">
                     <div className='lg:max-w-[484px] flex flex-col md:flex-row lg:flex-col items-center '>
                         <div>
                             <CommonHeading heading="UI/UX Design Strategy" className="md:text-start text-center" />
@@ -18,9 +18,9 @@ const DesignStrategy = () => {
                     </div>
                     <div className='pt-10 lg:pt-0'>
                         {designStrategyData.map((data, index) => (
-                            <div key={index} className={`max-w-[609px] mx-auto py-5 sm:py-[26px] relative lg:h-[150px] xl:min-w-[609px] shadow-[0_4px_27px_0px_#4B17E614] flex ${index === 0 ? "mb-8 sm:mb-[50px]" : index === 1 ? "mb-8 sm:mb-[50px]" : index === 2 ? "mb-8 sm:mb-[50px]" : index === 3 ? "mb-0" : ""}`}>
+                            <div key={index} className={`max-w-[609px] mx-auto py-5 sm:py-[26px] relative xl:h-[150px] xl:min-w-[609px] shadow-[0_4px_27px_0px_#4B17E614] flex ${index === 0 ? "mb-4 sm:mb-6 lg:mb-8 xl:mb-[50px]" : index === 1 ? "mb-4 sm:mb-6 lg:mb-8 xl:mb-[50px]" : index === 2 ? "mb-4 sm:mb-6 lg:mb-8 xl:mb-[50px]" : index === 3 ? "mb-0" : ""}`}>
                                 <div className={`absolute left-[-8px] sm:left-[-23px]  z-1 ${index === 0 ? "min-[425px]:-top-6 top-[-10px] sm:top-0" : index === 1 ? "top-0 min-[425px]:-top-6 sm:top-0" : index === 2 ? "top-0 min-[425px]:-top-6 sm:top-0" : index === 3 ? "top-0 min-[425px]:-top-6 sm:top-0" : ""}`}><OfferArrowLayer /></div>
-                                <div className='flex items-center sm:items-end pr-[45px] sm:pr-[87px]'>
+                                <div className='flex items-center sm:items-end lg:items-center xl:items-end pr-[45px] sm:pr-[87px]'>
                                     <p className='pl-5 text-white relative z-10 font-montserrat !leading-[120%] font-semibold text-4xxl' >{data.id}</p>
                                 </div>
                                 <div>

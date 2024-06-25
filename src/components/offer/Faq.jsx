@@ -31,7 +31,7 @@ const Faq = () => {
 
     return (
         <>
-            <div className=' max-w-[1164px] mx-auto px-3 lg:pt-[70px] md:pt-16 pt-12 xl:pt-[150px]'>
+            <div className=' max-w-[1164px] mx-auto px-3 lg:pt-20 md:pt-16 sm:pt-14 pt-12 xl:pt-[150px]'>
                 <CommonHeading heading="Frequently Asked Questions" className='!text-center' />
                 <div className=' pt-5 md:pt-10 lg:pt-[50px]'>
                     <Accordian items={items} />

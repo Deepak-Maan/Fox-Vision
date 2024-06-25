@@ -9,12 +9,12 @@ import { Link } from "react-router-dom";
 
 const HowWeWorks = () => {
     return (
-        <div className="xl:pt-[144.76px] xl:pb-[126.85px] lg:py-[70px] sm:py-[64px] py-[48px]">
-            <div className="container xl:max-w-[1164px] px-3 mx-auto">
+        <div className="xl:pt-[145px] xl:pb-[127px] lg:py-20 sm:py-16 py-12">
+            <div className="container xl:max-w-[1164px] px-3 lg:px-4 xl:px-3 mx-auto">
                 <div className="flex flex-row flex-wrap lg:justify-between items-end">
                     <div className="lg:w-6/12 w-full relative">
-                        <WorkArrow className="absolute xl:-right-[14%] xl:top-[16%] top-[11%] right-0 max-xl:max-w-[140px] lg:block hidden" />
-                        <CommonsubHeading className="lg:!text-start" subheading="A RESULTS-DRIVEN AGENCY" />
+                        <WorkArrow className="absolute xl:-right-[14%] xl:top-[25%] top-[11%] right-0 max-xl:max-w-[140px] lg:block hidden" />
+                        <CommonsubHeading className="lg:!text-start !mb-0" subheading="A RESULTS-DRIVEN AGENCY" />
                         <CommonHeading heading="How we work" />
                         <div className="flex justify-center items-center lg:justify-start">
                             <img
@@ -28,7 +28,7 @@ const HowWeWorks = () => {
                     </div>
                     <div className="lg:w-6/12 w-full mb-[10px] flex justify-end lg:pt-0 pt-6">
                         <div className="flex flex-col justify-center lg:justify-start items-center lg:items-start">
-                            <p className="font-normal font-poppins sm:text-xl text-base !leading-[150%] text-center lg:text-start text-darkblue opacity-70 lg:max-w-[481px] lg:mb-10 sm:mb-7 mb-6" >
+                            <p className="font-normal font-poppins stext-base sm:text-lg xl:text-xl sm:px-10 lg:px-0 !leading-[150%] text-center lg:text-start text-darkblue opacity-70 lg:max-w-[481px] lg:mb-10 sm:mb-7 mb-6" >
                                 We see our customers as partners and identify passionately with
                                 their companies. Regardless of what the goal is, whether to
                                 increase sales, increase brand awareness or attract new
@@ -41,7 +41,7 @@ const HowWeWorks = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-row justify-center lg:justify-between flex-wrap lg:gap-0 md:gap-5 gap-3 xl:pt-[124px] md:pt-[64px] lg:pt-[70px] sm:pt-[55px] pt-[48px]">
+                <div className="flex flex-row justify-center xl:justify-between flex-wrap lg:gap-3 md:gap-5 gap-3 xl:pt-[124px] md:pt-14 lg:pt-16 sm:pt-12 pt-8">
                     {howWeWorksCard.map((data, index) => (
                         <div
                             className="lg:w-[32.2%] md:w-[45%] sm:w-[49%] w-full"

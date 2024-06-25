@@ -9,9 +9,9 @@ const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWha
   return (
     <>
       <div className='flex-row flex flex-wrap items-center -mx-3 relative'>
-        <span className={`${arrowPosition} absolute z-[-1] hidden xl:block`}><Arrow /></span>
+        <span className={`${arrowPosition} absolute z-[-1] w-[98px] h-[139px] hidden xl:block`}><Arrow /></span>
         <div className='w-full lg:w-1/2 px-3'>
-          <p className='font-poppins font-bold sm:text-xl text-sm leading-lg text-darkblue text-center lg:text-start' >{CommonWhatWeDosubheading}</p>
+          <p className='font-poppins font-bold sm:text-xl text-sm xl:leading-lg text-darkblue text-center lg:text-start' >{CommonWhatWeDosubheading}</p>
           <h2 className='font-semibold font-montserrat text-3xl  md:mt-3 md:text-5xl xl:text-6xxl leading-md text-darkblue text-center lg:text-start relative  z-[2]' >{CommonWhatWeDoheading}</h2>
           <img src={CommonWhatWeDoimg} alt="displayAvatar" className={`${ImgClass} mx-auto w-full xl:w-auto lg:-mx-3`} />
         </div>
@@ -20,7 +20,7 @@ const CommonWhatWeDo = ({ CommonWhatWeDosubheading, CommonWhatWeDoimg, CommonWha
             <span className={`${SvgPosition} flex justify-center`} >
               {Logo}
             </span>
-            <p className={`${marginPara} font-normal font-poppins text-base sm:text-lg md:text-xl !leading-lg opacity-70 text-darkblue text-center lg:text-start`} >
+            <p className={`${marginPara} font-normal font-poppins text-base sm:text-lg md:text-xl !leading-[160%] xl:!leading-lg opacity-70 text-darkblue text-center lg:text-start`} >
               {CommonWhatWeDoTextblack}
               <span className={`${textLightpurple}`}> {CommonWhatWeDoTextLightpurple} </span>
               <span className={`${textOffblack}`}> {CommonWhatWeDoBetweenTextblackagain} </span>

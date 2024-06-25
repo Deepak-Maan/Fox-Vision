@@ -6,7 +6,6 @@ import logoDesign from "../../asstes/images/webp/offer/logoDesign.webp"
 import Palokaag from "../../asstes/images/webp/portfolio/palokaag.webp";
 import Sanalife from "../../asstes/images/webp/portfolio/sanalife.webp";
 import PalokaagWhite from "../../asstes/images/webp/portfolio/palokaagWhite.webp";
-import PalokaagWhite2 from "../../asstes/images/webp/portfolio/palokaagWhite2.webp";
 import Blue_White from "../../asstes/images/webp/portfolio/blue&White.webp";
 import AbrGmbh from "../../asstes/images/webp/portfolio/abrGmbh.webp";
 import GreyCloth from "../../asstes/images/webp/portfolio/greyCloth.webp";
@@ -121,7 +120,7 @@ export const portfolioData = [
     },
     {
         id: 4,
-        image: PalokaagWhite2,
+        image: PalokaagWhite,
         name: "Mhill Paloka",
         description: "Leiter Administration",
     },

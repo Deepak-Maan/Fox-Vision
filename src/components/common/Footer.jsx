@@ -7,11 +7,12 @@ import footerVector2 from '../../asstes/images/webp/footer/footerVector2.webp';
 
 const Footer = () => {
     const location = useLocation();
+
     return (
         <div className='bg-darkblue relative'>
-            <img src={footerVector1} alt="footerVector1" className='w-[205px] h-[360px] absolute left-0 top-0 pointer-events-none ' />
-            <img src={footerVector2} alt="footerVector2" className='w-[205px] h-[360px] absolute right-0 bottom-0 pointer-events-none ' />
-            <div className={`container xl:max-w-[1140px] px-3 mx-auto ${location.pathname === '/contact' ? 'pt-[81px]' : '/' ? 'pt-32 sm:pt-40 md:pt-[224px]' : '/contact' ? 'pt-[150px] sm:pt-40 md:pt-[224px]' : ''}`}>
+            <img src={footerVector1} alt="footerVector1" className='sm:w-[205px] sm:h-[360px] w-[150px] h-[200px] absolute left-0 top-0 pointer-events-none ' />
+            <img src={footerVector2} alt="footerVector2" className='sm:w-[205px] sm:h-[360px] w-[150px] h-[200px] absolute right-0 bottom-0 pointer-events-none ' />
+            <div className={`container xl:max-w-[1140px] px-3 mx-auto ${location.pathname === '/contact' ? 'pt-[81px]' : 'pt-[150px] md:pt-[210px]'}`}>
                 <div className='flex flex-row flex-wrap pb-[48px] sm:pb-[64px] md:pb-[80px] lg:pb-[111px] justify-between'>
                     <div className='lg:w-4/12 w-full'>
                         <Link to="/">
@@ -41,18 +42,18 @@ const Footer = () => {
                             <div className='lg:w-[29%] sm:w-3/12 w-6/12'>
                                 <ul>
                                     <li className='text-white font-poppins font-semibold text-base mb-[14px] inline-block'>Agency</li>
-                                    <li><Link className='text-white text-opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px] text-nowrap'>Fox Vision GmbH </Link></li>
-                                    <li><Link to="/" className='text-white text-opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px] max-w-[149px]'>Badstrasse 50 CH-5200 Brugg</Link></li>
+                                    <li><Link to="/vision" className='text-white text-opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px] text-nowrap'>Fox Vision GmbH </Link></li>
+                                    <li><Link to="https://www.google.com/maps/place/Badstrasse+50,+5200+Brugg,+Switzerland" target='blank' className='text-white text-opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px] max-w-[149px]'>Badstrasse 50 CH-5200 Brugg</Link></li>
                                     <li><Link to="tel:+919711008738" className='text-white text-opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px] text-nowrap'>+41 79 725 61 00</Link></li>
-                                    <li><Link to="/" className='text-white opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px] text-nowrap'>info@foxvision.ch</Link></li>
+                                    <li><Link to="mailto:info@foxvision.ch" className='text-white opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px] text-nowrap'>info@foxvision.ch</Link></li>
                                 </ul>
                             </div>
                             <div className='sm:w-4/12 w-full flex sm:justify-end md:justify-center lg:justify-end mt-2 sm:mt-0'>
                                 <ul>
                                     <li className='text-white font-poppins font-semibold text-base mb-[14px] inline-block'>Legal</li>
-                                    <li><Link className='text-white text-opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px]'>Imprint</Link></li>
-                                    <li><Link className='text-white text-opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px] text-nowrap'>Data protection</Link></li>
-                                    <li><Link className='text-white text-opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px]'>Copyright</Link></li>
+                                    <li><Link to="/imprint" className='text-white text-opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px]'>Imprint</Link></li>
+                                    <li><Link to="/Dataprotection" className='text-white text-opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px] text-nowrap'>Data protection</Link></li>
+                                    <li><Link to="/Copyright" className='text-white text-opacity-70 hover:text-white font-poppins font-normal text-base mb-[12px] inline-block after:h-[1px] after:w-[0] hover:after:w-full after:bg-white after:absolute relative after:transition-all after:duration-300 after:ease-linear left-0 after:left-[50%] hover:after:left-[0] after:bottom-[-2px] after:rounded-[10px]'>Copyright</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -62,7 +63,7 @@ const Footer = () => {
                     Copyright©{new Date().getFullYear()} Fox Vision GmbH. All right reserved.
                 </p>
             </div>
-        </div >
+        </div>
     );
 };
 
