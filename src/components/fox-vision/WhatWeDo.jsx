@@ -81,8 +81,8 @@ const WhatWeDo = () => {
                                 <div className='max-w-[203.39px]'><img src={Strawberry} alt="watch" className='hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
                             </div>
                             <div className='flex flex-col gap-3 md:gap-[26.5px]'>
-                                <div className='max-w-[203.39px]'><img src={Reptiles} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
-                                <div className='max-w-[203.39px]'><img src={MobilePhone} alt="watch" className='shadow-[0px_16.7px_41.74px_0px_#3B3E430D] hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                                <div className='max-w-[203.39px]'><img src={Reptiles} alt="watch" className=' hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[219.03px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
+                                <div className='max-w-[203.39px]'><img src={MobilePhone} alt="watch" className=' hover:shadow-[0px_16.7px_41.74px_0px_#3B3E430D] max-w-[203.39px] w-full max-h-[150px] border-[1px] border-solid duration-300 rounded-[12.52px] hover:border-[#4B17E6] border-transparent' /></div>
                             </div>
                         </div>
                     </div>
