@@ -13,6 +13,10 @@ const Navbar = () => {
     setNavBar(!navBar);
   }
 
+  function closeNav() {
+    setNavBar(false);
+  }
+
   useEffect(() => {
     if (navBar) {
       document.body.classList.add("max-lg:overflow-hidden");
@@ -29,34 +33,34 @@ const Navbar = () => {
   return (
     <div className="md:pt-5 pt-3">
       <nav className="max-w-[1240px] w-full mx-auto px-6 md:px-[50px] h-[40px] sm:h-[56px] md:h-[60px] lg:h-[74px] rounded-[150px] sm:py-3 flex items-center justify-between shadow-[0px_0px_13px_0px_#00000024] bg-white">
-          <Link className="relative z-10" to="/">
-            <img
-              src={Logo}
-              alt="logo"
-              className="w-[120px] sm:w-[160px] sm:h-6 lg:w-[207px] lg:h-8 cursor-pointer z-20"
-            />
-          </Link>
+        <Link className="relative z-10" to="/">
+          <img
+            src={Logo}
+            alt="logo"
+            className="w-[120px] sm:w-[160px] sm:h-6 lg:w-[207px] lg:h-8 cursor-pointer z-20"
+          />
+        </Link>
         <ul
           className={`flex items-center gap-5 z-20 relative sm:gap-[32px] lg:gap-[40px] duration-300 max-lg:fixed max-lg:w-full max-lg:!min-h-screen max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:left-[-105%] max-lg:p-[30px] max-lg:!bg-white ${navBar && "!left-0"
             }`}
         >
           <li className="duration-300 transition-all">
-            <Link to="/" className={getLinkClasses("/")}>
+            <Link to="/" className={getLinkClasses("/")} onClick={closeNav}>
               Home
             </Link>
           </li>
           <li className="duration-300 transition-all">
-            <Link to="/about" className={getLinkClasses("/about")}>
+            <Link to="/about" className={getLinkClasses("/about")} onClick={closeNav}>
               Über uns
             </Link>
           </li>
           <li className="duration-300 transition-all">
-            <Link to="/offer" className={getLinkClasses("/offer")}>
+            <Link to="/offer" className={getLinkClasses("/offer")} onClick={closeNav}>
               Angebot
             </Link>
           </li>
           <li className="duration-300 transition-all">
-            <Link to="/portfolio" className={getLinkClasses("/portfolio")}>
+            <Link to="/portfolio" className={getLinkClasses("/portfolio")} onClick={closeNav}>
               Portfolio
             </Link>
           </li>
@@ -75,7 +79,7 @@ const Navbar = () => {
                 <Email />
               </Link>
             </span>
-            <Link to="/contact" className="w-[124px] flex justify-center lg:hidden">
+            <Link to="/contact" className="w-[124px] flex justify-center lg:hidden" onClick={closeNav}>
               <CommonBtn btnName="Kontakt" />
             </Link>
           </li>
