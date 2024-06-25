@@ -620,3 +620,13 @@ export const PathArrow = () => {
         </svg>
     );
 };
+export const TopArrow = () => {
+    return (
+        <svg className=" -rotate-90" xmlns="http://www.w3.org/2000/svg" fill="white" width="50" height="50" viewBox="0 0 32 32">
+            <g fill="white" data-name="92-Arrow Right">
+                <path fill="white" d="M13.71 24.71 12.3 23.3l7.29-7.3-7.3-7.29L13.7 7.3l8 8a1 1 0 0 1 0 1.41z" />
+                <path className="mt-2" fill="white" d="M13.71 24.71 12.3 23.3l7.29-7.3-7.3-7.29L13.7 7.3l8 8a1 1 0 0 1 0 1.41z" />
+            </g>
+        </svg>
+    );
+};

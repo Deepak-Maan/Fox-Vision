@@ -276,7 +276,7 @@ const ContactWithFoxvision = () => {
                                     className="absolute top-2 right-2 text-darkblue"
                                     onClick={handlePopupClose}
                                 >
-                                    <AiOutlineClose color="lightPurple" size={24} />
+                                    <AiOutlineClose size={24} />
                                 </button>
                                 <p className="mb-[40px] text-darkblue text-xl sm:text-3xl font-semibold font-poppins text-center leading-normal">
                                     Message sent successfully!

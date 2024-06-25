@@ -1,5 +1,6 @@
 import React from "react";
 import backtotop from "../../asstes/images/webp/backToTop/upArrow.webp";
+import { TopArrow } from "./Icons";
 
 function Backtotop() {
     window.addEventListener("scroll", () => {
@@ -16,8 +17,9 @@ function Backtotop() {
     }
     return (
         <>
-            <button id="Top" className="cursor-pointer hidden fixed z-20 sm:bottom-5 bottom-2 right-2 sm:right-5" onClick={up}>
-                <img className="sm:w-[50px] w-10 sm:h-[50px] h-10 animate-bounce" src={backtotop} alt="back to top icon" />
+            <button id="Top" className="cursor-pointer hidden fixed z-20 sm:bottom-5 bottom-2 right-2 sm:right-5 p-3 bg-darkpurple border border-white rounded-3xl animate-bounce" onClick={up}>
+                {/* <img className="sm:w-[50px] w-10 sm:h-[50px] h-10 animate-bounce" src={backtotop} alt="back to top icon" /> */}
+                <TopArrow />
             </button>
         </>
     );
